@@ -131,6 +131,9 @@ GameObject:
   - component: {fileID: 253627590}
   - component: {fileID: 253627592}
   - component: {fileID: 253627593}
+  - component: {fileID: 253627596}
+  - component: {fileID: 253627595}
+  - component: {fileID: 253627594}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -277,6 +280,62 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 5.78125, y: 12.46875}
   m_Direction: 0
+--- !u!114 &253627594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7bdb2d25da17146a00ecb9a5e4953d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  speed: 5
+--- !u!114 &253627595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ccf2fb67c74c340a29d1c49912711e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GatherInput
+  _valueX: 0
+--- !u!114 &253627596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 7272a4a72bbd3c54998e822dad5fef8b, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +592,7 @@ GameObject:
   - component: {fileID: 811531999}
   - component: {fileID: 811531998}
   - component: {fileID: 811531997}
+  - component: {fileID: 811532000}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -2661,6 +2721,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &811532000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811531993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ccf2fb67c74c340a29d1c49912711e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GatherInput
+  _valueX: 0
 --- !u!1 &1104986607
 GameObject:
   m_ObjectHideFlags: 0
