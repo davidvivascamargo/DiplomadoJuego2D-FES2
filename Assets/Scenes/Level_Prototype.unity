@@ -236,7 +236,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 3
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 251bf0d14704fac4ca888c5cdfb84f5f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -297,7 +297,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 5
-  jumpForce: 10
+  jumpForce: 20
+  extraJump: 2
+  counterExtraJump: 0
   lFoot: {fileID: 0}
   rFoot: {fileID: 0}
   isGrounded: 0

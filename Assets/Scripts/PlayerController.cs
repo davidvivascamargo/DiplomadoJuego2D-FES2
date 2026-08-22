@@ -2,23 +2,28 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //COMPONENTS
+    // PLAYER COMPONENTS
     private Rigidbody2D m_rigidbody2D;
     private GatherInput m_gatherInput;
     private Transform m_transform;
     private Animator m_animator; 
 
-    //VALUES
+    [Header("Move and Jump Settings")]
     [SerializeField] private float speed;
     private int direction = 1;
-    private int idSpeed;
-    private int idIsGrouded;
 
     [SerializeField] private float jumpForce;
-    [SerializeField] private Transform lFoot, rFoot;
+    [SerializeField] private int extraJumps;
+    [SerializeField] private int counterextraJumps;
+    private int idSpeed;
+
+    [Header("Ground settings")]
+    [SerializeField] private Transform lFoot;
+    [SerializeField] private Transform rFoot;
     [SerializeField] private bool isGrounded; 
     [SerializeField] private float rayLength;
     [SerializeField] private LayerMask groundLayer;
+    private int idIsGrouded;
 
     void Start()
     {
@@ -30,6 +35,7 @@ public class PlayerController : MonoBehaviour
         idIsGrouded = Animator.StringToHash("IsGrounded");
         lFoot = GameObject.Find("LFoot").GetComponent<Transform>();
         rFoot = GameObject.Find("RFoot").GetComponent<Transform>();
+        counterextraJumps = extraJumps;
     }
 
     void Update()
@@ -75,6 +81,11 @@ public class PlayerController : MonoBehaviour
             {
                 m_rigidbody2D.linearVelocity = new Vector2(m_rigidbody2D.linearVelocity.x, jumpForce);
             }
+            if (counterextraJumps > 0)
+            {
+                m_rigidbody2D.linearVelocity = new Vector2(m_rigidbody2D.linearVelocity.x, jumpForce);
+                counterextraJumps--;
+            }
             
             // Apagamos el salto ÚNICAMENTE cuando el jugador ya intentó saltar
             m_gatherInput.IsJumping = false;
@@ -93,6 +104,7 @@ public class PlayerController : MonoBehaviour
         if (lFootRay.collider != null || rFootRay.collider != null)
         {
             isGrounded = true;
+            counterextraJumps = extraJumps;
         }
         else
         {
