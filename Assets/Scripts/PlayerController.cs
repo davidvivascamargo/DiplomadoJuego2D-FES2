@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
     private int direction = 1;
     private int idSpeed;
+    [SerializeField] private float jumpForce;
 
     void Start()
     {
@@ -34,8 +35,8 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        //m_rigidbody2D.linearVelocity = new Vector2(speed *  m_gatherInput.ValueX, m_rigidbody2D.linearVelocity.y);
         Move();
+        Jump();
     }
 
     private void Move()
@@ -53,4 +54,14 @@ public class PlayerController : MonoBehaviour
             
         }
     }
+
+    private void Jump()
+    {
+        if (m_gatherInput.IsJumping)
+        {
+            m_rigidbody2D.linearVelocity = new Vector2(speed * m_gatherInput.ValueX, jumpForce);
+        }
+        m_gatherInput.IsJumping = false;
+    }
+
 }
