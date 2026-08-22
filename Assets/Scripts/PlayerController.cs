@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
     private int direction = 1;
     private int idSpeed;
+    private int idIsGrouded;
+
     [SerializeField] private float jumpForce;
     [SerializeField] private Transform lFoot, rFoot;
     [SerializeField] private bool isGrounded; 
@@ -25,6 +27,7 @@ public class PlayerController : MonoBehaviour
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_animator = GetComponent<Animator>();
         idSpeed = Animator.StringToHash("Speed");
+        idIsGrouded = Animator.StringToHash("IsGrounded");
         lFoot = GameObject.Find("LFoot").GetComponent<Transform>();
         rFoot = GameObject.Find("RFoot").GetComponent<Transform>();
     }
@@ -37,6 +40,7 @@ public class PlayerController : MonoBehaviour
     private void SetAnimatorValues()
     {
         m_animator.SetFloat(idSpeed, Mathf.Abs(m_rigidbody2D.linearVelocity.x));
+        m_animator.SetBool(idIsGrouded, isGrounded);
     }
 
     void FixedUpdate()
@@ -67,10 +71,10 @@ public class PlayerController : MonoBehaviour
         if (m_gatherInput.IsJumping)
         {
             // Solo si está tocando el suelo, aplicamos la fuerza hacia arriba
-            //if (isGrounded)
-           // {
+            if (isGrounded)
+            {
                 m_rigidbody2D.linearVelocity = new Vector2(m_rigidbody2D.linearVelocity.x, jumpForce);
-            //}
+            }
             
             // Apagamos el salto ÚNICAMENTE cuando el jugador ya intentó saltar
             m_gatherInput.IsJumping = false;
