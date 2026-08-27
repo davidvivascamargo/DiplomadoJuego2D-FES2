@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AnimationErrorLogger : MonoBehaviour
 {
+    //PRUEBA COMmIT
     private Animator m_animator;
 
     void Start()
