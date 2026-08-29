@@ -2,23 +2,33 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public int coinValue = 1;
+    private GameManager _gameManager;    
+
     void Start()
     {
-        
-    }
+        // Busca automáticamente el objeto GameManager en la escena al iniciar
+        _gameManager = Object.FindFirstObjectByType<GameManager>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (_gameManager == null)
+        {
+            Debug.LogError("¡No se encontró ningún GameManager en la escena!");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Verifica si el objeto que tocó la moneda tiene la etiqueta "Player"
         if (collision.CompareTag("Player"))
         {
-            Destroy(this.gameObject);
+            if (_gameManager != null)
+            {
+                // Se agregó el punto (.) para llamar correctamente al método
+                _gameManager.AddPoints(coinValue); 
+            }
+
+            // Destruye la moneda
+            Destroy(gameObject);
         }
     }
 }

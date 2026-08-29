@@ -1,0 +1,30 @@
+using TMPro;
+using UnityEngine;
+
+public class HUD : MonoBehaviour
+{
+    private GameManager _gameManager; 
+    public TextMeshProUGUI pointsText; 
+    
+    void Start()
+    {
+        // 1. Busca el GameManager en la escena
+        _gameManager = Object.FindFirstObjectByType<GameManager>();
+
+        // 2. Si lo encuentra, fuerza la primera actualización con los puntos actuales (0)
+        if (_gameManager != null)
+        {
+            UpdatePointsText();
+        }
+    }
+
+    // Método que el GameManager llamará cada vez que sumes puntos
+    public void UpdatePointsText()
+    {
+        if (pointsText != null && _gameManager != null)
+        {
+            pointsText.text = "Points: " + _gameManager.TotalPoints.ToString();
+        }
+    }
+}
+
