@@ -1,38 +1,54 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // PLAYER COMPONENTS
+    [Header("Player Components")]
+    [SerializeField] private Transform m_transform;
     private Rigidbody2D m_rigidbody2D;
     private GatherInput m_gatherInput;
-    private Transform m_transform;
     private Animator m_animator; 
 
-    [Header("Move and Jump Settings")]
+    // ANIMATOR IDS
+    private int idIsGrouded;
+    private int idSpeed;
+
+    [Header("Move Settings")]
     [SerializeField] private float speed;
     private int direction = 1;
-
+    
+    [Header("Jump Settings")]
     [SerializeField] private float jumpForce;
     [SerializeField] private int extraJumps;
     [SerializeField] private int counterextraJumps;
-    private int idSpeed;
+    [SerializeField] private bool canDoubleJump;
 
     [Header("Ground settings")]
     [SerializeField] private Transform lFoot;
     [SerializeField] private Transform rFoot;
+    RaycastHit2D lFootRay;
+    RaycastHit2D rFootRay;
     [SerializeField] private bool isGrounded; 
     [SerializeField] private float rayLength;
     [SerializeField] private LayerMask groundLayer;
-    private int idIsGrouded;
+
+    [Header("Wall settings")]
+    [SerializeField] private float checkWallDistance;
+    [SerializeField] private bool isWallDetected;
+
+    private void Awake()
+    {
+        m_rigidbody2D = GetComponent<Rigidbody2D>();
+        m_gatherInput = GetComponent<GatherInput>();
+        m_transform = GetComponent<Transform>();
+        m_animator = GetComponent<Animator>();
+    }
 
     void Start()
     {
-        m_gatherInput = GetComponent<GatherInput>();
-        m_transform = GetComponent<Transform>();
-        m_rigidbody2D = GetComponent<Rigidbody2D>();
-        m_animator = GetComponent<Animator>();
-        idSpeed = Animator.StringToHash("Speed");
-        idIsGrouded = Animator.StringToHash("IsGrounded");
+        idSpeed = Animator.StringToHash("speed");
+        idIsGrouded = Animator.StringToHash("isGrounded");
         lFoot = GameObject.Find("LFoot").GetComponent<Transform>();
         rFoot = GameObject.Find("RFoot").GetComponent<Transform>();
         counterextraJumps = extraJumps;
@@ -51,9 +67,41 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        CheckCollision(); 
         Move();
-        CheckGround(); 
         Jump();       
+    }
+
+    private void CheckCollision()
+    {
+        HandleGround();
+        HandleWall();
+    }
+
+
+    private void HandleGround()
+    {
+        lFootRay = Physics2D.Raycast(lFoot.position, Vector2.down, rayLength, groundLayer);
+        rFootRay = Physics2D.Raycast(rFoot.position, Vector2.down, rayLength, groundLayer);
+        
+        // Dibujamos los rayos en la escena para que puedas verlos mientras juegas
+        Debug.DrawRay(lFoot.position, Vector2.down * rayLength, Color.red);
+        Debug.DrawRay(rFoot.position, Vector2.down * rayLength, Color.red);
+
+        if (lFootRay.collider != null || rFootRay.collider != null)
+        {
+            isGrounded = true;
+            counterextraJumps = extraJumps;
+            canDoubleJump = false;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+    }
+    private void HandleWall()
+    {
+        isWallDetected = Physics2D.Raycast(m_transform.position, Vector2.right * direction, checkWallDistance, groundLayer);
     }
 
     private void Move()
@@ -80,8 +128,9 @@ public class PlayerController : MonoBehaviour
             if (isGrounded)
             {
                 m_rigidbody2D.linearVelocity = new Vector2(m_rigidbody2D.linearVelocity.x, jumpForce);
+                canDoubleJump = true;
             }
-            if (counterextraJumps > 0)
+            else if (counterextraJumps > 0 && canDoubleJump)
             {
                 m_rigidbody2D.linearVelocity = new Vector2(m_rigidbody2D.linearVelocity.x, jumpForce);
                 counterextraJumps--;
@@ -92,23 +141,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void CheckGround()
+    private void OnDrawGizmos()
     {
-        RaycastHit2D lFootRay = Physics2D.Raycast(lFoot.position, Vector2.down, rayLength, groundLayer);
-        RaycastHit2D rFootRay = Physics2D.Raycast(rFoot.position, Vector2.down, rayLength, groundLayer);
-        
-        // Dibujamos los rayos en la escena para que puedas verlos mientras juegas
-        Debug.DrawRay(lFoot.position, Vector2.down * rayLength, Color.red);
-        Debug.DrawRay(rFoot.position, Vector2.down * rayLength, Color.red);
-
-        if (lFootRay.collider != null || rFootRay.collider != null)
-        {
-            isGrounded = true;
-            counterextraJumps = extraJumps;
-        }
-        else
-        {
-            isGrounded = false;
-        }
+        Gizmos.DrawLine(m_transform.position, new Vector2(m_transform.position.x + (checkWallDistance * direction), m_transform.position.y));
     }
+
 }
