@@ -5,8 +5,23 @@ public class Fireball : MonoBehaviour
     public float speed = 5f;
     public Rigidbody2D rb;
 
+    private void Awake()
+    {
+        Debug.Log(
+            $"[Fireball] AWAKE | " +
+            $"Nombre: {gameObject.name} | " +
+            $"Padre: {(transform.parent != null ? transform.parent.name : "NINGUNO")} | " +
+            $"Posición: {transform.position}"
+        );
+    }
+
     void Start()
     {
+            Debug.Log(
+            $"[Fireball] START | " +
+            $"Nombre: {gameObject.name} | " +
+            $"Posición: {transform.position}"   
+        );
         Destroy(gameObject, 2f); 
     }
 

@@ -4,33 +4,56 @@ using UnityEngine.InputSystem;
 public class PlayerAttack : MonoBehaviour
 {
     [Header("Attack Configuration")]
-    public Animator animator;
-    public Transform firePoint;
-    public GameObject fireballPrefab;
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private GameObject fireballPrefab;
 
-    void OnFire(InputValue value)
+    private void Awake()
+    {
+        Debug.Log($"[PlayerAttack] Awake en {gameObject.name}");
+    }
+
+    private void Start()
+    {
+        Debug.Log($"[PlayerAttack] Start en {gameObject.name}");
+        Debug.Log($"[PlayerAttack] FirePoint = {firePoint}");
+        Debug.Log($"[PlayerAttack] FireballPrefab = {fireballPrefab}");
+    }
+
+    private void OnFire(InputValue value)
     {
         if (value.isPressed)
         {
+             Debug.Log("[PlayerAttack] OnFire() EJECUTADO");
             animator.SetTrigger("Shoot");
         }
     }
-    void CastFireBall()
+
+    public void CastFireBall()
     {
-        if (fireballPrefab != null && firePoint != null)
+        Debug.Log("[PlayerAttack] =================================");
+        Debug.Log("[PlayerAttack] CastFireBall() EJECUTADO");
+        Debug.Log($"[PlayerAttack] FirePoint = {firePoint}");
+        Debug.Log($"[PlayerAttack] FireballPrefab = {fireballPrefab}");
+        if (fireballPrefab == null || firePoint == null)
         {
-            GameObject fireballObject = Instantiate(fireballPrefab, firePoint.position, firePoint.rotation);
-            float direction = transform.localScale.x > 0 ? 1f : -1f;
-            Fireball fireballScript = fireballObject.GetComponent<Fireball>();
-           //Instantiate(fireballPrefab, firePoint.position, firePoint.rotation);
-           if (fireballScript != null)
-            {
-                fireballScript.SetDirection(direction);
-            }
+            Debug.LogWarning("Falta asignar el FirePoint o el FireballPrefab.");
+            return;
         }
-        else
+
+        float direction = transform.localScale.x > 0 ? 1f : -1f;
+
+        GameObject fireballObject = Instantiate(
+            fireballPrefab,
+            firePoint.position,
+            Quaternion.identity
+        );
+
+        Fireball fireball = fireballObject.GetComponent<Fireball>();
+
+        if (fireball != null)
         {
-            Debug.LogWarning("Falta asignar el FirePoint o el FireballPrefab en el Inspector.");        
+            fireball.SetDirection(direction);
         }
     }
 }
