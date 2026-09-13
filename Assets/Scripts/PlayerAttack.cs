@@ -8,36 +8,18 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject fireballPrefab;
 
-    private void Awake()
-    {
-        Debug.Log($"[PlayerAttack] Awake en {gameObject.name}");
-    }
-
-    private void Start()
-    {
-        Debug.Log($"[PlayerAttack] Start en {gameObject.name}");
-        Debug.Log($"[PlayerAttack] FirePoint = {firePoint}");
-        Debug.Log($"[PlayerAttack] FireballPrefab = {fireballPrefab}");
-    }
-
     private void OnFire(InputValue value)
     {
         if (value.isPressed)
         {
-             Debug.Log("[PlayerAttack] OnFire() EJECUTADO");
             animator.SetTrigger("Shoot");
         }
     }
 
     public void CastFireBall()
     {
-        Debug.Log("[PlayerAttack] =================================");
-        Debug.Log("[PlayerAttack] CastFireBall() EJECUTADO");
-        Debug.Log($"[PlayerAttack] FirePoint = {firePoint}");
-        Debug.Log($"[PlayerAttack] FireballPrefab = {fireballPrefab}");
         if (fireballPrefab == null || firePoint == null)
         {
-            Debug.LogWarning("Falta asignar el FirePoint o el FireballPrefab.");
             return;
         }
 

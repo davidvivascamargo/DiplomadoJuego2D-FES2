@@ -5,6 +5,8 @@ public class HUD : MonoBehaviour
 {
     private GameManager _gameManager; 
     public TextMeshProUGUI pointsText; 
+
+    public GameObject[] healthBar;
     
     void Start()
     {
@@ -26,5 +28,17 @@ public class HUD : MonoBehaviour
             pointsText.text = "Points: " + _gameManager.TotalPoints.ToString();
         }
     }
+
+    public void DisableHealth(int index)
+    {
+        healthBar[index].SetActive(false);
+    }
+
+    public void EnableHealth(int index)
+    {
+        healthBar[index].SetActive(true);
+    }
+
+
 }
 

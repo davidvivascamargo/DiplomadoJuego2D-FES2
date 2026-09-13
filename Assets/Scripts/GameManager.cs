@@ -2,30 +2,73 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Propiedad pública para leer los puntos desde otros scripts
-    public int TotalPoints { get { return _totalPoints; } }
-    
-    // Variable privada que almacena el valor real
+    public static GameManager Instance { get; private set; }
+
+    // Puntos
+    public int TotalPoints => _totalPoints;
+
     private int _totalPoints;
 
-    // Referencia al script del HUD
+    // HUD
     private HUD _hud;
 
-    void Start()
+    // Vida del jugador
+    private int _playerHealth = 3;
+
+    private void Awake()
     {
-        // Busca automáticamente el HUD en la escena al iniciar la partida
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+    }
+
+    private void Start()
+    {
         _hud = Object.FindFirstObjectByType<HUD>();
     }
 
     public void AddPoints(int points)
     {
         _totalPoints += points;
+
         Debug.Log("Total points: " + _totalPoints);
 
-        // Le dice al HUD que actualice el texto en la pantalla si lo encuentra
         if (_hud != null)
         {
             _hud.UpdatePointsText();
+        }
+    }
+
+    public void ReduceHealth()
+    {
+        _playerHealth--;
+
+        if (_hud != null)
+        {
+            _hud.DisableHealth(_playerHealth);
+        }
+
+        if (_playerHealth <= 0)
+        {
+            Debug.Log("Player has died.");
+            // Aquí posteriormente agregaremos la lógica de muerte.
+        }
+    }
+
+    public void RestoreHealth()
+    {
+        if (_playerHealth < 3)
+        {
+            _playerHealth++;
+
+            if (_hud != null)
+            {
+                _hud.EnableHealth(_playerHealth - 1);
+            }
         }
     }
 }
