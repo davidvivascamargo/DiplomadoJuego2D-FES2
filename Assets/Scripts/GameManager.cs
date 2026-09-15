@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -56,6 +57,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Player has died.");
             // Aquí posteriormente agregaremos la lógica de muerte.
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reinicia la escena actual
         }
     }
 
