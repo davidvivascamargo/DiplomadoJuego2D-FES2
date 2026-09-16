@@ -31,11 +31,20 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _CameraSortingLayerTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -49,8 +58,29 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _BodyTransparency: 0.21
+    - _CausticOffsetSpeed: 0.25
+    - _CausticPower: 9.5
+    - _CausticScale: 10
+    - _CausticStrength: 1
+    - _DistortionOffsetSpeed: 1
+    - _DistortionScale: 30
+    - _DistortionStrength: 0.0025
+    - _LineLength: 0.99
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _WaveCount: 0.75
+    - _WaveFlowDirection: 1
+    - _WaveSize: 0.18
+    - _WaveSpeed: 5.84
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
+    - _BodyColor: {r: 0.02603239, g: 0.11031818, b: 0.3679245, a: 1}
+    - _CausticColor: {r: 0.087575644, g: 0.4528302, b: 0.44566834, a: 1}
+    - _CausticScrollDir: {r: 0, g: 0, b: 0, a: 0}
+    - _CausticTiling: {r: 0.5, g: 1.5, b: 0, a: 0}
+    - _DistortionDir: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineColor: {r: 0, g: 1, b: 0.99077374, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

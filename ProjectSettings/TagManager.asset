@@ -16,7 +16,7 @@ TagManager:
   - Moneda
   - Bandera
   - Portal
-  - 
+  - WaterInteract
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 2107577231
+    locked: 0
+  - name: SortingTexture
+    uniqueID: 890393875
     locked: 0
   m_RenderingLayers:
   - Default
