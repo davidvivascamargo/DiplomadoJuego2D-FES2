@@ -196,7 +196,7 @@ MonoBehaviour:
   _waterMask:
     serializedVersion: 2
     m_Bits: 64
-  _splashParticles: {fileID: 0}
+  _splashParticles: {fileID: 6922984296140005152, guid: 229a3367d96ca6a4980f7f9c85e9e2a6, type: 3}
 --- !u!68 &136765219
 EdgeCollider2D:
   m_ObjectHideFlags: 0
