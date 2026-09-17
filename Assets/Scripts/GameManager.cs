@@ -61,17 +61,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void RestoreHealth()
+    public bool RestoreHealth()
+{
+    if (_playerHealth < 3)
     {
-        if (_playerHealth < 3)
-        {
-            _playerHealth++;
+        _playerHealth++;
 
-            if (_hud != null)
-            {
-                _hud.EnableHealth(_playerHealth - 1);
-            }
+        if (_hud != null)
+        {
+            _hud.EnableHealth(_playerHealth - 1);
         }
+
+        return true; // Devuelve true porque sí se pudo curar
     }
+
+    return false; // Devuelve false porque la vida ya estaba en 3 (llena)
+}
 }
 

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Teleport : MonoBehaviour
 {
     public HashSet<GameObject> portalObjects = new HashSet<GameObject>();
 
@@ -15,9 +15,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
             return; 
         }
 
-        // Si llega aquí, confirmamos en consola que detectamos al verdadero Jugador
-        Debug.Log("🎯 ¡JUGADOR DETECTADO EN EL PORTAL!: " + collision.gameObject.name);
-
         // 2. Si el jugador ya viene saliendo del portal de destino, ignorar para evitar bucle infinito
         if (portalObjects.Contains(collision.gameObject))
         {
@@ -25,7 +22,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
 
         // 3. Registrar al jugador en el portal de DESTINO antes de moverlo
-        if (destination != null && destination.TryGetComponent(out NewMonoBehaviourScript destinationPortal))
+        if (destination != null && destination.TryGetComponent(out Teleport destinationPortal))
         {
             destinationPortal.portalObjects.Add(collision.gameObject);
         }
