@@ -5027,7 +5027,7 @@ MonoBehaviour:
   _waterMask:
     serializedVersion: 2
     m_Bits: 64
-  _splashParticles: {fileID: 6922984296140005152, guid: 229a3367d96ca6a4980f7f9c85e9e2a6, type: 3}
+  _splashParticles: {fileID: 895179451211375097}
 --- !u!114 &1295956759300474757
 MonoBehaviour:
   m_ObjectHideFlags: 0
