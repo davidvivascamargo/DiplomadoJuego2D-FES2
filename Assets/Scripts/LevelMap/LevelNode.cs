@@ -1,5 +1,16 @@
 using UnityEngine;
 
+[System.Serializable]
+public class LevelNodeConnection
+{
+    [SerializeField] private LevelNode targetNode;
+    [SerializeField] private Transform[] pathPoints;
+
+    public LevelNode TargetNode => targetNode;
+
+    public Transform[] PathPoints => pathPoints;
+}
+
 /// <summary>
 /// Represents a level node on the world map and controls its visual state.
 /// </summary>
@@ -19,6 +30,9 @@ public class LevelNode : MonoBehaviour
     [SerializeField] private Sprite lockedSprite;
     [SerializeField] private Sprite availableSprite;
     [SerializeField] private Sprite completedSprite;
+
+    [Header("Node Connections")]
+    [SerializeField] private LevelNodeConnection[] connections;
 
     private SpriteRenderer _spriteRenderer;
 
@@ -57,5 +71,10 @@ public class LevelNode : MonoBehaviour
     public int GetLevelNumber()
     {
         return levelNumber;
+    }
+
+    public LevelNodeConnection[] GetConnections()
+    {
+        return connections;
     }
 }
