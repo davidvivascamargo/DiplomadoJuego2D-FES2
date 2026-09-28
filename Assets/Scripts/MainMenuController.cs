@@ -27,6 +27,7 @@ public class MainMenuController : MonoBehaviour
 
     public void PlayGame()
     {
+        Debug.Log($"[MainMenuController] Loading scene: {levelMapScene}");
         LoadScene(levelMapScene);
     }
 
