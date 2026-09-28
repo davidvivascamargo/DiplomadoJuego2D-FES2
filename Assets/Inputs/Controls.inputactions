@@ -193,6 +193,99 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "LevelMap",
+            "id": "61fa28dd-e308-4288-a216-8cf36ea9922a",
+            "actions": [
+                {
+                    "name": "NextNode",
+                    "type": "Button",
+                    "id": "241d5e30-9e73-4730-a60b-352cc4fbd0ce",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "PreviousNode",
+                    "type": "Button",
+                    "id": "f4854d37-2c8e-4b07-a74c-ded52465df71",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "SelectNode",
+                    "type": "Button",
+                    "id": "ae26d25a-dfde-45cc-b310-966d2f9e4e99",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1590ebd7-5760-4f46-bfe3-a54357d70829",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextNode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb2ff21f-f288-466c-97c1-8375478e8a32",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextNode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "273711ff-5ee7-401e-ae2c-4d52af09b1b3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PreviousNode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c054fa8-0019-421f-be03-554a7104c6b1",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PreviousNode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd049c3c-2964-48f2-96a2-c75c7d5b292b",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectNode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

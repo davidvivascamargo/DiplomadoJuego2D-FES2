@@ -357,6 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelNode
   levelNumber: 3
+  sceneName: 
   lockedSprite: {fileID: 21300000, guid: 301ff844ae0f8394d8c60a91d7ce13d6, type: 3}
   availableSprite: {fileID: 21300000, guid: f121ff31a18d87446ac0cb25dfba604b, type: 3}
   completedSprite: {fileID: 21300000, guid: c56ed430874d4aa48bc3bd1eeb1ebe84, type: 3}
@@ -498,6 +499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelNode
   levelNumber: 5
+  sceneName: 
   lockedSprite: {fileID: 21300000, guid: 301ff844ae0f8394d8c60a91d7ce13d6, type: 3}
   availableSprite: {fileID: 21300000, guid: f121ff31a18d87446ac0cb25dfba604b, type: 3}
   completedSprite: {fileID: 21300000, guid: c56ed430874d4aa48bc3bd1eeb1ebe84, type: 3}
@@ -756,7 +758,7 @@ Transform:
   m_GameObject: {fileID: 818004141}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0.4, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -869,6 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelNode
   levelNumber: 1
+  sceneName: Level_01
   lockedSprite: {fileID: 21300000, guid: 301ff844ae0f8394d8c60a91d7ce13d6, type: 3}
   availableSprite: {fileID: 21300000, guid: f121ff31a18d87446ac0cb25dfba604b, type: 3}
   completedSprite: {fileID: 21300000, guid: c56ed430874d4aa48bc3bd1eeb1ebe84, type: 3}
@@ -981,6 +984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1226508052}
   - component: {fileID: 1226508053}
+  - component: {fileID: 1226508055}
   m_Layer: 0
   m_Name: MapPlayer
   m_TagString: Untagged
@@ -1018,6 +1022,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelMapPlayer
   currentNode: {fileID: 1055329171}
   moveSpeed: 3
+  moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  selectNodeAction: {fileID: 8165695985128603553, guid: 7272a4a72bbd3c54998e822dad5fef8b, type: 3}
+--- !u!95 &1226508055
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226508050}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2acd8a94d1490fa4d9e1efdb17c8e881, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1383622473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383622475}
+  - component: {fileID: 1383622474}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1383622474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383622473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e9e91ef708367045bd672c4df7eff44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+--- !u!4 &1383622475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383622473}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.36928, y: 2.85776, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1611636900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelNode
   levelNumber: 4
+  sceneName: 
   lockedSprite: {fileID: 21300000, guid: 301ff844ae0f8394d8c60a91d7ce13d6, type: 3}
   availableSprite: {fileID: 21300000, guid: f121ff31a18d87446ac0cb25dfba604b, type: 3}
   completedSprite: {fileID: 21300000, guid: c56ed430874d4aa48bc3bd1eeb1ebe84, type: 3}
@@ -1174,6 +1247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelNode
   levelNumber: 2
+  sceneName: 
   lockedSprite: {fileID: 21300000, guid: 301ff844ae0f8394d8c60a91d7ce13d6, type: 3}
   availableSprite: {fileID: 21300000, guid: f121ff31a18d87446ac0cb25dfba604b, type: 3}
   completedSprite: {fileID: 21300000, guid: c56ed430874d4aa48bc3bd1eeb1ebe84, type: 3}
@@ -1625,3 +1699,4 @@ SceneRoots:
   - {fileID: 66190623}
   - {fileID: 1226508052}
   - {fileID: 254556413}
+  - {fileID: 1383622475}

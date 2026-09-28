@@ -12,6 +12,10 @@ public class LevelMapPlayer : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private InputActionReference moveAction;
+
+    [Header("Selection")]
+    [SerializeField] private InputActionReference selectNodeAction;
 
     private bool _isMoving;
 
@@ -21,21 +25,46 @@ public class LevelMapPlayer : MonoBehaviour
         {
             transform.position = currentNode.transform.position;
         }
+    }
 
-        // TEMPORARY TEST:
-        // Allows movement to Level 2 without completing Level 1.
-        // REMOVE AFTER TESTING THE MAP MOVEMENT.
-        UnlockNextNodeForTesting();
+    private void OnEnable()
+    {
+        if (moveAction != null)
+        {
+            moveAction.action.Enable();
+        }
+
+        if (selectNodeAction != null)
+        {
+            selectNodeAction.action.Enable();
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (moveAction != null)
+        {
+            moveAction.action.Disable();
+        }
+
+        if (selectNodeAction != null)
+        {
+            selectNodeAction.action.Disable();
+        }
     }
 
     private void Update()
     {
-        if (_isMoving || currentNode == null)
+        if (currentNode == null)
         {
             return;
         }
 
-        HandleMovementInput();
+        if (!_isMoving)
+        {
+            HandleMovementInput();
+            HandleNodeSelection();
+        }
     }
 
     /// <summary>
@@ -43,19 +72,12 @@ public class LevelMapPlayer : MonoBehaviour
     /// </summary>
     private void HandleMovementInput()
     {
-        float horizontal = Keyboard.current.dKey.isPressed
-            ? 1f
-            : Keyboard.current.aKey.isPressed
-                ? -1f
-                : 0f;
+        if (moveAction == null)
+        {
+            return;
+        }
 
-        float vertical = Keyboard.current.wKey.isPressed
-            ? 1f
-            : Keyboard.current.sKey.isPressed
-                ? -1f
-                : 0f;
-
-        Vector2 inputDirection = new Vector2(horizontal, vertical);
+        Vector2 inputDirection = moveAction.action.ReadValue<Vector2>();
 
         if (inputDirection == Vector2.zero)
         {
@@ -68,6 +90,56 @@ public class LevelMapPlayer : MonoBehaviour
         {
             StartCoroutine(MoveAlongPath(connection));
         }
+    }
+
+    /// <summary>
+    /// Handles the input used to enter the currently selected level.
+    /// </summary>
+    private void HandleNodeSelection()
+    {
+        if (selectNodeAction == null)
+        {
+            return;
+        }
+
+        if (!selectNodeAction.action.WasPressedThisFrame())
+        {
+            return;
+        }
+
+        SelectCurrentNode();
+    }
+
+    /// <summary>
+    /// Loads the scene associated with the current node.
+    /// </summary>
+    private void SelectCurrentNode()
+    {
+        if (currentNode.GetState() == LevelNode.NodeState.Locked)
+        {
+            return;
+        }
+
+        string sceneName = currentNode.GetSceneName();
+
+        if (string.IsNullOrWhiteSpace(sceneName))
+        {
+            Debug.LogWarning(
+                $"[LevelMapPlayer] No scene configured for level {currentNode.GetLevelNumber()}."
+            );
+
+            return;
+        }
+
+        SceneLoader sceneLoader = FindFirstObjectByType<SceneLoader>();
+
+        if (sceneLoader == null)
+        {
+            Debug.LogError("[LevelMapPlayer] SceneLoader was not found.");
+            return;
+        }
+
+        sceneLoader.LoadScene(sceneName);
     }
 
     /// <summary>
@@ -96,17 +168,10 @@ public class LevelMapPlayer : MonoBehaviour
 
             LevelNode targetNode = connection.TargetNode;
 
-            /*
-            // TEMPORARILY DISABLED FOR MOVEMENT TESTING.
-            // The real progression system must prevent movement
-            // to locked nodes.
-            //
-            // REMOVE THIS COMMENTED BLOCK AFTER TESTING.
             if (targetNode.GetState() == LevelNode.NodeState.Locked)
             {
                 continue;
             }
-            */
 
             Vector2 directionToTarget =
                 targetNode.transform.position - currentNode.transform.position;
@@ -179,34 +244,5 @@ public class LevelMapPlayer : MonoBehaviour
         }
 
         transform.position = targetPosition;
-    }
-
-    // TEMPORARY TEST:
-    // Unlocks Level 2 so the path between Level 1 and Level 2
-    // can be tested without implementing level completion yet.
-    //
-    // REMOVE THIS METHOD AFTER TESTING THE MAP MOVEMENT.
-    private void UnlockNextNodeForTesting()
-    {
-        if (currentNode == null)
-        {
-            return;
-        }
-
-        LevelNodeConnection[] connections = currentNode.GetConnections();
-
-        if (connections == null || connections.Length == 0)
-        {
-            return;
-        }
-
-        foreach (LevelNodeConnection connection in connections)
-        {
-            if (connection != null && connection.TargetNode != null)
-            {
-                connection.TargetNode.SetState(LevelNode.NodeState.Available);
-                break;
-            }
-        }
     }
 }

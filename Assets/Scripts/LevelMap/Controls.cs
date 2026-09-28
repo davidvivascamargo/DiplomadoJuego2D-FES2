@@ -279,6 +279,99 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""LevelMap"",
+            ""id"": ""61fa28dd-e308-4288-a216-8cf36ea9922a"",
+            ""actions"": [
+                {
+                    ""name"": ""NextNode"",
+                    ""type"": ""Button"",
+                    ""id"": ""241d5e30-9e73-4730-a60b-352cc4fbd0ce"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false,
+                    ""priority"": 0
+                },
+                {
+                    ""name"": ""PreviousNode"",
+                    ""type"": ""Button"",
+                    ""id"": ""f4854d37-2c8e-4b07-a74c-ded52465df71"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false,
+                    ""priority"": 0
+                },
+                {
+                    ""name"": ""SelectNode"",
+                    ""type"": ""Button"",
+                    ""id"": ""ae26d25a-dfde-45cc-b310-966d2f9e4e99"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false,
+                    ""priority"": 0
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""1590ebd7-5760-4f46-bfe3-a54357d70829"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextNode"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bb2ff21f-f288-466c-97c1-8375478e8a32"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextNode"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""273711ff-5ee7-401e-ae2c-4d52af09b1b3"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PreviousNode"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9c054fa8-0019-421f-be03-554a7104c6b1"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PreviousNode"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fd049c3c-2964-48f2-96a2-c75c7d5b292b"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SelectNode"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -288,11 +381,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
+        // LevelMap
+        m_LevelMap = asset.FindActionMap("LevelMap", throwIfNotFound: true);
+        m_LevelMap_NextNode = m_LevelMap.FindAction("NextNode", throwIfNotFound: true);
+        m_LevelMap_PreviousNode = m_LevelMap.FindAction("PreviousNode", throwIfNotFound: true);
+        m_LevelMap_SelectNode = m_LevelMap.FindAction("SelectNode", throwIfNotFound: true);
     }
 
     ~@Controls()
     {
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, Controls.Player.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_LevelMap.enabled, "This will cause a leak and performance issues, Controls.LevelMap.Disable() has not been called.");
     }
 
     /// <summary>
@@ -482,6 +581,124 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="PlayerActions" /> instance referencing this action map.
     /// </summary>
     public PlayerActions @Player => new PlayerActions(this);
+
+    // LevelMap
+    private readonly InputActionMap m_LevelMap;
+    private List<ILevelMapActions> m_LevelMapActionsCallbackInterfaces = new List<ILevelMapActions>();
+    private readonly InputAction m_LevelMap_NextNode;
+    private readonly InputAction m_LevelMap_PreviousNode;
+    private readonly InputAction m_LevelMap_SelectNode;
+    /// <summary>
+    /// Provides access to input actions defined in input action map "LevelMap".
+    /// </summary>
+    public struct LevelMapActions
+    {
+        private @Controls m_Wrapper;
+
+        /// <summary>
+        /// Construct a new instance of the input action map wrapper class.
+        /// </summary>
+        public LevelMapActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        /// <summary>
+        /// Provides access to the underlying input action "LevelMap/NextNode".
+        /// </summary>
+        public InputAction @NextNode => m_Wrapper.m_LevelMap_NextNode;
+        /// <summary>
+        /// Provides access to the underlying input action "LevelMap/PreviousNode".
+        /// </summary>
+        public InputAction @PreviousNode => m_Wrapper.m_LevelMap_PreviousNode;
+        /// <summary>
+        /// Provides access to the underlying input action "LevelMap/SelectNode".
+        /// </summary>
+        public InputAction @SelectNode => m_Wrapper.m_LevelMap_SelectNode;
+        /// <summary>
+        /// Provides access to the underlying input action map instance.
+        /// </summary>
+        public InputActionMap Get() { return m_Wrapper.m_LevelMap; }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+        public void Enable() { Get().Enable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+        public void Disable() { Get().Disable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+        public bool enabled => Get().enabled;
+        /// <summary>
+        /// Implicitly converts an <see ref="LevelMapActions" /> to an <see ref="InputActionMap" /> instance.
+        /// </summary>
+        public static implicit operator InputActionMap(LevelMapActions set) { return set.Get(); }
+        /// <summary>
+        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <param name="instance">Callback instance.</param>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+        /// </remarks>
+        /// <seealso cref="LevelMapActions" />
+        public void AddCallbacks(ILevelMapActions instance)
+        {
+            if (instance == null || m_Wrapper.m_LevelMapActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_LevelMapActionsCallbackInterfaces.Add(instance);
+            @NextNode.started += instance.OnNextNode;
+            @NextNode.performed += instance.OnNextNode;
+            @NextNode.canceled += instance.OnNextNode;
+            @PreviousNode.started += instance.OnPreviousNode;
+            @PreviousNode.performed += instance.OnPreviousNode;
+            @PreviousNode.canceled += instance.OnPreviousNode;
+            @SelectNode.started += instance.OnSelectNode;
+            @SelectNode.performed += instance.OnSelectNode;
+            @SelectNode.canceled += instance.OnSelectNode;
+        }
+
+        /// <summary>
+        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <remarks>
+        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+        /// </remarks>
+        /// <seealso cref="LevelMapActions" />
+        private void UnregisterCallbacks(ILevelMapActions instance)
+        {
+            @NextNode.started -= instance.OnNextNode;
+            @NextNode.performed -= instance.OnNextNode;
+            @NextNode.canceled -= instance.OnNextNode;
+            @PreviousNode.started -= instance.OnPreviousNode;
+            @PreviousNode.performed -= instance.OnPreviousNode;
+            @PreviousNode.canceled -= instance.OnPreviousNode;
+            @SelectNode.started -= instance.OnSelectNode;
+            @SelectNode.performed -= instance.OnSelectNode;
+            @SelectNode.canceled -= instance.OnSelectNode;
+        }
+
+        /// <summary>
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="LevelMapActions.UnregisterCallbacks(ILevelMapActions)" />.
+        /// </summary>
+        /// <seealso cref="LevelMapActions.UnregisterCallbacks(ILevelMapActions)" />
+        public void RemoveCallbacks(ILevelMapActions instance)
+        {
+            if (m_Wrapper.m_LevelMapActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        /// <summary>
+        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+        /// </summary>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+        /// </remarks>
+        /// <seealso cref="LevelMapActions.AddCallbacks(ILevelMapActions)" />
+        /// <seealso cref="LevelMapActions.RemoveCallbacks(ILevelMapActions)" />
+        /// <seealso cref="LevelMapActions.UnregisterCallbacks(ILevelMapActions)" />
+        public void SetCallbacks(ILevelMapActions instance)
+        {
+            foreach (var item in m_Wrapper.m_LevelMapActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_LevelMapActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    /// <summary>
+    /// Provides a new <see cref="LevelMapActions" /> instance referencing this action map.
+    /// </summary>
+    public LevelMapActions @LevelMap => new LevelMapActions(this);
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Player" which allows adding and removing callbacks.
     /// </summary>
@@ -510,5 +727,34 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnFire(InputAction.CallbackContext context);
+    }
+    /// <summary>
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "LevelMap" which allows adding and removing callbacks.
+    /// </summary>
+    /// <seealso cref="LevelMapActions.AddCallbacks(ILevelMapActions)" />
+    /// <seealso cref="LevelMapActions.RemoveCallbacks(ILevelMapActions)" />
+    public interface ILevelMapActions
+    {
+        /// <summary>
+        /// Method invoked when associated input action "NextNode" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnNextNode(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "PreviousNode" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnPreviousNode(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "SelectNode" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSelectNode(InputAction.CallbackContext context);
     }
 }

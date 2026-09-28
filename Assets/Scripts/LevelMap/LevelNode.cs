@@ -25,6 +25,7 @@ public class LevelNode : MonoBehaviour
 
     [Header("Level Configuration")]
     [SerializeField] private int levelNumber = 1;
+    [SerializeField] private string sceneName;
 
     [Header("Node Sprites")]
     [SerializeField] private Sprite lockedSprite;
@@ -71,6 +72,11 @@ public class LevelNode : MonoBehaviour
     public int GetLevelNumber()
     {
         return levelNumber;
+    }
+
+    public string GetSceneName()
+    {
+        return sceneName;
     }
 
     public LevelNodeConnection[] GetConnections()

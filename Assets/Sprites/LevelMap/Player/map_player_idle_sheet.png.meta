@@ -125,10 +125,10 @@ TextureImporter:
       name: map_player_idle_sheet_0
       rect:
         serializedVersion: 2
-        x: 39
+        x: 105
         y: 59
-        width: 468
-        height: 665
+        width: 397
+        height: 598
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: map_player_idle_sheet_1
       rect:
         serializedVersion: 2
-        x: 574
+        x: 636
         y: 59
-        width: 468
-        height: 665
+        width: 400
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: map_player_idle_sheet_2
       rect:
         serializedVersion: 2
-        x: 1109
+        x: 1178
         y: 59
-        width: 468
-        height: 665
+        width: 399
+        height: 592
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: map_player_idle_sheet_3
       rect:
         serializedVersion: 2
-        x: 1644
+        x: 1720
         y: 59
-        width: 468
-        height: 665
+        width: 392
+        height: 596
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
