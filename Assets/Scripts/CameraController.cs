@@ -1,30 +1,42 @@
 using UnityEngine;
 
+/// <summary>
+/// Controls the camera position based on the player's horizontal position.
+/// </summary>
 public class CameraController : MonoBehaviour
 {
-    // Referencia al transform del jugador
-    public Transform playerTransform; 
+    [Header("Player")]
+    [SerializeField] private Transform playerTransform;
 
-    // Variables privadas con guion bajo (_)
-    private float _cameraSize; 
-    private float _screenHeight; 
+    private float _cameraSize;
+    private float _screenHeight;
 
-    void Start()
+    private void Start()
     {
         _cameraSize = Camera.main.orthographicSize;
-        _screenHeight = _cameraSize * 2f; 
+        _screenHeight = _cameraSize * 2f;
     }
 
-    void Update()
+    private void Update()
     {
         CalculateCameraPosition();
     }
 
-    // Se corrigió a PascalCase (C mayúscula) para seguir las normas de C#
-    void CalculateCameraPosition()
+    /// <summary>
+    /// Positions the camera at the center of the current screen section.
+    /// </summary>
+    private void CalculateCameraPosition()
     {
-        int playerScreen = (int)(playerTransform.position.x / _screenHeight);
-        float screenSize = (playerScreen * _screenHeight) + _cameraSize;
-        transform.position = new Vector3(screenSize, transform.position.y, transform.position.z);
+        int playerScreen =
+            (int)(playerTransform.position.x / _screenHeight);
+
+        float screenSize =
+            (playerScreen * _screenHeight) + _cameraSize;
+
+        transform.position = new Vector3(
+            screenSize,
+            transform.position.y,
+            transform.position.z
+        );
     }
 }
