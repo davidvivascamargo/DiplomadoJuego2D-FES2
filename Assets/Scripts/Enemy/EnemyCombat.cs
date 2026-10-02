@@ -71,4 +71,15 @@ public class EnemyCombat : MonoBehaviour
 
         _animator.SetTrigger("Attack");
     }
+
+    /// <summary>
+    /// Applies damage to the player when the attack animation reaches the hit frame.
+    /// </summary>
+    public void DealDamage()
+    {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ReduceHealth();
+        }
+    }
 }
