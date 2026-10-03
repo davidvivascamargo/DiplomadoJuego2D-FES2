@@ -8,6 +8,9 @@ public class EnemyHealth : MonoBehaviour
     [Header("Health")]
     [SerializeField] private int maxHealth = 3;
 
+    [Header("Drop")]
+    [SerializeField] private GameObject dropItemPrefab;
+
     private int _currentHealth;
     private bool _isDead;
 
@@ -108,6 +111,15 @@ public class EnemyHealth : MonoBehaviour
         if (!_isDead)
         {
             return;
+        }
+
+        if (dropItemPrefab != null)
+        {
+            Instantiate(
+                dropItemPrefab,
+                transform.position,
+                Quaternion.identity
+            );
         }
 
         Destroy(gameObject);

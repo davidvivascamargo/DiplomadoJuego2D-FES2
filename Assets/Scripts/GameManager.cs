@@ -36,8 +36,6 @@ public class GameManager : MonoBehaviour
     {
         _totalPoints += points;
 
-        Debug.Log("Total points: " + _totalPoints);
-
         if (_hud != null)
         {
             _hud.UpdatePointsText();
@@ -55,8 +53,6 @@ public class GameManager : MonoBehaviour
 
         if (_playerHealth <= 0)
         {
-            Debug.Log("Player has died.");
-            // Aquí posteriormente agregaremos la lógica de muerte.
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reinicia la escena actual
         }
     }

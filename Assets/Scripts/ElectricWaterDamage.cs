@@ -17,10 +17,6 @@ public class ElectricWaterDamage : MonoBehaviour
 
         _playerColliderCount++;
 
-        Debug.Log(
-            $"[ElectricWaterDamage] Player entered. Colliders inside: {_playerColliderCount}"
-        );
-
         if (_playerColliderCount == 1)
         {
             ApplyDamage();
@@ -41,10 +37,6 @@ public class ElectricWaterDamage : MonoBehaviour
         _playerColliderCount = Mathf.Max(
             _playerColliderCount,
             0
-        );
-
-        Debug.Log(
-            $"[ElectricWaterDamage] Player exited. Colliders inside: {_playerColliderCount}"
         );
     }
 
@@ -69,8 +61,6 @@ public class ElectricWaterDamage : MonoBehaviour
         {
             return;
         }
-
-        Debug.Log("[ElectricWaterDamage] Applying electric damage.");
 
         GameManager.Instance.ReduceHealth();
     }

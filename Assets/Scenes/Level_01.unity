@@ -5186,6 +5186,7 @@ GameObject:
   - component: {fileID: 253627597}
   - component: {fileID: 253627598}
   - component: {fileID: 253627599}
+  - component: {fileID: 253627600}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -5440,6 +5441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc66c13163375749896c4801f0d8fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationErrorLogger
+  m_animator: {fileID: 0}
 --- !u!114 &253627599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5455,6 +5457,19 @@ MonoBehaviour:
   animator: {fileID: 253627597}
   firePoint: {fileID: 351452996}
   fireballPrefab: {fileID: 1188942823242884671, guid: 3b251a96189f55941a18752c0abd951c, type: 3}
+--- !u!114 &253627600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ff129b1d8c46324caa54bdf54fec37a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
+  maxSlots: 100
 --- !u!1 &265285787
 GameObject:
   m_ObjectHideFlags: 0
@@ -414028,6 +414043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1033563319}
   - component: {fileID: 1033563318}
+  - component: {fileID: 1033563320}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -414062,6 +414078,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033563320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033563317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ee3ebdf6065e541a65fb7a9df60799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseManager
 --- !u!1 &1077535043
 GameObject:
   m_ObjectHideFlags: 0
@@ -429801,7 +429829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 3
-  deathAnimationDuration: 10
+  dropItemPrefab: {fileID: 4914884101391858576, guid: 93e5c2626d3945840bd0a06051734904, type: 3}
 --- !u!1 &1731045381
 GameObject:
   m_ObjectHideFlags: 0

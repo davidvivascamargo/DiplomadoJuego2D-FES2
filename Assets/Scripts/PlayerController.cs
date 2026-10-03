@@ -83,10 +83,6 @@ public class PlayerController : MonoBehaviour
     {
         lFootRay = Physics2D.Raycast(lFoot.position, Vector2.down, rayLength, groundLayer);
         rFootRay = Physics2D.Raycast(rFoot.position, Vector2.down, rayLength, groundLayer);
-        
-        // Dibujamos los rayos en la escena para que puedas verlos mientras juegas
-        Debug.DrawRay(lFoot.position, Vector2.down * rayLength, Color.red);
-        Debug.DrawRay(rFoot.position, Vector2.down * rayLength, Color.red);
 
         if (lFootRay.collider != null || rFootRay.collider != null)
         {
