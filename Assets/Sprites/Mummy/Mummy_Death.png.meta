@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 6eaab1ca5731d734d892749c33cf9248
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7542642901357821794
+    second: Mummy_Death_0
+  - first:
+      213: 2667103062129619728
+    second: Mummy_Death_1
+  - first:
+      213: -7991650712617381129
+    second: Mummy_Death_2
+  - first:
+      213: -4134350513525774597
+    second: Mummy_Death_3
+  - first:
+      213: -6225954973442422602
+    second: Mummy_Death_4
+  - first:
+      213: -8424949712573035908
+    second: Mummy_Death_5
+  - first:
+      213: -8329978343570533609
+    second: Mummy_Death_6
+  - first:
+      213: -4521915739412343510
+    second: Mummy_Death_7
+  - first:
+      213: -7664524091949328861
+    second: Mummy_Death_8
+  - first:
+      213: -8571935270922236063
+    second: Mummy_Death_9
+  - first:
+      213: -380908107978683911
+    second: Mummy_Death_10
+  - first:
+      213: -5157065026402408908
+    second: Mummy_Death_11
+  - first:
+      213: -1235986009886464734
+    second: Mummy_Death_12
+  - first:
+      213: -7349925342061200772
+    second: Mummy_Death_13
+  - first:
+      213: 8429606421949060878
+    second: Mummy_Death_14
+  - first:
+      213: 690557111985917688
+    second: Mummy_Death_15
+  - first:
+      213: 4554262590898287163
+    second: Mummy_Death_16
+  - first:
+      213: -531936779364272113
+    second: Mummy_Death_17
+  - first:
+      213: -259932209485469581
+    second: Mummy_Death_18
+  - first:
+      213: 4783549211286005973
+    second: Mummy_Death_19
+  - first:
+      213: 1073361621972533964
+    second: Mummy_Death_20
+  - first:
+      213: 6148962076917500236
+    second: Mummy_Death_21
+  - first:
+      213: -8577637658371162789
+    second: Mummy_Death_22
+  - first:
+      213: 2566296868333271660
+    second: Mummy_Death_23
+  - first:
+      213: -5685981254257913357
+    second: Mummy_Death_24
+  - first:
+      213: 6336084382518847110
+    second: Mummy_Death_25
+  - first:
+      213: -2200423313142397136
+    second: Mummy_Death_26
+  - first:
+      213: -99906046757141080
+    second: Mummy_Death_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mummy_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 172
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ffd0391c9dca860800000000000000
+      internalID: 7542642901357821794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 700
+        width: 160
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013b795aa14730520800000000000000
+      internalID: 2667103062129619728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 700
+        width: 170
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f29179b404f71190800000000000000
+      internalID: -7991650712617381129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 698
+        width: 142
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6a758dc16df96c0800000000000000
+      internalID: -4134350513525774597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_4
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 690
+        width: 151
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8436c20f6f899a0800000000000000
+      internalID: -6225954973442422602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_5
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 684
+        width: 133
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a0e8bafd0941b80800000000000000
+      internalID: -8424949712573035908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_6
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 678
+        width: 158
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71318c4a4d8f56c80800000000000000
+      internalID: -8329978343570533609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_7
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 683
+        width: 189
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a255418d79dee31c0800000000000000
+      internalID: -4521915739412343510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 426
+        width: 165
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326dfee52f322a590800000000000000
+      internalID: -7664524091949328861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 426
+        width: 162
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fc903894e5a0980800000000000000
+      internalID: -8571935270922236063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 422
+        width: 169
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f94ddb081eb6baf0800000000000000
+      internalID: -380908107978683911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_11
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 411
+        width: 191
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436a1b98eac6e68b0800000000000000
+      internalID: -5157065026402408908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_12
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 408
+        width: 181
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2256d55c545e8dee0800000000000000
+      internalID: -1235986009886464734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_13
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 407
+        width: 182
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7afcccc7d1dff990800000000000000
+      internalID: -7349925342061200772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_14
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 404
+        width: 172
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0710a8f06afbf470800000000000000
+      internalID: 8429606421949060878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 223
+        width: 194
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe4a0dd80a559900800000000000000
+      internalID: 690557111985917688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 221
+        width: 220
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32b75862bdf33f30800000000000000
+      internalID: 4554262590898287163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 209
+        width: 216
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08f607415e2e98f0800000000000000
+      internalID: -531936779364272113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_18
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 285
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378afeb5809846cf0800000000000000
+      internalID: -259932209485469581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_19
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 203
+        width: 208
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d86d40d9a4926240800000000000000
+      internalID: 4783549211286005973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_20
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 205
+        width: 211
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2c53155b855ee00800000000000000
+      internalID: 1073361621972533964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_21
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 266
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49040c2e60855550800000000000000
+      internalID: 6148962076917500236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 230
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5df5c8fefb16f880800000000000000
+      internalID: -8577637658371162789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_23
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 63
+        width: 230
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ab339a7615d9320800000000000000
+      internalID: 2566296868333271660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_24
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 63
+        width: 242
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f15d64cc265711b0800000000000000
+      internalID: -5685981254257913357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_25
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 62
+        width: 258
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686afe60d2b4ee750800000000000000
+      internalID: 6336084382518847110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_26
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 205
+        width: 186
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037c8a0b7a68671e0800000000000000
+      internalID: -2200423313142397136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mummy_Death_27
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 0
+        width: 35
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a58024daff0d9ef0800000000000000
+      internalID: -99906046757141080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mummy_Death_0: 7542642901357821794
+      Mummy_Death_1: 2667103062129619728
+      Mummy_Death_10: -380908107978683911
+      Mummy_Death_11: -5157065026402408908
+      Mummy_Death_12: -1235986009886464734
+      Mummy_Death_13: -7349925342061200772
+      Mummy_Death_14: 8429606421949060878
+      Mummy_Death_15: 690557111985917688
+      Mummy_Death_16: 4554262590898287163
+      Mummy_Death_17: -531936779364272113
+      Mummy_Death_18: -259932209485469581
+      Mummy_Death_19: 4783549211286005973
+      Mummy_Death_2: -7991650712617381129
+      Mummy_Death_20: 1073361621972533964
+      Mummy_Death_21: 6148962076917500236
+      Mummy_Death_22: -8577637658371162789
+      Mummy_Death_23: 2566296868333271660
+      Mummy_Death_24: -5685981254257913357
+      Mummy_Death_25: 6336084382518847110
+      Mummy_Death_26: -2200423313142397136
+      Mummy_Death_27: -99906046757141080
+      Mummy_Death_3: -4134350513525774597
+      Mummy_Death_4: -6225954973442422602
+      Mummy_Death_5: -8424949712573035908
+      Mummy_Death_6: -8329978343570533609
+      Mummy_Death_7: -4521915739412343510
+      Mummy_Death_8: -7664524091949328861
+      Mummy_Death_9: -8571935270922236063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
