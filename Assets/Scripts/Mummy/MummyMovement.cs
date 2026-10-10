@@ -1,7 +1,6 @@
 
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class MummyMovement : MonoBehaviour
 {
     [Header("Movement Points")]
@@ -14,25 +13,41 @@ public class MummyMovement : MonoBehaviour
     [Header("Sprite")]
     [SerializeField] private bool flipSprite = true;
 
+    [Header("Player Distance Logs")]
+    [SerializeField] private Transform player;
+    [SerializeField] private float closeDistance = 2f;
+    [SerializeField] private float logInterval = 1f;
+
     private Transform targetPoint;
     private SpriteRenderer spriteRenderer;
-    private Rigidbody2D rb;
-    private Collider2D mummyCollider;
-
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        mummyCollider = GetComponent<Collider2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+    private float logTimer;
+    private bool playerWasClose;
 
     private void Start()
     {
-        // Validate patrol points.
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (player == null)
+        {
+            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+
+            if (playerObject != null)
+            {
+                player = playerObject.transform;
+            }
+            else
+            {
+                Debug.LogError(
+                    "MummyMovement: No se encontró un objeto con Tag 'Player'.",
+                    this
+                );
+            }
+        }
+
         if (startPoint == null || endPoint == null)
         {
             Debug.LogError(
-                "[MummyMovement] Assign Start Point and End Point.",
+                "MummyMovement: Asigna Start Point y End Point.",
                 this
             );
 
@@ -40,79 +55,27 @@ public class MummyMovement : MonoBehaviour
             return;
         }
 
-        // Initialize patrol.
-        rb.position = startPoint.position;
+        transform.position = startPoint.position;
         targetPoint = endPoint;
 
         UpdateSpriteDirection();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         MoveBetweenPoints();
+        LogPlayerDistance();
     }
 
-    /// <summary>
-    /// Moves the mummy between patrol points using 2D physics.
-    /// Stops movement when the player blocks its path.
-    /// </summary>
     private void MoveBetweenPoints()
     {
-        if (targetPoint == null)
-        {
-            return;
-        }
-
-        Vector2 currentPosition = rb.position;
-        Vector2 destination = targetPoint.position;
-
-        Vector2 nextPosition = Vector2.MoveTowards(
-            currentPosition,
-            destination,
-            moveSpeed * Time.fixedDeltaTime
+        transform.position = Vector3.MoveTowards(
+            transform.position,
+            targetPoint.position,
+            moveSpeed * Time.deltaTime
         );
 
-        Vector2 movement = nextPosition - currentPosition;
-
-        if (movement.sqrMagnitude > 0.000001f &&
-            mummyCollider != null)
-        {
-            // Check for solid obstacles in the movement direction.
-            RaycastHit2D[] hits = new RaycastHit2D[8];
-
-            int hitCount = mummyCollider.Cast(
-                movement.normalized,
-                hits,
-                movement.magnitude + 0.02f,
-                true
-            );
-
-            for (int i = 0; i < hitCount; i++)
-            {
-                Collider2D hitCollider = hits[i].collider;
-
-                if (hitCollider == null || hitCollider.isTrigger)
-                {
-                    continue;
-                }
-
-                bool isPlayer =
-                    hitCollider.CompareTag("Player") ||
-                    hitCollider.transform.root.CompareTag("Player");
-
-                if (isPlayer)
-                {
-                    // Stop before entering the player's collider.
-                    return;
-                }
-            }
-        }
-
-        // Move through the physics system.
-        rb.MovePosition(nextPosition);
-
-        // Switch patrol direction when reaching a point.
-        if (Vector2.Distance(nextPosition, destination) < 0.01f)
+        if (Vector3.Distance(transform.position, targetPoint.position) < 0.01f)
         {
             targetPoint = targetPoint == startPoint
                 ? endPoint
@@ -122,25 +85,54 @@ public class MummyMovement : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Updates sprite orientation based on the patrol destination.
-    /// </summary>
+    private void LogPlayerDistance()
+    {
+        if (player == null)
+        {
+            return;
+        }
+
+        // Distancia entre la momia y el jugador en el plano XY.
+        Vector2 mummyPosition = transform.position;
+        Vector2 playerPosition = player.position;
+
+        float distance = Vector2.Distance(
+            mummyPosition,
+            playerPosition
+        );
+
+        logTimer += Time.deltaTime;
+
+        if (logTimer >= logInterval)
+        {
+            Debug.Log(
+                $"[MummyMovement] Distancia al Player: {distance:F2} unidades.",
+                this
+            );
+
+            logTimer = 0f;
+        }
+
+        bool playerIsClose = distance <= closeDistance;
+
+        if (playerIsClose && !playerWasClose)
+        {
+            Debug.Log(
+                $"[MummyMovement] ¡Player cerca! Distancia: {distance:F2} unidades.",
+                this
+            );
+        }
+
+        playerWasClose = playerIsClose;
+    }
+
     private void UpdateSpriteDirection()
     {
-        if (spriteRenderer == null || !flipSprite || targetPoint == null)
+        if (spriteRenderer == null || !flipSprite)
         {
             return;
         }
 
-        float directionX =
-            targetPoint.position.x - rb.position.x;
-
-        if (Mathf.Abs(directionX) < 0.01f)
-        {
-            return;
-        }
-
-        // The original sprite is assumed to face right.
-        spriteRenderer.flipX = directionX < 0f;
+        spriteRenderer.flipX = targetPoint == startPoint;
     }
 }
