@@ -6220,6 +6220,7 @@ GameObject:
   - component: {fileID: 362863086}
   - component: {fileID: 362863090}
   - component: {fileID: 362863091}
+  - component: {fileID: 362863092}
   m_Layer: 12
   m_Name: Mummy
   m_TagString: Untagged
@@ -6243,9 +6244,6 @@ MonoBehaviour:
   endPoint: {fileID: 1290171097}
   moveSpeed: 8
   flipSprite: 1
-  player: {fileID: 253627591}
-  closeDistance: 5
-  logInterval: 1
 --- !u!95 &362863087
 Animator:
   serializedVersion: 7
@@ -6337,7 +6335,7 @@ Transform:
   m_GameObject: {fileID: 362863085}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.57, y: -0.93, z: 0}
+  m_LocalPosition: {x: -40.57, y: -1.5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6351,7 +6349,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362863085}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6366,10 +6364,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 6
 --- !u!70 &362863091
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6400,13 +6398,33 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.17044067, y: 0.113627195}
   m_Size: {x: 2.2926216, y: 3.4772544}
   m_Direction: 0
+--- !u!114 &362863092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362863085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0873fc6a8095f94d9aba86ab14cb454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MummyExplosion
+  player: {fileID: 253627591}
+  detectionRadius: 7
+  explosionPrefab: {fileID: 7268209025333535805, guid: b591805f4f48e834e9de540f3991ac66, type: 3}
+  explosionPoint: {fileID: 0}
+  explosionDelay: 0.6
+  explosionLifetime: 5
+  animator: {fileID: 362863087}
+  deathTrigger: Die
 --- !u!1 &370071804
 GameObject:
   m_ObjectHideFlags: 0
@@ -452840,67 +452858,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b591805f4f48e834e9de540f3991ac66, type: 3}
---- !u!1001 &8919527988423953388
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3136402680634083331, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_Name
-      value: LevelExitPoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.84042
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6668687687811917064, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8504822219121390570, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
-      propertyPath: dialogueManager
-      value: 
-      objectReference: {fileID: 879324773}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d6ff0ce2745cc874bb4d4ccbd4bdfa6a, type: 3}
 --- !u!212 &9163595573942304371
 SpriteRenderer:
   serializedVersion: 3
@@ -452992,4 +452949,3 @@ SceneRoots:
   - {fileID: 362863089}
   - {fileID: 1504578651}
   - {fileID: 1290171097}
-  - {fileID: 8919527988423953388}
