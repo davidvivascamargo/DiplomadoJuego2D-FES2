@@ -2,10 +2,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 /// <summary>
-/// Controls the inventory interface, generates inventory slots,
-/// displays collected items, and manages inventory visibility.
+/// Controls inventory visibility, item slots, and item details.
 /// </summary>
 public class InventoryUI : MonoBehaviour
 {
@@ -18,6 +18,11 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private GameObject slotPrefab;
     [SerializeField] private int slotCount = 100;
 
+    [Header("Item Details")]
+    [SerializeField] private Image itemIconPreview;
+    [SerializeField] private TMP_Text itemNameText;
+    [SerializeField] private TMP_Text itemDescriptionText;
+
     private PlayerInventory _playerInventory;
     private PauseManager _pauseManager;
 
@@ -27,6 +32,7 @@ public class InventoryUI : MonoBehaviour
         _pauseManager = FindFirstObjectByType<PauseManager>();
 
         CreateSlots();
+        ClearItemDetails();
 
         if (inventoryPanel != null)
         {
@@ -58,7 +64,7 @@ public class InventoryUI : MonoBehaviour
     }
 
     /// <summary>
-    /// Generates inventory slots from the configured prefab.
+    /// Creates clickable inventory slots.
     /// </summary>
     private void CreateSlots()
     {
@@ -70,95 +76,128 @@ public class InventoryUI : MonoBehaviour
 
         for (int i = 0; i < slotCount; i++)
         {
-            Instantiate(slotPrefab, slotGrid);
+            GameObject slot = Instantiate(slotPrefab, slotGrid);
+
+            int slotIndex = i;
+            Button button = slot.GetComponent<Button>();
+
+            if (button != null)
+            {
+                button.onClick.AddListener(() => SelectItem(slotIndex));
+            }
         }
 
         Debug.Log($"[InventoryUI] Created {slotCount} inventory slots.");
     }
 
-    /// <summary>
-    /// Refreshes all inventory slots using the player's stored items.
-    /// </summary>
-    private void RefreshInventory()
+/// <summary>
+/// Updates slot icons from the player's inventory.
+/// </summary>
+private void RefreshInventory()
+{
+    if (_playerInventory == null || slotGrid == null)
     {
-        if (_playerInventory == null)
+        Debug.LogWarning("[InventoryUI] Inventory references are missing.");
+        return;
+    }
+
+    for (int i = 0; i < slotGrid.childCount; i++)
+    {
+        Transform slot = slotGrid.GetChild(i);
+        Transform iconTransform = slot.Find("ItemIcon");
+
+        if (iconTransform == null)
         {
-            Debug.LogWarning("[InventoryUI] PlayerInventory was not found.");
+            continue;
+        }
+
+        Image icon = iconTransform.GetComponent<Image>();
+
+        if (icon == null)
+        {
+            continue;
+        }
+
+        if (i < _playerInventory.Items.Count)
+        {
+            ItemData item = _playerInventory.Items[i];
+
+            icon.sprite = item != null ? item.Icon : null;
+            icon.enabled = item != null && item.Icon != null;
+        }
+        else
+        {
+            icon.sprite = null;
+            icon.enabled = false;
+        }
+    }
+}
+
+    /// <summary>
+    /// Displays the selected item's information.
+    /// </summary>
+    private void SelectItem(int slotIndex)
+    {
+        if (_playerInventory == null ||
+            slotIndex >= _playerInventory.Items.Count)
+        {
+            ClearItemDetails();
             return;
         }
 
-        if (slotGrid == null)
+        ItemData item = _playerInventory.Items[slotIndex];
+
+        if (item == null)
         {
+            ClearItemDetails();
             return;
         }
 
-        // Clear all slot icons before displaying current items.
-        foreach (Transform slot in slotGrid)
-        {
-            Transform iconTransform = slot.Find("ItemIcon");
+        itemIconPreview.sprite = item.Icon;
+        itemIconPreview.enabled = item.Icon != null;
 
-            if (iconTransform == null)
-            {
-                continue;
-            }
+        itemNameText.text = item.ItemName;
+        itemDescriptionText.text = item.Description;
 
-            Image itemIcon = iconTransform.GetComponent<Image>();
-
-            if (itemIcon != null)
-            {
-                itemIcon.sprite = null;
-                itemIcon.enabled = false;
-            }
-        }
-
-        // Display collected items in their corresponding slots.
-        int slotIndex = 0;
-
-        foreach (ItemData item in _playerInventory.Items)
-        {
-            if (slotIndex >= slotGrid.childCount)
-            {
-                break;
-            }
-
-            Transform slot = slotGrid.GetChild(slotIndex);
-            Transform iconTransform = slot.Find("ItemIcon");
-
-            if (iconTransform != null)
-            {
-                Image itemIcon = iconTransform.GetComponent<Image>();
-
-                if (itemIcon != null)
-                {
-                    itemIcon.sprite = item.Icon;
-                    itemIcon.enabled = item.Icon != null;
-                }
-            }
-
-            slotIndex++;
-        }
+        Debug.Log($"[InventoryUI] Selected item: {item.ItemName}");
     }
 
     /// <summary>
-    /// Handles the inventory input action.
+    /// Clears the item details panel.
     /// </summary>
+    private void ClearItemDetails()
+    {
+        if (itemIconPreview != null)
+        {
+            itemIconPreview.sprite = null;
+            itemIconPreview.enabled = false;
+        }
+
+        if (itemNameText != null)
+        {
+            itemNameText.text = "";
+        }
+
+        if (itemDescriptionText != null)
+        {
+            itemDescriptionText.text = "";
+        }
+    }
+
     private void OnInventoryPerformed(InputAction.CallbackContext context)
     {
         ToggleInventory();
     }
 
-    /// <summary>
-    /// Opens the inventory and pauses the game.
-    /// </summary>
     public void OpenInventory()
     {
         if (inventoryPanel == null)
         {
-            Debug.LogWarning("[InventoryUI] InventoryPanel is not assigned.");
             return;
         }
 
         RefreshInventory();
+        ClearItemDetails();
 
         inventoryPanel.SetActive(true);
 
@@ -170,9 +209,6 @@ public class InventoryUI : MonoBehaviour
         Debug.Log("[InventoryUI] Inventory opened.");
     }
 
-    /// <summary>
-    /// Closes the inventory and resumes the game.
-    /// </summary>
     public void CloseInventory()
     {
         if (inventoryPanel == null)
@@ -190,9 +226,6 @@ public class InventoryUI : MonoBehaviour
         Debug.Log("[InventoryUI] Inventory closed.");
     }
 
-    /// <summary>
-    /// Toggles the inventory panel visibility.
-    /// </summary>
     public void ToggleInventory()
     {
         if (inventoryPanel == null)

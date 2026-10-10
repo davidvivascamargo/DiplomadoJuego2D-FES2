@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: e7b4a28690ae5aa4daa35929f84ae96f
+guid: 823da03439652b541ba8e61a288f5c38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8816148797609479499
-    second: inventory_title_header_0
-  - first:
-      213: 3023940228155321037
-    second: inventory_title_header_1
+      213: 5976761690397344065
+    second: item_preview_background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,35 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: inventory_title_header_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2
-        width: 422
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b2ff77e06fb6a580800000000000000
-      internalID: -8816148797609479499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inventory_title_header_1
+      name: item_preview_background_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 422
-        height: 20
+        width: 180
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dca2631bd9137f920800000000000000
-      internalID: 3023940228155321037
+      spriteID: 1410c475719b1f250800000000000000
+      internalID: 5976761690397344065
       vertices: []
       indices: 
       edges: []
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      inventory_title_header_0: -8816148797609479499
-      inventory_title_header_1: 3023940228155321037
+      item_preview_background_0: 5976761690397344065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
