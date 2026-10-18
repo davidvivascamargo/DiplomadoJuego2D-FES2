@@ -80,6 +80,10 @@ public class PlayerController : MonoBehaviour
     private Vector2 previousColliderOffset;
     private CapsuleDirection2D previousColliderDirection;
 
+    private bool IsCinematicActive =>
+    CinematicManager.Instance != null &&
+    CinematicManager.Instance.IsCinematic;
+
     private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
@@ -140,6 +144,25 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         CheckCollision();
+
+        if (IsCinematicActive)
+        {
+            m_rigidbody2D.linearVelocity = new Vector2(
+                0f,
+                m_rigidbody2D.linearVelocity.y
+            );
+
+            m_gatherInput.IsJumping = false;
+            skidRequested = false;
+
+            if (isSkidding)
+            {
+                StopSkid();
+            }
+
+            return;
+        }
+
         Move();
         Jump();
     }
@@ -232,6 +255,12 @@ public class PlayerController : MonoBehaviour
     // Called by PlayerInput (Behavior: Send Messages) for the Skid action.
     public void OnSkid(InputValue value)
     {
+        if (IsCinematicActive)
+        {
+            skidRequested = false;
+            return;
+        }
+
         if (value.isPressed)
         {
             skidRequested = true;

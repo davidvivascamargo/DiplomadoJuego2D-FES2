@@ -1,0 +1,797 @@
+fileFormatVersion: 2
+guid: f27ce33e0058d1741927b43c40b48c58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3896990966700860640
+    second: CrystalChest_0
+  - first:
+      213: 8537338528303390339
+    second: CrystalChest_1
+  - first:
+      213: 3557463272569322674
+    second: CrystalChest_2
+  - first:
+      213: -3840445031450433050
+    second: CrystalChest_3
+  - first:
+      213: -2162705961347705341
+    second: CrystalChest_4
+  - first:
+      213: -7718431057491349057
+    second: CrystalChest_5
+  - first:
+      213: -2767517954135693987
+    second: CrystalChest_6
+  - first:
+      213: -166823266424939411
+    second: CrystalChest_7
+  - first:
+      213: 9046579059868182200
+    second: CrystalChest_8
+  - first:
+      213: -8477354943765576622
+    second: CrystalChest_9
+  - first:
+      213: -3929489069236182573
+    second: CrystalChest_10
+  - first:
+      213: -1764153770291323364
+    second: CrystalChest_11
+  - first:
+      213: -8506773576815676834
+    second: CrystalChest_12
+  - first:
+      213: 288282872168289728
+    second: CrystalChest_13
+  - first:
+      213: 4811055783990127370
+    second: CrystalChest_14
+  - first:
+      213: -6384270959348571694
+    second: CrystalChest_15
+  - first:
+      213: 7000995577199223024
+    second: CrystalChest_16
+  - first:
+      213: 7389527391100020658
+    second: CrystalChest_17
+  - first:
+      213: 6103558807014676758
+    second: CrystalChest_18
+  - first:
+      213: -3312800873328608299
+    second: CrystalChest_19
+  - first:
+      213: -5030041115624192723
+    second: CrystalChest_20
+  - first:
+      213: 6018932495471414086
+    second: CrystalChest_21
+  - first:
+      213: -7497454119872646117
+    second: CrystalChest_22
+  - first:
+      213: -1085375937502825065
+    second: CrystalChest_23
+  - first:
+      213: 6261425546350043012
+    second: CrystalChest_24
+  - first:
+      213: -5853252839006448565
+    second: CrystalChest_25
+  - first:
+      213: 8052140682174443866
+    second: CrystalChest_26
+  - first:
+      213: 4795179137100308800
+    second: CrystalChest_27
+  - first:
+      213: -6694271023743035879
+    second: CrystalChest_28
+  - first:
+      213: -4871264286379707079
+    second: CrystalChest_29
+  - first:
+      213: -1685776106400337606
+    second: CrystalChest_30
+  - first:
+      213: -9023676772283218719
+    second: CrystalChest_31
+  - first:
+      213: -8943667139880116996
+    second: CrystalChest_32
+  - first:
+      213: -5524166953361343263
+    second: CrystalChest_33
+  - first:
+      213: 1972072557481419698
+    second: CrystalChest_34
+  - first:
+      213: -548529654145745010
+    second: CrystalChest_35
+  - first:
+      213: 5557687244926404115
+    second: CrystalChest_36
+  - first:
+      213: -8065746559167144010
+    second: CrystalChest_37
+  - first:
+      213: 5887951445887820468
+    second: CrystalChest_38
+  - first:
+      213: 100661043983110604
+    second: CrystalChest_39
+  - first:
+      213: -2959215211144208180
+    second: CrystalChest_40
+  - first:
+      213: -1148664371123722215
+    second: CrystalChest_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrystalChest_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 682
+        width: 170
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5013536, y: 0.3990701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e46c1713a4e41630800000000000000
+      internalID: 3896990966700860640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 681
+        width: 166
+        height: 245
+      alignment: 9
+      pivot: {x: 0.49861312, y: 0.40323985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e97c2a828ba7670800000000000000
+      internalID: 8537338528303390339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 681
+        width: 165
+        height: 245
+      alignment: 9
+      pivot: {x: 0.50139457, y: 0.40323985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc3ef68ff5ae5130800000000000000
+      internalID: 3557463272569322674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_3
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 682
+        width: 165
+        height: 244
+      alignment: 9
+      pivot: {x: 0.49488118, y: 0.3987502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9abf8679ff3bac0800000000000000
+      internalID: -3840445031450433050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_4
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 682
+        width: 167
+        height: 244
+      alignment: 9
+      pivot: {x: 0.49494284, y: 0.39961568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306104cf2668cf1e0800000000000000
+      internalID: -2162705961347705341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_5
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 681
+        width: 167
+        height: 245
+      alignment: 9
+      pivot: {x: 0.49620706, y: 0.39830172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1b2e2e8df92e490800000000000000
+      internalID: -7718431057491349057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_6
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 680
+        width: 167
+        height: 246
+      alignment: 9
+      pivot: {x: 0.49620777, y: 0.4047236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55e93a651dc799d0800000000000000
+      internalID: -2767517954135693987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_7
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 681
+        width: 167
+        height: 245
+      alignment: 9
+      pivot: {x: 0.4974716, y: 0.40088713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c98708f135fadf0800000000000000
+      internalID: -166823266424939411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 407
+        width: 162
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.41168562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b62eef59b7eb8d70800000000000000
+      internalID: 9046579059868182200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 407
+        width: 161
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5171056, y: 0.37914884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25483f5f7926a5a80800000000000000
+      internalID: -8477354943765576622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 407
+        width: 163
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5199392, y: 0.3811514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1a567c286a779c0800000000000000
+      internalID: -3929489069236182573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_11
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 406
+        width: 163
+        height: 238
+      alignment: 9
+      pivot: {x: 0.48058525, y: 0.41044286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e9e982e777487e0800000000000000
+      internalID: -1764153770291323364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_12
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 406
+        width: 163
+        height: 238
+      alignment: 9
+      pivot: {x: 0.4804064, y: 0.415187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52f831b08ed1f980800000000000000
+      internalID: -8506773576815676834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 407
+        width: 164
+        height: 237
+      alignment: 9
+      pivot: {x: 0.47506288, y: 0.41121143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c59b6eaebf200400800000000000000
+      internalID: 288282872168289728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_14
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 407
+        width: 164
+        height: 237
+      alignment: 9
+      pivot: {x: 0.49797913, y: 0.38397488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0be157debd44c240800000000000000
+      internalID: 4811055783990127370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_15
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 407
+        width: 163
+        height: 237
+      alignment: 9
+      pivot: {x: 0.50406355, y: 0.38397488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1af2643638667a0800000000000000
+      internalID: -6384270959348571694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 121
+        width: 160
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5063082, y: 0.3816476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f06a057268882160800000000000000
+      internalID: 7000995577199223024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 120
+        width: 162
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5139211, y: 0.38277227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b72984c200ec8660800000000000000
+      internalID: 7389527391100020658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 121
+        width: 160
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4995102, y: 0.3814051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61911dd956234b450800000000000000
+      internalID: 6103558807014676758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 121
+        width: 162
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5094397, y: 0.38305688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbf4ad58219602d0800000000000000
+      internalID: -3312800873328608299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_20
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 121
+        width: 162
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5040321, y: 0.38296282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d254c917144b13ab0800000000000000
+      internalID: -5030041115624192723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_21
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 121
+        width: 160
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5000076, y: 0.38242325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b01a7073b878350800000000000000
+      internalID: 6018932495471414086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_22
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 121
+        width: 163
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5059178, y: 0.38246787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14b3318331b3f790800000000000000
+      internalID: -7497454119872646117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalChest_23
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 121
+        width: 162
+        height: 241
+      alignment: 9
+      pivot: {x: 0.509951, y: 0.3816446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795336dd558ffe0f0800000000000000
+      internalID: -1085375937502825065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: caaaf5da203332744b2a8a16e07dc591
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":186.0,"y":250.0},"gridSpriteOffset":{"x":25.0,"y":98.0},"gridSpritePadding":{"x":0.0,"y":32.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CrystalChest_0: 3896990966700860640
+      CrystalChest_1: 8537338528303390339
+      CrystalChest_10: -3929489069236182573
+      CrystalChest_11: -1764153770291323364
+      CrystalChest_12: -8506773576815676834
+      CrystalChest_13: 288282872168289728
+      CrystalChest_14: 4811055783990127370
+      CrystalChest_15: -6384270959348571694
+      CrystalChest_16: 7000995577199223024
+      CrystalChest_17: 7389527391100020658
+      CrystalChest_18: 6103558807014676758
+      CrystalChest_19: -3312800873328608299
+      CrystalChest_2: 3557463272569322674
+      CrystalChest_20: -5030041115624192723
+      CrystalChest_21: 6018932495471414086
+      CrystalChest_22: -7497454119872646117
+      CrystalChest_23: -1085375937502825065
+      CrystalChest_3: -3840445031450433050
+      CrystalChest_4: -2162705961347705341
+      CrystalChest_5: -7718431057491349057
+      CrystalChest_6: -2767517954135693987
+      CrystalChest_7: -166823266424939411
+      CrystalChest_8: 9046579059868182200
+      CrystalChest_9: -8477354943765576622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

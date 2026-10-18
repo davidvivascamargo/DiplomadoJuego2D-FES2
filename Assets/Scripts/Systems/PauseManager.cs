@@ -1,13 +1,19 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Controls the global pause state of the game.
+/// Manages game pauses from multiple independent systems.
 /// </summary>
 public class PauseManager : MonoBehaviour
 {
     public static PauseManager Instance { get; private set; }
 
-    public bool IsPaused { get; private set; }
+    private readonly HashSet<PauseReason> activePauseReasons = new();
+
+    public bool IsPaused => activePauseReasons.Count > 0;
+
+    public event Action<bool> OnPauseStateChanged;
 
     private void Awake()
     {
@@ -21,35 +27,82 @@ public class PauseManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Pauses the game.
+    /// Requests a pause for a specific reason.
+    /// </summary>
+    public void PauseGame(PauseReason reason)
+    {
+        bool wasPaused = IsPaused;
+
+        activePauseReasons.Add(reason);
+
+        UpdateTimeScale(wasPaused);
+    }
+
+    /// <summary>
+    /// Removes a specific pause reason.
+    /// </summary>
+    public void ResumeGame(PauseReason reason)
+    {
+        bool wasPaused = IsPaused;
+
+        activePauseReasons.Remove(reason);
+
+        UpdateTimeScale(wasPaused);
+    }
+
+    /// <summary>
+    /// Checks whether a specific system is requesting a pause.
+    /// </summary>
+    public bool IsPausedBy(PauseReason reason)
+    {
+        return activePauseReasons.Contains(reason);
+    }
+
+    /// <summary>
+    /// Maintains compatibility with existing inventory calls.
     /// </summary>
     public void PauseGame()
     {
-        IsPaused = true;
-        Time.timeScale = 0f;
+        PauseGame(PauseReason.Inventory);
     }
 
-    /// <summary>
-    /// Resumes the game.
-    /// </summary>
     public void ResumeGame()
     {
-        IsPaused = false;
-        Time.timeScale = 1f;
+        ResumeGame(PauseReason.Inventory);
     }
 
-    /// <summary>
-    /// Toggles between paused and running states.
-    /// </summary>
     public void TogglePause()
     {
-        if (IsPaused)
+        if (IsPausedBy(PauseReason.Inventory))
         {
-            ResumeGame();
+            ResumeGame(PauseReason.Inventory);
         }
         else
         {
-            PauseGame();
+            PauseGame(PauseReason.Inventory);
         }
+    }
+
+    private void UpdateTimeScale(bool wasPaused)
+    {
+        Time.timeScale = IsPaused ? 0f : 1f;
+
+        if (wasPaused != IsPaused)
+        {
+            Debug.Log(
+                $"[PauseManager] Game paused: {IsPaused}"
+            );
+
+            OnPauseStateChanged?.Invoke(IsPaused);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance != this)
+            return;
+
+        Time.timeScale = 1f;
+        Instance = null;
     }
 }

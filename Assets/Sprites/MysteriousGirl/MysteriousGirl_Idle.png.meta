@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 8551596984823e548886964beaa0cad7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7988502303837587698
+    second: MysteriousGirl_Idle_0
+  - first:
+      213: -5710815376219660304
+    second: MysteriousGirl_Idle_1
+  - first:
+      213: -3506894532451887260
+    second: MysteriousGirl_Idle_2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 247
+        height: 526
+      alignment: 9
+      pivot: {x: 0.6425154, y: 0.51837105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07fe54ca73232190800000000000000
+      internalID: -7988502303837587698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 112
+        width: 267
+        height: 526
+      alignment: 9
+      pivot: {x: 0.62408495, y: 0.5262443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff969a2cab1fb0b0800000000000000
+      internalID: -5710815376219660304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 112
+        width: 257
+        height: 526
+      alignment: 9
+      pivot: {x: 0.67457, y: 0.52099544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4671278c002055fc0800000000000000
+      internalID: -3506894532451887260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 112
+        width: 272
+        height: 526
+      alignment: 9
+      pivot: {x: 0.63702977, y: 0.52099544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bca4f205e38b8b44bf4f6ef525a1fdf
+      internalID: -416811169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 112
+        width: 254
+        height: 526
+      alignment: 9
+      pivot: {x: 0.6784514, y: 0.5223076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abcbd3b3b70fd540b2135af1dbbe3a2
+      internalID: -832928105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 111
+        width: 272
+        height: 526
+      alignment: 9
+      pivot: {x: 0.6792598, y: 0.52166945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed800a4ff595861418dec093e73b6cfc
+      internalID: 1468826634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 112
+        width: 278
+        height: 526
+      alignment: 9
+      pivot: {x: 0.6526129, y: 0.51565015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005b2d3c7db883f4a9cfaf27df778d6e
+      internalID: 2061675328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysteriousGirl_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 111
+        width: 256
+        height: 526
+      alignment: 9
+      pivot: {x: 0.596468, y: 0.508427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bb98ec86c2a834eb81050f7a2fdabf
+      internalID: -449232849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0d44c7dbbe3bb7549810097cd5c71a3e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":282.0,"y":526.0},"gridSpriteOffset":{"x":10.0,"y":86.0},"gridSpritePadding":{"x":0.0,"y":32.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MysteriousGirl_Idle_0: -7988502303837587698
+      MysteriousGirl_Idle_1: -5710815376219660304
+      MysteriousGirl_Idle_2: -3506894532451887260
+      MysteriousGirl_Idle_3: -416811169
+      MysteriousGirl_Idle_4: -832928105
+      MysteriousGirl_Idle_5: 1468826634
+      MysteriousGirl_Idle_6: 2061675328
+      MysteriousGirl_Idle_7: -449232849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
