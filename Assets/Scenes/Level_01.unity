@@ -5625,10 +5625,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   m_transform: {fileID: 253627591}
+  playerSpriteRenderer: {fileID: 0}
   speed: 25
   skidDuration: 1
   skidDeceleration: 15
   minSkidSpeed: 0.5
+  skidWidthMultiplier: 1
+  skidHeightMultiplier: 0.89
+  standingColliderSize: {x: 0, y: 0}
+  standingColliderOffset: {x: 0, y: 0}
+  skidColliderSize: {x: 0, y: 0}
+  skidColliderOffset: {x: 0, y: 0}
   jumpForce: 20
   extraJumps: 1
   counterextraJumps: 0

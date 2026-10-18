@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private Animator m_animator;
     private CapsuleCollider2D capsuleCollider;
 
+    [SerializeField] private SpriteRenderer playerSpriteRenderer;
+
     // Animator IDs
     private int idIsGrounded;
     private int idSpeed;
@@ -35,6 +37,13 @@ public class PlayerController : MonoBehaviour
     private float skidVelocity;
 
     [Header("Skid Collider Settings")]
+
+    [SerializeField, Range(0.1f, 1f)]
+    private float skidWidthMultiplier = 0.65f;
+
+    [SerializeField, Range(0.1f, 1f)]
+    private float skidHeightMultiplier = 0.40f;
+
     [SerializeField] private Vector2 standingColliderSize;
     [SerializeField] private Vector2 standingColliderOffset;
 
@@ -85,6 +94,12 @@ public class PlayerController : MonoBehaviour
         }
 
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+
+        // Obtener el SpriteRenderer del personaje.
+        if (playerSpriteRenderer == null)
+        {
+            playerSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
     }
 
     private void Start()
@@ -131,6 +146,11 @@ public class PlayerController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (isSkidding)
+        {
+            UpdateSkidColliderFromSprite();
+        }
+
         CheckColliderChanges();
     }
 
@@ -323,20 +343,61 @@ public class PlayerController : MonoBehaviour
     private void UpdateSkidCollider(bool sliding)
     {
         if (capsuleCollider == null)
+            return;
+
+        if (!sliding)
         {
+            capsuleCollider.direction = CapsuleDirection2D.Vertical;
+            capsuleCollider.size = standingColliderSize;
+            capsuleCollider.offset = standingColliderOffset;
             return;
         }
 
-        if (sliding)
+        UpdateSkidColliderFromSprite();
+    }
+
+    private void UpdateSkidColliderFromSprite()
+    {
+        if (playerSpriteRenderer == null ||
+            playerSpriteRenderer.sprite == null)
+            return;
+
+        Sprite sprite = playerSpriteRenderer.sprite;
+        Vector2[] vertices = sprite.vertices;
+
+        if (vertices == null || vertices.Length == 0)
+            return;
+
+        Vector2 min = vertices[0];
+        Vector2 max = vertices[0];
+
+        foreach (Vector2 vertex in vertices)
         {
-            capsuleCollider.size = skidColliderSize;
-            capsuleCollider.offset = skidColliderOffset;
+            min = Vector2.Min(min, vertex);
+            max = Vector2.Max(max, vertex);
         }
-        else
-        {
-            capsuleCollider.size = standingColliderSize;
-            capsuleCollider.offset = standingColliderOffset;
-        }
+
+        Vector2 spriteSize = max - min;
+        Vector2 spriteCenter = (min + max) * 0.5f;
+
+        float width = Mathf.Max(
+            0.1f,
+            spriteSize.x * skidWidthMultiplier
+        );
+
+        float height = Mathf.Max(
+            0.1f,
+            spriteSize.y * skidHeightMultiplier
+        );
+
+        capsuleCollider.direction = CapsuleDirection2D.Horizontal;
+
+        capsuleCollider.size = new Vector2(
+            Mathf.Max(width, height),
+            Mathf.Min(width, height)
+        );
+
+        capsuleCollider.offset = spriteCenter;
     }
 
     private void SetHorizontalVelocity(float velocityX)
