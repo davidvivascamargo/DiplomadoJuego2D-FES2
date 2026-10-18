@@ -5455,13 +5455,12 @@ GameObject:
   - component: {fileID: 253627592}
   - component: {fileID: 253627593}
   - component: {fileID: 253627596}
+  - component: {fileID: 253627604}
   - component: {fileID: 253627595}
   - component: {fileID: 253627594}
   - component: {fileID: 253627597}
   - component: {fileID: 253627599}
   - component: {fileID: 253627600}
-  - component: {fileID: 253627602}
-  - component: {fileID: 253627601}
   - component: {fileID: 253627603}
   m_Layer: 6
   m_Name: Player
@@ -5744,32 +5743,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
   maxSlots: 100
---- !u!114 &253627601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253627589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ff129b1d8c46324caa54bdf54fec37a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
-  maxSlots: 100
---- !u!114 &253627602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253627589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ff129b1d8c46324caa54bdf54fec37a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
-  maxSlots: 100
 --- !u!114 &253627603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5782,6 +5755,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 308bec1be52b5d44984865b7ce8eb898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CinematicActorAnimator
+--- !u!114 &253627604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c37960b6f6049f64fab5eedbc418b77c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 8192
 --- !u!1 &265285787
 GameObject:
   m_ObjectHideFlags: 0
@@ -415497,7 +415485,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.00000017881393, y: -0.4970975}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5013536, y: 0.3990701}
@@ -415507,7 +415495,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.7464904, y: 1.6006753}
+  m_Size: {x: 2.5, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &985866421
 SpriteRenderer:
