@@ -8,8 +8,17 @@ public class PlayerInteraction : MonoBehaviour
     [Header("Interaction Settings")]
     [SerializeField] private LayerMask interactableLayer;
 
+    [Header("Dialogue References")]
+    [SerializeField] private DialogueManager dialogueManager;
+
     private IInteractable currentInteractable;
     private Collider2D currentInteractableCollider;
+
+    private void Awake()
+    {
+        if (dialogueManager == null)
+            dialogueManager = FindFirstObjectByType<DialogueManager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -42,10 +51,25 @@ public class PlayerInteraction : MonoBehaviour
         if (!value.isPressed)
             return;
 
+        // During a cinematic, E advances the dialogue.
+        if (CinematicManager.Instance != null &&
+            CinematicManager.Instance.IsCinematic)
+        {
+            if (dialogueManager != null &&
+                dialogueManager.IsCinematicDialogueOpen)
+            {
+                dialogueManager.ContinueCinematicDialogue();
+            }
+
+            return;
+        }
+
+        // Do not interact while the game is paused.
         if (CinematicManager.Instance != null &&
             !CinematicManager.Instance.IsPlaying)
             return;
 
+        // Normal gameplay interaction.
         currentInteractable?.Interact(gameObject);
     }
 }

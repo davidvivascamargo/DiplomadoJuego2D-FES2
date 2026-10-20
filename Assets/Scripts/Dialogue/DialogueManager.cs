@@ -3,35 +3,40 @@ using System;
 using UnityEngine;
 
 /// <summary>
-/// Manages dialogue visibility and game pause state.
+/// Manages standard confirmation dialogues and cinematic conversations.
 /// </summary>
 public class DialogueManager : MonoBehaviour
 {
-    [Header("References")]
+    [Header("Standard Dialogue References")]
     [SerializeField] private DialogueUI dialogueUI;
     [SerializeField] private PauseManager pauseManager;
+
+    [Header("Cinematic Dialogue References")]
+    [SerializeField] private CinematicDialogueUI cinematicDialogueUI;
 
     private bool _isDialogueOpen;
     private bool _pausedByDialogue;
 
     public bool IsDialogueOpen => _isDialogueOpen;
 
+    public bool IsCinematicDialogueOpen =>
+        cinematicDialogueUI != null &&
+        cinematicDialogueUI.IsOpen;
+
     /// <summary>
-    /// Opens a confirmation dialogue and pauses gameplay.
+    /// Opens a standard confirmation dialogue and pauses gameplay
+    /// only when the game is not already paused.
     /// </summary>
     public void ShowConfirmation(
         string title,
         string message,
         Action onConfirm = null)
     {
-        if (_isDialogueOpen || dialogueUI == null)
-        {
+        if (_isDialogueOpen || IsCinematicDialogueOpen || dialogueUI == null)
             return;
-        }
 
         _isDialogueOpen = true;
 
-        // Remember whether the game was already paused.
         _pausedByDialogue = Time.timeScale > 0f;
 
         if (_pausedByDialogue)
@@ -59,16 +64,15 @@ public class DialogueManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Closes the dialogue and restores gameplay when appropriate.
+    /// Closes a standard confirmation dialogue.
     /// </summary>
     public void CloseDialogue()
     {
         if (!_isDialogueOpen)
-        {
             return;
-        }
 
-        dialogueUI.HideDialogue();
+        dialogueUI?.HideDialogue();
+
         _isDialogueOpen = false;
 
         if (_pausedByDialogue)
@@ -84,5 +88,112 @@ public class DialogueManager : MonoBehaviour
         }
 
         _pausedByDialogue = false;
+    }
+
+    /// <summary>
+    /// Displays a cinematic dialogue message.
+    /// CinematicManager is responsible for pausing gameplay.
+    /// </summary>
+    public void ShowCinematicMessage(
+        string speaker,
+        string message,
+        Action onContinue)
+    {
+        if (cinematicDialogueUI == null)
+        {
+            Debug.LogWarning(
+                "[DialogueManager] CinematicDialogueUI is not assigned."
+            );
+            return;
+        }
+
+        if (_isDialogueOpen)
+        {
+            Debug.LogWarning(
+                "[DialogueManager] Cannot open cinematic dialogue while a confirmation is active."
+            );
+            return;
+        }
+
+        if (CinematicManager.Instance == null ||
+            !CinematicManager.Instance.IsCinematic)
+        {
+            Debug.LogWarning(
+                "[DialogueManager] Cinematic dialogue requires an active cinematic."
+            );
+            return;
+        }
+
+        cinematicDialogueUI.ShowMessage(
+            speaker,
+            message,
+            onContinue
+        );
+    }
+
+    /// <summary>
+    /// Displays a cinematic dialogue with Yes/No choices.
+    /// CinematicManager remains responsible for pausing gameplay.
+    /// </summary>
+    public void ShowCinematicDecision(
+        string speaker,
+        string message,
+        Action onYes,
+        Action onNo)
+    {
+        if (cinematicDialogueUI == null)
+        {
+            Debug.LogWarning(
+                "[DialogueManager] CinematicDialogueUI is not assigned."
+            );
+            return;
+        }
+
+        if (_isDialogueOpen)
+        {
+            Debug.LogWarning(
+                "[DialogueManager] Cannot show a cinematic decision while a confirmation is active."
+            );
+            return;
+        }
+
+        if (CinematicManager.Instance == null ||
+            !CinematicManager.Instance.IsCinematic)
+        {
+            Debug.LogWarning(
+                "[DialogueManager] Cinematic decisions require an active cinematic."
+            );
+            return;
+        }
+
+        cinematicDialogueUI.ShowDecision(
+            speaker,
+            message,
+            onYes,
+            onNo
+        );
+    }
+
+    /// <summary>
+    /// Completes the typewriter effect or advances
+    /// to the next cinematic message.
+    /// </summary>
+    public void ContinueCinematicDialogue()
+    {
+        if (!IsCinematicDialogueOpen)
+            return;
+
+        cinematicDialogueUI.Continue();
+    }
+
+    /// <summary>
+    /// Closes the cinematic dialogue without resuming gameplay.
+    /// </summary>
+    public void CloseCinematicDialogue()
+    {
+        if (!IsCinematicDialogueOpen)
+            return;
+
+        cinematicDialogueUI.Hide();
     }
 }

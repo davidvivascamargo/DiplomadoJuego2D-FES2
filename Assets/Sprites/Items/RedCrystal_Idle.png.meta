@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: ea8920ca171592143ad7e43e4b0c1115
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8894741607482100823
+    second: RedCrystal_Idle_0
+  - first:
+      213: 2931023036975215052
+    second: RedCrystal_Idle_1
+  - first:
+      213: 3952192561753304126
+    second: RedCrystal_Idle_2
+  - first:
+      213: -7866268371604459063
+    second: RedCrystal_Idle_3
+  - first:
+      213: 3159584126025185795
+    second: RedCrystal_Idle_4
+  - first:
+      213: -9176762903320206080
+    second: RedCrystal_Idle_5
+  - first:
+      213: 6650480233370995764
+    second: RedCrystal_Idle_6
+  - first:
+      213: 7105035800016951746
+    second: RedCrystal_Idle_7
+  - first:
+      213: -2992367759670341655
+    second: RedCrystal_Idle_8
+  - first:
+      213: 4790180515319441130
+    second: RedCrystal_Idle_9
+  - first:
+      213: 3487296829194409103
+    second: RedCrystal_Idle_10
+  - first:
+      213: -3412838329804809193
+    second: RedCrystal_Idle_11
+  - first:
+      213: 3121836433803887460
+    second: RedCrystal_Idle_12
+  - first:
+      213: -4692924253508307569
+    second: RedCrystal_Idle_13
+  - first:
+      213: -4505879477943952572
+    second: RedCrystal_Idle_14
+  - first:
+      213: 452602951356387577
+    second: RedCrystal_Idle_15
+  - first:
+      213: -1210720704389636935
+    second: RedCrystal_Idle_16
+  - first:
+      213: 6206048363054772562
+    second: RedCrystal_Idle_17
+  - first:
+      213: 8229346723281057
+    second: RedCrystal_Idle_18
+  - first:
+      213: -2868342221850381513
+    second: RedCrystal_Idle_19
+  - first:
+      213: -2884837432333251129
+    second: RedCrystal_Idle_20
+  - first:
+      213: 250580059621106196
+    second: RedCrystal_Idle_21
+  - first:
+      213: -7708156551909470067
+    second: RedCrystal_Idle_22
+  - first:
+      213: 5534047326587239752
+    second: RedCrystal_Idle_23
+  - first:
+      213: 5084357507759825626
+    second: RedCrystal_Idle_24
+  - first:
+      213: 7042971836435660513
+    second: RedCrystal_Idle_25
+  - first:
+      213: 2585441740534647542
+    second: RedCrystal_Idle_26
+  - first:
+      213: 7930191830412991682
+    second: RedCrystal_Idle_27
+  - first:
+      213: -6309813909430763790
+    second: RedCrystal_Idle_28
+  - first:
+      213: 7734183785144450828
+    second: RedCrystal_Idle_29
+  - first:
+      213: -8622407178871666279
+    second: RedCrystal_Idle_30
+  - first:
+      213: 7519272068184501196
+    second: RedCrystal_Idle_31
+  - first:
+      213: -1393576944976486845
+    second: RedCrystal_Idle_32
+  - first:
+      213: -1884900939215697617
+    second: RedCrystal_Idle_33
+  - first:
+      213: -3998465729823806835
+    second: RedCrystal_Idle_34
+  - first:
+      213: 3388513795163584618
+    second: RedCrystal_Idle_35
+  - first:
+      213: -7764710564255187975
+    second: RedCrystal_Idle_36
+  - first:
+      213: 8647410720597837761
+    second: RedCrystal_Idle_37
+  - first:
+      213: -2474484195005069852
+    second: RedCrystal_Idle_38
+  - first:
+      213: -5537825884136113788
+    second: RedCrystal_Idle_39
+  - first:
+      213: -4793335974502743851
+    second: RedCrystal_Idle_40
+  - first:
+      213: -3994035945410903949
+    second: RedCrystal_Idle_41
+  - first:
+      213: -742612723721808617
+    second: RedCrystal_Idle_42
+  - first:
+      213: -8763432133090253292
+    second: RedCrystal_Idle_43
+  - first:
+      213: -1135340348861637322
+    second: RedCrystal_Idle_44
+  - first:
+      213: 2307592346166548905
+    second: RedCrystal_Idle_45
+  - first:
+      213: 3895587936467900651
+    second: RedCrystal_Idle_46
+  - first:
+      213: 6743146582301243506
+    second: RedCrystal_Idle_47
+  - first:
+      213: -2575731918907844185
+    second: RedCrystal_Idle_48
+  - first:
+      213: -2166924007627692921
+    second: RedCrystal_Idle_49
+  - first:
+      213: 1947059215844449213
+    second: RedCrystal_Idle_50
+  - first:
+      213: -2197511590341683231
+    second: RedCrystal_Idle_51
+  - first:
+      213: 5023452130177017750
+    second: RedCrystal_Idle_52
+  - first:
+      213: -97157932511816729
+    second: RedCrystal_Idle_53
+  - first:
+      213: -356967289732356045
+    second: RedCrystal_Idle_54
+  - first:
+      213: -3695973091862966344
+    second: RedCrystal_Idle_55
+  - first:
+      213: -6960472436293249656
+    second: RedCrystal_Idle_56
+  - first:
+      213: -5472899651545776798
+    second: RedCrystal_Idle_57
+  - first:
+      213: 1948570768172227953
+    second: RedCrystal_Idle_58
+  - first:
+      213: -8185729633450444992
+    second: RedCrystal_Idle_59
+  - first:
+      213: -569410470975471121
+    second: RedCrystal_Idle_60
+  - first:
+      213: 2446058581928640269
+    second: RedCrystal_Idle_61
+  - first:
+      213: 4877283094717610990
+    second: RedCrystal_Idle_62
+  - first:
+      213: 66845271015741125
+    second: RedCrystal_Idle_63
+  - first:
+      213: 4211357953842010994
+    second: RedCrystal_Idle_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedCrystal_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.49521887, y: 0.2135773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3742562a78f8480800000000000000
+      internalID: -8894741607482100823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.49521887, y: 0.2015429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1f4634ce51da820800000000000000
+      internalID: 2931023036975215052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5095617, y: 0.22079824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c2f3ff13209d630800000000000000
+      internalID: 3952192561753304126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5382477, y: 0.16062547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c130a2e79665d290800000000000000
+      internalID: -7866268371604459063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.47131348, y: 0.19913599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ab1bdb50919db20800000000000000
+      internalID: 3159584126025185795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.49043745, y: 0.21839133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005ed9f82c695a080800000000000000
+      internalID: -9176762903320206080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.53346616, y: 0.21839133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cc5d759804b4c50800000000000000
+      internalID: 6650480233370995764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 235
+        width: 220
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5143421, y: 0.21357751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c991708a682a9260800000000000000
+      internalID: 7105035800016951746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f929ea8af114b6b4fb97f9632d20f43a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":220.0,"y":437.0},"gridSpriteOffset":{"x":6.0,"y":215.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RedCrystal_Idle_0: -8894741607482100823
+      RedCrystal_Idle_1: 2931023036975215052
+      RedCrystal_Idle_2: 3952192561753304126
+      RedCrystal_Idle_3: -7866268371604459063
+      RedCrystal_Idle_4: 3159584126025185795
+      RedCrystal_Idle_5: -9176762903320206080
+      RedCrystal_Idle_6: 6650480233370995764
+      RedCrystal_Idle_7: 7105035800016951746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
