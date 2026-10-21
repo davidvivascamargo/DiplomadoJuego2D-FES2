@@ -88,7 +88,7 @@ public class ChestEventController : MonoBehaviour
 
         dialogueManager.ShowCinematicDecision(
             "Chica misteriosa",
-            "Dentro de este cofre hay algo que podria ayudarte. ¿Quieres que lo abra?",
+            "Dentro de este cofre hay algo que podría ayudarte. ¿Quieres que lo abra?",
             OnAcceptChest,
             OnDeclineChest
         );
@@ -114,14 +114,11 @@ public class ChestEventController : MonoBehaviour
             );
         }
 
-        // Start the crystal appearance sequence.
         StartCoroutine(ShowCrystalSequence());
     }
 
     private IEnumerator ShowCrystalSequence()
     {
-        // Wait while the chest begins opening.
-        // Realtime waiting works during cinematic pauses.
         yield return new WaitForSecondsRealtime(
             crystalAppearanceDelay
         );
@@ -129,12 +126,13 @@ public class ChestEventController : MonoBehaviour
         if (!eventInProgress || !chestOpened)
             yield break;
 
-        // Activate the crystal and start its rising animation.
         if (crystalController != null)
         {
             crystalController.Appear();
 
-            Debug.Log("[ChestEvent] Crystal appearance started.");
+            Debug.Log(
+                "[ChestEvent] Crystal appearance started."
+            );
         }
         else
         {
@@ -143,7 +141,6 @@ public class ChestEventController : MonoBehaviour
             );
         }
 
-        // Continue the conversation while the crystal rises.
         dialogueManager.ShowCinematicMessage(
             "Chica misteriosa",
             "Este cristal ha permanecido dormido durante mucho tiempo...",
@@ -158,11 +155,69 @@ public class ChestEventController : MonoBehaviour
 
         dialogueManager.ShowCinematicMessage(
             "Chica misteriosa",
-            "Observa con atención...",
+            "Este cristal contiene un poder capaz de ayudarte a enfrentar tus pesadillas.",
+            OnPowerExplanationFinished
+        );
+    }
+
+    private void OnPowerExplanationFinished()
+    {
+        if (!eventInProgress || !chestOpened)
+            return;
+
+        dialogueManager.ShowCinematicDecision(
+            "Chica misteriosa",
+            "¿Deseas aceptar el poder de este cristal?",
+            OnAcceptPower,
+            OnDeclinePower
+        );
+    }
+
+
+    private void OnAcceptPower()
+    {
+        if (!eventInProgress || !chestOpened)
+            return;
+
+        Debug.Log("[ChestEvent] Player accepted the crystal power.");
+
+        dialogueManager.ShowCinematicMessage(
+            "Chica misteriosa",
+            "Entonces, permite que este poder tome una nueva forma...",
             null
         );
 
-        Debug.Log("[ChestEvent] Waiting for the next crystal sequence.");
+        if (crystalController != null)
+        {
+            crystalController.TransformToSword();
+        }
+        else
+        {
+            Debug.LogWarning(
+                "[ChestEvent] CrystalAnimationController is not assigned."
+            );
+        }
+    }
+
+
+    private void OnDeclinePower()
+    {
+        if (!eventInProgress || !chestOpened)
+            return;
+
+        Debug.Log(
+            "[ChestEvent] Player declined the crystal power."
+        );
+
+        dialogueManager.ShowCinematicMessage(
+            "Chica misteriosa",
+            "Entiendo... No tienes que tomar esta decisión todavía.",
+            null
+        );
+
+        // TODO: Reset the crystal and chest.
+        // TODO: Hide the mysterious girl.
+        // TODO: Finish the cinematic.
     }
 
     private void OnDeclineChest()
@@ -170,13 +225,17 @@ public class ChestEventController : MonoBehaviour
         if (!eventInProgress)
             return;
 
-        Debug.Log("[ChestEvent] Player declined opening the chest.");
+        Debug.Log(
+            "[ChestEvent] Player declined opening the chest."
+        );
 
         CancelEvent();
     }
 
     public void CancelEvent()
     {
+        // The current reset only supports cancellation
+        // before the chest has been opened.
         if (!eventInProgress || chestOpened)
             return;
 

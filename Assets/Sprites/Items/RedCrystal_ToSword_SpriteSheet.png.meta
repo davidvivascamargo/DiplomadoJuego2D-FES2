@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 9912967e766f283448a0b974b2d0b162
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6271199598719444659
+    second: RedCrystal_ToSword_SpriteSheet_0
+  - first:
+      213: 645251639348368856
+    second: RedCrystal_ToSword_SpriteSheet_1
+  - first:
+      213: -4559981495436909809
+    second: RedCrystal_ToSword_SpriteSheet_2
+  - first:
+      213: -4495798120380237513
+    second: RedCrystal_ToSword_SpriteSheet_3
+  - first:
+      213: 9138017744470913500
+    second: RedCrystal_ToSword_SpriteSheet_4
+  - first:
+      213: -3156961390152962006
+    second: RedCrystal_ToSword_SpriteSheet_5
+  - first:
+      213: 6697357789471281644
+    second: RedCrystal_ToSword_SpriteSheet_6
+  - first:
+      213: 4840879799113677201
+    second: RedCrystal_ToSword_SpriteSheet_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 42
+        width: 197
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4951c2f03938f8a0800000000000000
+      internalID: -6271199598719444659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 42
+        width: 199
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5191282f464f800800000000000000
+      internalID: 645251639348368856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 42
+        width: 201
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03e02e5df0b7b0c0800000000000000
+      internalID: -4559981495436909809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 42
+        width: 195
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739fdd4ed67bb91c0800000000000000
+      internalID: -4495798120380237513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 42
+        width: 187
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1b76a29b2c0de70800000000000000
+      internalID: 9138017744470913500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 42
+        width: 177
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a203f4a87583034d0800000000000000
+      internalID: -3156961390152962006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 42
+        width: 199
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce19127ec6bc1fc50800000000000000
+      internalID: 6697357789471281644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 42
+        width: 205
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199f88a77824e2340800000000000000
+      internalID: 4840879799113677201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 42
+        width: 208
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0d1d90aa744ce4382d742de93ef5c9
+      internalID: -1655710064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_ToSword_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 42
+        width: 215
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eefa3985628824e970ed91f4ce720b
+      internalID: -413460035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c9e73fad8457ded47807c0f2ace53994
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":214.0,"y":652.0},"gridSpriteOffset":{"x":16.0,"y":30.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RedCrystal_ToSword_SpriteSheet_0: -6271199598719444659
+      RedCrystal_ToSword_SpriteSheet_1: 645251639348368856
+      RedCrystal_ToSword_SpriteSheet_2: -4559981495436909809
+      RedCrystal_ToSword_SpriteSheet_3: -4495798120380237513
+      RedCrystal_ToSword_SpriteSheet_4: 9138017744470913500
+      RedCrystal_ToSword_SpriteSheet_5: -3156961390152962006
+      RedCrystal_ToSword_SpriteSheet_6: 6697357789471281644
+      RedCrystal_ToSword_SpriteSheet_7: 4840879799113677201
+      RedCrystal_ToSword_SpriteSheet_8: -1655710064
+      RedCrystal_ToSword_SpriteSheet_9: -413460035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CinematicDialogueUI : MonoBehaviour
 {
@@ -162,6 +163,7 @@ public class CinematicDialogueUI : MonoBehaviour
         FinishTyping();
     }
 
+
     public void SelectYes()
     {
         if (!IsDecisionActive)
@@ -169,6 +171,10 @@ public class CinematicDialogueUI : MonoBehaviour
 
         Action callback = onYes;
         decisionReady = false;
+
+        // Remove the selected button focus.
+        if (EventSystem.current != null)
+            EventSystem.current.SetSelectedGameObject(null);
 
         callback?.Invoke();
     }
@@ -181,8 +187,13 @@ public class CinematicDialogueUI : MonoBehaviour
         Action callback = onNo;
         decisionReady = false;
 
+        // Remove the selected button focus.
+        if (EventSystem.current != null)
+            EventSystem.current.SetSelectedGameObject(null);
+
         callback?.Invoke();
     }
+
 
     public void Hide()
     {
