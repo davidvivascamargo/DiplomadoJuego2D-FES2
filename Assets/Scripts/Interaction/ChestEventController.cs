@@ -21,9 +21,18 @@ public class ChestEventController : MonoBehaviour
     [SerializeField, Min(0f)]
     private float crystalAppearanceDelay = 1f;
 
+    [Header("Sword Delivery")]
+    [SerializeField, Min(0f)]
+    private float swordDeliveryTimeout = 10f;
+
     private bool eventInProgress;
     private bool eventCompleted;
     private bool chestOpened;
+    private bool powerAccepted;
+    private bool waitingForSword;
+
+    private Coroutine crystalSequenceCoroutine;
+    private Coroutine swordSequenceCoroutine;
 
     public bool IsCompleted => eventCompleted;
 
@@ -57,6 +66,8 @@ public class ChestEventController : MonoBehaviour
 
         eventInProgress = true;
         chestOpened = false;
+        powerAccepted = false;
+        waitingForSword = false;
 
         mysteriousGirl?.Appear();
 
@@ -101,7 +112,9 @@ public class ChestEventController : MonoBehaviour
 
         chestOpened = true;
 
-        Debug.Log("[ChestEvent] Player accepted opening the chest.");
+        Debug.Log(
+            "[ChestEvent] Player accepted opening the chest."
+        );
 
         if (chestAnimator != null)
         {
@@ -114,7 +127,8 @@ public class ChestEventController : MonoBehaviour
             );
         }
 
-        StartCoroutine(ShowCrystalSequence());
+        crystalSequenceCoroutine =
+            StartCoroutine(ShowCrystalSequence());
     }
 
     private IEnumerator ShowCrystalSequence()
@@ -146,6 +160,8 @@ public class ChestEventController : MonoBehaviour
             "Este cristal ha permanecido dormido durante mucho tiempo...",
             OnCrystalDialogueFinished
         );
+
+        crystalSequenceCoroutine = null;
     }
 
     private void OnCrystalDialogueFinished()
@@ -173,36 +189,143 @@ public class ChestEventController : MonoBehaviour
         );
     }
 
-
     private void OnAcceptPower()
     {
-        if (!eventInProgress || !chestOpened)
+        if (!eventInProgress ||
+            !chestOpened ||
+            powerAccepted)
             return;
 
-        Debug.Log("[ChestEvent] Player accepted the crystal power.");
-
-        dialogueManager.ShowCinematicMessage(
-            "Chica misteriosa",
-            "Entonces, permite que este poder tome una nueva forma...",
-            null
-        );
-
-        if (crystalController != null)
-        {
-            crystalController.TransformToSword();
-        }
-        else
+        if (crystalController == null)
         {
             Debug.LogWarning(
                 "[ChestEvent] CrystalAnimationController is not assigned."
             );
+            return;
         }
+
+        powerAccepted = true;
+
+        Debug.Log(
+            "[ChestEvent] Player accepted the crystal power."
+        );
+
+        dialogueManager.ShowCinematicMessage(
+            "Chica misteriosa",
+            "Entonces, permite que este poder tome una nueva forma...",
+            OnTransformationDialogueFinished
+        );
+
+        crystalController.TransformToSword();
     }
 
+    private void OnTransformationDialogueFinished()
+    {
+        if (!eventInProgress || !powerAccepted)
+            return;
+
+        waitingForSword = true;
+
+        dialogueManager.ShowCinematicMessage(
+            "Chica misteriosa",
+            "El poder del cristal ahora te pertenece...",
+            OnFinalDialogueFinished
+        );
+
+        Debug.Log(
+            "[ChestEvent] Waiting for sword delivery."
+        );
+    }
+
+    private void OnFinalDialogueFinished()
+    {
+        if (!eventInProgress || !powerAccepted)
+            return;
+
+        if (swordSequenceCoroutine != null)
+            return;
+
+        swordSequenceCoroutine =
+            StartCoroutine(WaitForSwordAndFinish());
+    }
+
+    private IEnumerator WaitForSwordAndFinish()
+    {
+        // The crystal handles the transformation,
+        // flight and sword unlock independently.
+        // Wait briefly for the delivery to finish.
+
+        PlayerSword playerSword = null;
+
+        if (crystalController != null)
+        {
+            playerSword =
+                FindFirstObjectByType<PlayerSword>();
+        }
+
+        if (playerSword == null)
+        {
+            Debug.LogWarning(
+                "[ChestEvent] PlayerSword component not found."
+            );
+
+            swordSequenceCoroutine = null;
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        while (!playerSword.HasSword &&
+               elapsed < swordDeliveryTimeout)
+        {
+            if (!eventInProgress)
+            {
+                swordSequenceCoroutine = null;
+                yield break;
+            }
+
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        swordSequenceCoroutine = null;
+
+        if (!playerSword.HasSword)
+        {
+            Debug.LogWarning(
+                "[ChestEvent] Sword delivery timed out."
+            );
+            yield break;
+        }
+
+        CompleteEvent();
+    }
+
+    private void CompleteEvent()
+    {
+        if (!eventInProgress || eventCompleted)
+            return;
+
+        eventCompleted = true;
+        eventInProgress = false;
+        waitingForSword = false;
+
+        dialogueManager?.CloseCinematicDialogue();
+
+        mysteriousGirl?.Disappear();
+
+        CinematicManager.Instance?.EndCinematic();
+
+        Debug.Log(
+            "[ChestEvent] Event completed. Sword unlocked."
+        );
+    }
 
     private void OnDeclinePower()
     {
-        if (!eventInProgress || !chestOpened)
+        if (!eventInProgress ||
+            !chestOpened ||
+            powerAccepted)
             return;
 
         Debug.Log(
@@ -212,12 +335,17 @@ public class ChestEventController : MonoBehaviour
         dialogueManager.ShowCinematicMessage(
             "Chica misteriosa",
             "Entiendo... No tienes que tomar esta decisión todavía.",
-            null
+            OnDeclinePowerDialogueFinished
         );
+    }
 
-        // TODO: Reset the crystal and chest.
-        // TODO: Hide the mysterious girl.
-        // TODO: Finish the cinematic.
+    private void OnDeclinePowerDialogueFinished()
+    {
+        // Reset after opening the chest will be
+        // implemented separately.
+        Debug.LogWarning(
+            "[ChestEvent] Chest reset after declining power is pending."
+        );
     }
 
     private void OnDeclineChest()
@@ -234,16 +362,28 @@ public class ChestEventController : MonoBehaviour
 
     public void CancelEvent()
     {
-        // The current reset only supports cancellation
-        // before the chest has been opened.
         if (!eventInProgress || chestOpened)
             return;
+
+        if (crystalSequenceCoroutine != null)
+        {
+            StopCoroutine(crystalSequenceCoroutine);
+            crystalSequenceCoroutine = null;
+        }
+
+        if (swordSequenceCoroutine != null)
+        {
+            StopCoroutine(swordSequenceCoroutine);
+            swordSequenceCoroutine = null;
+        }
 
         dialogueManager?.CloseCinematicDialogue();
 
         mysteriousGirl?.Disappear();
 
         eventInProgress = false;
+        powerAccepted = false;
+        waitingForSword = false;
 
         CinematicManager.Instance?.EndCinematic();
 

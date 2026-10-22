@@ -141,6 +141,16 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""initialStateCheck"": false,
                     ""priority"": 0
+                },
+                {
+                    ""name"": ""SwordAttack"",
+                    ""type"": ""Button"",
+                    ""id"": ""044e784b-b8f5-4087-ad0f-3f933bc3fd96"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false,
+                    ""priority"": 0
                 }
             ],
             ""bindings"": [
@@ -319,6 +329,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f73a8305-c612-43c8-a8da-29e8bb29bdbe"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwordAttack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -425,6 +446,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Skid = m_Player.FindAction("Skid", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
+        m_Player_SwordAttack = m_Player.FindAction("SwordAttack", throwIfNotFound: true);
         // LevelMap
         m_LevelMap = asset.FindActionMap("LevelMap", throwIfNotFound: true);
         m_LevelMap_NextNode = m_LevelMap.FindAction("NextNode", throwIfNotFound: true);
@@ -516,6 +538,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Skid;
     private readonly InputAction m_Player_Interact;
+    private readonly InputAction m_Player_SwordAttack;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -547,6 +570,10 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Interact".
         /// </summary>
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/SwordAttack".
+        /// </summary>
+        public InputAction @SwordAttack => m_Wrapper.m_Player_SwordAttack;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -588,6 +615,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
+            @SwordAttack.started += instance.OnSwordAttack;
+            @SwordAttack.performed += instance.OnSwordAttack;
+            @SwordAttack.canceled += instance.OnSwordAttack;
         }
 
         /// <summary>
@@ -614,6 +644,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
+            @SwordAttack.started -= instance.OnSwordAttack;
+            @SwordAttack.performed -= instance.OnSwordAttack;
+            @SwordAttack.canceled -= instance.OnSwordAttack;
         }
 
         /// <summary>
@@ -807,6 +840,13 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnInteract(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "SwordAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSwordAttack(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "LevelMap" which allows adding and removing callbacks.

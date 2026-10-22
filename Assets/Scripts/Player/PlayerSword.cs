@@ -1,10 +1,15 @@
 
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerSword : MonoBehaviour
 {
     [Header("Sword")]
     [SerializeField] private GameObject swordVisual;
+
+    [Header("Attack")]
+    [SerializeField] private Animator playerAnimator;
+    [SerializeField] private string attackTrigger = "SwordAttack";
 
     private bool hasSword;
 
@@ -13,6 +18,9 @@ public class PlayerSword : MonoBehaviour
     private void Awake()
     {
         hasSword = false;
+
+        if (playerAnimator == null)
+            playerAnimator = GetComponent<Animator>();
 
         if (swordVisual != null)
             swordVisual.SetActive(false);
@@ -31,8 +39,12 @@ public class PlayerSword : MonoBehaviour
             swordVisual.SetActive(true);
     }
 
-    public void OnSwordAttack()
+    // Called by PlayerInput using Send Messages.
+    public void OnSwordAttack(InputValue value)
     {
+        if (!value.isPressed)
+            return;
+
         if (!hasSword)
         {
             Debug.Log("[PlayerSword] Sword not unlocked yet.");
@@ -45,7 +57,7 @@ public class PlayerSword : MonoBehaviour
 
         Debug.Log("[PlayerSword] Sword attack executed.");
 
-        // Next: play the sword attack animation
-        // and apply damage to enemies.
+        if (playerAnimator != null)
+            playerAnimator.SetTrigger(attackTrigger);
     }
 }
