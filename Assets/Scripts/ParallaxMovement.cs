@@ -1,14 +1,18 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Controls horizontal parallax movement while keeping the complete
-/// background aligned with the camera vertically.
+/// Controls horizontal parallax movement and keeps the background
+/// vertically aligned with the camera.
 /// </summary>
 public class ParallaxMovement : MonoBehaviour
 {
     [Header("Camera")]
     [SerializeField] private Transform cameraTransform;
+
+    [Header("Vertical Alignment")]
+    [SerializeField] private float verticalOffset = 0f;
 
     [Header("Parallax Configuration")]
     [SerializeField]
@@ -24,8 +28,6 @@ public class ParallaxMovement : MonoBehaviour
     private readonly List<LayerData> _layers = new();
 
     private float _initialCameraX;
-    private float _initialCameraY;
-    private float _initialBackgroundY;
 
     private class LayerData
     {
@@ -52,19 +54,25 @@ public class ParallaxMovement : MonoBehaviour
 
         if (cameraTransform == null)
         {
-            Debug.LogError("[ParallaxMovement] Main Camera was not found.");
+            Debug.LogError(
+                "[ParallaxMovement] Main Camera was not found."
+            );
+
+            enabled = false;
             return;
         }
 
         _initialCameraX = cameraTransform.position.x;
-        _initialCameraY = cameraTransform.position.y;
-        _initialBackgroundY = transform.position.y;
+
+        // Align the background vertically at startup.
+        UpdateVerticalPosition();
 
         CreateLayerData();
     }
 
     /// <summary>
-    /// Creates the additional tiles required to keep each layer continuous.
+    /// Creates additional copies of each background layer
+    /// to allow horizontal repetition.
     /// </summary>
     private void CreateLayerData()
     {
@@ -79,12 +87,13 @@ public class ParallaxMovement : MonoBehaviour
                 continue;
             }
 
-            Renderer layerRenderer = layer.GetComponent<Renderer>();
+            Renderer layerRenderer =
+                layer.GetComponent<Renderer>();
 
             if (layerRenderer == null)
             {
                 Debug.LogWarning(
-                    $"[ParallaxMovement] Renderer not found on layer {layer.name}."
+                    $"[ParallaxMovement] Renderer not found on {layer.name}."
                 );
 
                 continue;
@@ -92,17 +101,30 @@ public class ParallaxMovement : MonoBehaviour
 
             float width = layerRenderer.bounds.size.x;
 
-            Transform leftTile = Instantiate(layer, transform);
-            Transform rightTile = Instantiate(layer, transform);
+            if (width <= 0f)
+            {
+                Debug.LogWarning(
+                    $"[ParallaxMovement] Invalid width on {layer.name}."
+                );
+
+                continue;
+            }
+
+            Transform leftTile =
+                Instantiate(layer, transform);
+
+            Transform rightTile =
+                Instantiate(layer, transform);
 
             leftTile.name = $"{layer.name}_Left";
             rightTile.name = $"{layer.name}_Right";
 
-            leftTile.position =
-                layer.position + Vector3.left * width;
+            // Keep all positions in local coordinates.
+            leftTile.localPosition =
+                layer.localPosition + Vector3.left * width;
 
-            rightTile.position =
-                layer.position + Vector3.right * width;
+            rightTile.localPosition =
+                layer.localPosition + Vector3.right * width;
 
             _layers.Add(new LayerData
             {
@@ -110,7 +132,7 @@ public class ParallaxMovement : MonoBehaviour
                 leftTile = leftTile,
                 rightTile = rightTile,
                 width = width,
-                initialX = layer.position.x,
+                initialX = layer.localPosition.x,
                 parallaxFactor = GetParallaxFactor(i)
             });
         }
@@ -123,19 +145,10 @@ public class ParallaxMovement : MonoBehaviour
             return;
         }
 
+        UpdateVerticalPosition();
+
         float cameraDeltaX =
             cameraTransform.position.x - _initialCameraX;
-
-        float cameraDeltaY =
-            cameraTransform.position.y - _initialCameraY;
-
-        // Keep the complete background aligned with the camera vertically.
-        Vector3 backgroundPosition = transform.position;
-
-        backgroundPosition.y =
-            _initialBackgroundY + cameraDeltaY;
-
-        transform.position = backgroundPosition;
 
         foreach (LayerData layer in _layers)
         {
@@ -163,23 +176,48 @@ public class ParallaxMovement : MonoBehaviour
     }
 
     /// <summary>
-    /// Updates only the horizontal position of a background tile.
-    /// Vertical movement is handled by the Background parent.
+    /// Keeps the background aligned with the camera vertically.
+    /// </summary>
+    private void UpdateVerticalPosition()
+    {
+        Vector3 backgroundPosition = transform.position;
+
+        backgroundPosition.y =
+            cameraTransform.position.y + verticalOffset;
+
+        transform.position = backgroundPosition;
+    }
+
+    /// <summary>
+    /// Updates the horizontal position of a background tile.
     /// </summary>
     private void SetTilePosition(
         Transform tile,
         float x)
     {
+        if (tile == null)
+        {
+            return;
+        }
+
         Vector3 position = tile.localPosition;
+
         position.x = x;
+
         tile.localPosition = position;
     }
 
     /// <summary>
-    /// Repositions tiles when they move outside the camera area.
+    /// Repositions background tiles when they move
+    /// outside the visible horizontal area.
     /// </summary>
     private void WrapTiles(LayerData layer)
     {
+        if (layer.width <= 0f)
+        {
+            return;
+        }
+
         float cameraX = cameraTransform.position.x;
 
         Transform[] tiles =
@@ -191,31 +229,41 @@ public class ParallaxMovement : MonoBehaviour
 
         foreach (Transform tile in tiles)
         {
+            if (tile == null)
+            {
+                continue;
+            }
+
             float worldX = tile.position.x;
 
             if (worldX + layer.width <
                 cameraX - layer.width)
             {
                 Vector3 position = tile.position;
+
                 position.x += layer.width * 3f;
+
                 tile.position = position;
             }
             else if (worldX - layer.width >
                      cameraX + layer.width)
             {
                 Vector3 position = tile.position;
+
                 position.x -= layer.width * 3f;
+
                 tile.position = position;
             }
         }
     }
 
     /// <summary>
-    /// Returns the configured parallax factor for a layer.
+    /// Returns the parallax factor assigned to a layer.
     /// </summary>
     private float GetParallaxFactor(int index)
     {
-        if (index < parallaxFactors.Length)
+        if (parallaxFactors != null &&
+            index < parallaxFactors.Length)
         {
             return parallaxFactors[index];
         }

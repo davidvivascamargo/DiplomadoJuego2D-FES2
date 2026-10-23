@@ -1,0 +1,1502 @@
+fileFormatVersion: 2
+guid: c71cfb716d062fe48b05cf52daa112dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7554570785311486641
+    second: "Hoja de tiles de terreno des\xE9rtico retro_0"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_0"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 881
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2f8097a1a37d860800000000000000
+      internalID: 7554570785311486641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_1"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 881
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105ade5a2e6b37844b1904aa4bdce334
+      internalID: 1805294239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_2"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 881
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ccf5fb8b012e5408fe0e08d5a76bcc
+      internalID: 322994397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_3"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 881
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2880881da770f4084b60166b5ee768
+      internalID: 1408036279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_4"
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 881
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d61ad51afe5e14e97bc2cb252e73cb
+      internalID: 930922560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_5"
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 881
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f086d0309580ef646bb076bcd9b3c6ac
+      internalID: 695116297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_6"
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 881
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f0d2ccff9a46b409086f1275357c02
+      internalID: -555173264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_7"
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 881
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb7b037b21caac4b9a3842bd8555162
+      internalID: 1885012236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_8"
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 881
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986d5eb4f1ba4384faa7739a8cdcfa50
+      internalID: 206731553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_9"
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 881
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641e60dd6c397224784c4b032e2af2d7
+      internalID: -1249043711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_10"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 730
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ea6df1dfe953848b36f794c05268a0
+      internalID: -43506947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_11"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 730
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b34b8f7bce33146a16883f9ed2438a
+      internalID: -1871503935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_12"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 730
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96596ef157e30e649b1579222e01d354
+      internalID: 2116619687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_13"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 730
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3527290e2fba30f47be8e22e4128fe02
+      internalID: -475760086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_14"
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 730
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7801106e047de043a8d411aa6c8e6de
+      internalID: 1359700012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_15"
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 730
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f422ebff7c91f44e984ce1786f360d6
+      internalID: 1405578484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_16"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 730
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f16bbf00eb08f45836a1d9bba6bb48
+      internalID: -1622323545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_17"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 730
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d856939a7ef503b47add85c01c0f093d
+      internalID: -98325924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_18"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 730
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7bf2f855bee574780b5d1cab8187af
+      internalID: 779473959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_19"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 730
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc8c1ae882876f46b1baffdf603af17
+      internalID: -1686297945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_20"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfd36576ac45a042a47f924cf8da4f3
+      internalID: 1469862880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_21"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c1b58a18af13d40b54896e04dec26f
+      internalID: 856846413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_22"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4365c1019e7e4c87fb352b2f5f046
+      internalID: 2120306962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_23"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8ba1e9cc902441a3f59f7425a3951
+      internalID: -31200234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_24"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d69ef7fe7034904189241f3b30330a3
+      internalID: 474141676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_25"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c88f135a2e533646b82903212dd1946
+      internalID: -812362652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_26"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21128b14739a2142be9955d684b8128
+      internalID: 359550446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_27"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0385c82f22ea2b0458fc6908a7957624
+      internalID: 1416620569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_28"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc090241bfc7ba046ad5e732dfba697e
+      internalID: 417206235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_29"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 579
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab63c2d107fd163458befc926920984e
+      internalID: 494253829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_30"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90e6bbde439cb14d9a8aba4404a2bd5
+      internalID: -1534887206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_31"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adc8e037085f844c83719bab20e696d
+      internalID: -42194563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_32"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40714f1235a48c48839f5096e7ed7f2
+      internalID: 363849898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_33"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ef7bb331bfa73459afefe94e5e1eda
+      internalID: -1303565231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_34"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42531ce5ca60f9246ba5cb9705bbc511
+      internalID: 686240902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_35"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88348071f5b83f47aec8fd7d87ea3ee
+      internalID: 1227179358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_36"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab9d8f90f9b3774ebf572128958d10d
+      internalID: -1026339923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_37"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7a458ea5d8cb945b187f6530d16dae
+      internalID: -1786314038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_38"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a457b48444b706e4b8a2b8df3f59a7a4
+      internalID: -455007758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_39"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 428
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dec48326779bae4daa81dfd473ec428
+      internalID: -1621568620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_40"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa9bdf864b6a04cab6f4aae5dda395
+      internalID: -486773710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_41"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b07ce04a03d11409bc325646e822c7
+      internalID: -1639571728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_42"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd06825e4d61fbe40aaad34435295e5a
+      internalID: -1846326292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_43"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605e3670e194997468631939686aeacd
+      internalID: 614317848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_44"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c56fb9fdf9b7a04f8835453d20fa2e9
+      internalID: -1139195008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_45"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db747b82ec5ada4ba69a2d5f19d7b5a
+      internalID: -707027795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_46"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba08ae6a1f38614398463854b8d570b
+      internalID: 1352508230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_47"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c9f719f510b9d4eb29dcf18c5727b3
+      internalID: 940764687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_48"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ed566722f5694ea79249a6150c966
+      internalID: -178819792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_49"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 277
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e2aa87a02af4489d76474d1353fb1
+      internalID: 1310798951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_50"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc72146388b374da96407da464f776
+      internalID: 1018014202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_51"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22347cd55dee1f043824256a3db70897
+      internalID: 1465823475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_52"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f5b0b5c9d1bec4bae49d901a9b7e56
+      internalID: 836458836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_53"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82008fdb2fa574f42ba64d615db5b683
+      internalID: 1105986261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_54"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e76dbe37e93eb44a85c363012e9549
+      internalID: -1830166075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_55"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a402ec992b4b964698f8f5d2bb1e5cb
+      internalID: -55570242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_56"
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b7631285d80f54a8292581b7642f63
+      internalID: -1346153117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_57"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb813c86a84b3a4ea329af7a4bf2084
+      internalID: -863010234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_58"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe21dc5dd88ed704387402ea9a053127
+      internalID: -1949247752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hoja de tiles de terreno des\xE9rtico retro_59"
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 126
+        width: 131
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5aa4a564f91cc40a0a215e784a49a7
+      internalID: 892278751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5c39580290e52db4b89b6c851475a912
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":131.0,"y":129.0},"gridSpriteOffset":{"x":22.0,"y":14.0},"gridSpritePadding":{"x":21.0,"y":22.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Hoja de tiles de terreno des\xE9rtico retro_0": 7554570785311486641
+      "Hoja de tiles de terreno des\xE9rtico retro_1": 1805294239
+      "Hoja de tiles de terreno des\xE9rtico retro_10": -43506947
+      "Hoja de tiles de terreno des\xE9rtico retro_11": -1871503935
+      "Hoja de tiles de terreno des\xE9rtico retro_12": 2116619687
+      "Hoja de tiles de terreno des\xE9rtico retro_13": -475760086
+      "Hoja de tiles de terreno des\xE9rtico retro_14": 1359700012
+      "Hoja de tiles de terreno des\xE9rtico retro_15": 1405578484
+      "Hoja de tiles de terreno des\xE9rtico retro_16": -1622323545
+      "Hoja de tiles de terreno des\xE9rtico retro_17": -98325924
+      "Hoja de tiles de terreno des\xE9rtico retro_18": 779473959
+      "Hoja de tiles de terreno des\xE9rtico retro_19": -1686297945
+      "Hoja de tiles de terreno des\xE9rtico retro_2": 322994397
+      "Hoja de tiles de terreno des\xE9rtico retro_20": 1469862880
+      "Hoja de tiles de terreno des\xE9rtico retro_21": 856846413
+      "Hoja de tiles de terreno des\xE9rtico retro_22": 2120306962
+      "Hoja de tiles de terreno des\xE9rtico retro_23": -31200234
+      "Hoja de tiles de terreno des\xE9rtico retro_24": 474141676
+      "Hoja de tiles de terreno des\xE9rtico retro_25": -812362652
+      "Hoja de tiles de terreno des\xE9rtico retro_26": 359550446
+      "Hoja de tiles de terreno des\xE9rtico retro_27": 1416620569
+      "Hoja de tiles de terreno des\xE9rtico retro_28": 417206235
+      "Hoja de tiles de terreno des\xE9rtico retro_29": 494253829
+      "Hoja de tiles de terreno des\xE9rtico retro_3": 1408036279
+      "Hoja de tiles de terreno des\xE9rtico retro_30": -1534887206
+      "Hoja de tiles de terreno des\xE9rtico retro_31": -42194563
+      "Hoja de tiles de terreno des\xE9rtico retro_32": 363849898
+      "Hoja de tiles de terreno des\xE9rtico retro_33": -1303565231
+      "Hoja de tiles de terreno des\xE9rtico retro_34": 686240902
+      "Hoja de tiles de terreno des\xE9rtico retro_35": 1227179358
+      "Hoja de tiles de terreno des\xE9rtico retro_36": -1026339923
+      "Hoja de tiles de terreno des\xE9rtico retro_37": -1786314038
+      "Hoja de tiles de terreno des\xE9rtico retro_38": -455007758
+      "Hoja de tiles de terreno des\xE9rtico retro_39": -1621568620
+      "Hoja de tiles de terreno des\xE9rtico retro_4": 930922560
+      "Hoja de tiles de terreno des\xE9rtico retro_40": -486773710
+      "Hoja de tiles de terreno des\xE9rtico retro_41": -1639571728
+      "Hoja de tiles de terreno des\xE9rtico retro_42": -1846326292
+      "Hoja de tiles de terreno des\xE9rtico retro_43": 614317848
+      "Hoja de tiles de terreno des\xE9rtico retro_44": -1139195008
+      "Hoja de tiles de terreno des\xE9rtico retro_45": -707027795
+      "Hoja de tiles de terreno des\xE9rtico retro_46": 1352508230
+      "Hoja de tiles de terreno des\xE9rtico retro_47": 940764687
+      "Hoja de tiles de terreno des\xE9rtico retro_48": -178819792
+      "Hoja de tiles de terreno des\xE9rtico retro_49": 1310798951
+      "Hoja de tiles de terreno des\xE9rtico retro_5": 695116297
+      "Hoja de tiles de terreno des\xE9rtico retro_50": 1018014202
+      "Hoja de tiles de terreno des\xE9rtico retro_51": 1465823475
+      "Hoja de tiles de terreno des\xE9rtico retro_52": 836458836
+      "Hoja de tiles de terreno des\xE9rtico retro_53": 1105986261
+      "Hoja de tiles de terreno des\xE9rtico retro_54": -1830166075
+      "Hoja de tiles de terreno des\xE9rtico retro_55": -55570242
+      "Hoja de tiles de terreno des\xE9rtico retro_56": -1346153117
+      "Hoja de tiles de terreno des\xE9rtico retro_57": -863010234
+      "Hoja de tiles de terreno des\xE9rtico retro_58": -1949247752
+      "Hoja de tiles de terreno des\xE9rtico retro_59": 892278751
+      "Hoja de tiles de terreno des\xE9rtico retro_6": -555173264
+      "Hoja de tiles de terreno des\xE9rtico retro_7": 1885012236
+      "Hoja de tiles de terreno des\xE9rtico retro_8": 206731553
+      "Hoja de tiles de terreno des\xE9rtico retro_9": -1249043711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
