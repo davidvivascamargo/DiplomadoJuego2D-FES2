@@ -1,6 +1,9 @@
 
 using UnityEngine;
 
+/// <summary>
+/// Controls the mummy's patrol movement between two points.
+/// </summary>
 public class MummyMovement : MonoBehaviour
 {
     [Header("Movement Points")]
@@ -13,44 +16,16 @@ public class MummyMovement : MonoBehaviour
     [Header("Sprite")]
     [SerializeField] private bool flipSprite = true;
 
-    [Header("Player Distance Logs")]
-    [SerializeField] private Transform player;
-    [SerializeField] private float closeDistance = 2f;
-    [SerializeField] private float logInterval = 1f;
-
     private Transform targetPoint;
     private SpriteRenderer spriteRenderer;
-    private float logTimer;
-    private bool playerWasClose;
+    private bool isMovementStopped;
 
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        if (player == null)
-        {
-            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-            if (playerObject != null)
-            {
-                player = playerObject.transform;
-            }
-            else
-            {
-                Debug.LogError(
-                    "MummyMovement: No se encontró un objeto con Tag 'Player'.",
-                    this
-                );
-            }
-        }
-
         if (startPoint == null || endPoint == null)
         {
-            Debug.LogError(
-                "MummyMovement: Asigna Start Point y End Point.",
-                this
-            );
-
             enabled = false;
             return;
         }
@@ -63,8 +38,12 @@ public class MummyMovement : MonoBehaviour
 
     private void Update()
     {
+        if (isMovementStopped || targetPoint == null)
+        {
+            return;
+        }
+
         MoveBetweenPoints();
-        LogPlayerDistance();
     }
 
     private void MoveBetweenPoints()
@@ -75,7 +54,10 @@ public class MummyMovement : MonoBehaviour
             moveSpeed * Time.deltaTime
         );
 
-        if (Vector3.Distance(transform.position, targetPoint.position) < 0.01f)
+        if (Vector3.Distance(
+            transform.position,
+            targetPoint.position
+        ) < 0.01f)
         {
             targetPoint = targetPoint == startPoint
                 ? endPoint
@@ -85,45 +67,20 @@ public class MummyMovement : MonoBehaviour
         }
     }
 
-    private void LogPlayerDistance()
+    /// <summary>
+    /// Stops the mummy when preparing to explode.
+    /// </summary>
+    public void StopMovement()
     {
-        if (player == null)
-        {
-            return;
-        }
+        isMovementStopped = true;
+    }
 
-        // Distancia entre la momia y el jugador en el plano XY.
-        Vector2 mummyPosition = transform.position;
-        Vector2 playerPosition = player.position;
-
-        float distance = Vector2.Distance(
-            mummyPosition,
-            playerPosition
-        );
-
-        logTimer += Time.deltaTime;
-
-        if (logTimer >= logInterval)
-        {
-            Debug.Log(
-                $"[MummyMovement] Distancia al Player: {distance:F2} unidades.",
-                this
-            );
-
-            logTimer = 0f;
-        }
-
-        bool playerIsClose = distance <= closeDistance;
-
-        if (playerIsClose && !playerWasClose)
-        {
-            Debug.Log(
-                $"[MummyMovement] ¡Player cerca! Distancia: {distance:F2} unidades.",
-                this
-            );
-        }
-
-        playerWasClose = playerIsClose;
+    /// <summary>
+    /// Resumes patrol if the player escapes.
+    /// </summary>
+    public void ResumeMovement()
+    {
+        isMovementStopped = false;
     }
 
     private void UpdateSpriteDirection()

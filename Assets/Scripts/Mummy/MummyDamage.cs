@@ -1,84 +1,85 @@
 
+using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(MummyMovement))]
 public class MummyDamage : MonoBehaviour
 {
-    [SerializeField] private int damage = 1;
+    [Header("Player Detection")]
+    [SerializeField] private Transform playerTransform;
+    [SerializeField] private float detectionRange = 5f;
 
-    public int Damage => damage;
+    [Header("Explosion")]
+    [SerializeField] private GameObject explosionPrefab;
+    [SerializeField] private float explosionDelay = 1.5f;
 
-    private Collider2D mummyCollider;
-    private Rigidbody2D mummyRigidbody;
-    private float diagnosticTimer;
+    private MummyMovement mummyMovement;
+    private Coroutine explosionCoroutine;
+    private bool hasExploded;
 
     private void Awake()
     {
-        mummyCollider = GetComponent<Collider2D>();
-        mummyRigidbody = GetComponent<Rigidbody2D>();
+        mummyMovement = GetComponent<MummyMovement>();
+    }
 
-        Debug.Log(
-            $"[MummyDamage] INICIO | " +
-            $"Objeto: {name} | " +
-            $"Capa: {LayerMask.LayerToName(gameObject.layer)} | " +
-            $"Collider: {(mummyCollider != null ? mummyCollider.GetType().Name : "NO ENCONTRADO")} | " +
-            $"Collider habilitado: {(mummyCollider != null && mummyCollider.enabled)} | " +
-            $"IsTrigger: {(mummyCollider != null && mummyCollider.isTrigger)} | " +
-            $"Rigidbody2D: {(mummyRigidbody != null ? "ENCONTRADO" : "NO ENCONTRADO")} | " +
-            $"Simulated: {(mummyRigidbody != null && mummyRigidbody.simulated)}",
-            this
-        );
+    private void Start()
+    {
+        if (playerTransform == null)
+        {
+            GameObject player =
+                GameObject.FindGameObjectWithTag("Player");
 
-        if (mummyCollider == null)
-            Debug.LogError("[MummyDamage] Falta un Collider2D en Mummy.", this);
-
-        if (mummyRigidbody == null)
-            Debug.LogError("[MummyDamage] Falta Rigidbody2D en Mummy.", this);
+            if (player != null)
+            {
+                playerTransform = player.transform;
+            }
+        }
     }
 
     private void Update()
     {
-        diagnosticTimer += Time.deltaTime;
-
-        if (diagnosticTimer < 2f)
+        if (playerTransform == null || hasExploded)
             return;
 
-        diagnosticTimer = 0f;
-
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
+        float distance = Vector2.Distance(
             transform.position,
-            5f
+            playerTransform.position
         );
 
-        foreach (Collider2D hit in hits)
+        if (distance <= detectionRange)
         {
-            if (hit == mummyCollider)
-                continue;
+            if (explosionCoroutine == null)
+            {
+                explosionCoroutine =
+                    StartCoroutine(PrepareExplosion());
+            }
+        }
+        else if (explosionCoroutine != null)
+        {
+            StopCoroutine(explosionCoroutine);
+            explosionCoroutine = null;
 
-            Debug.Log(
-                $"[MummyDamage] OBJETO CERCANO | " +
-                $"Nombre: {hit.name} | " +
-                $"Tag: {hit.tag} | " +
-                $"Capa: {LayerMask.LayerToName(hit.gameObject.layer)} | " +
-                $"Trigger: {hit.isTrigger} | " +
-                $"Rigidbody2D: {(hit.attachedRigidbody != null ? hit.attachedRigidbody.name : "NINGUNO")}",
-                this
-            );
+            mummyMovement.ResumeMovement();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private IEnumerator PrepareExplosion()
     {
-        Debug.LogError(
-            $"[MummyDamage] TRIGGER DETECTADO: {other.name}",
-            this
-        );
-    }
+        mummyMovement.StopMovement();
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.LogError(
-            $"[MummyDamage] COLISIÓN DETECTADA: {collision.gameObject.name}",
-            this
-        );
+        yield return new WaitForSeconds(explosionDelay);
+
+        hasExploded = true;
+
+        if (explosionPrefab != null)
+        {
+            Instantiate(
+                explosionPrefab,
+                transform.position,
+                Quaternion.identity
+            );
+        }
+
+        Destroy(gameObject);
     }
 }
