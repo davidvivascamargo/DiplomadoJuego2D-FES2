@@ -1,0 +1,1732 @@
+fileFormatVersion: 2
+guid: 5eecbd1a56a4c6f429cd3651090c884d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5573552811856809623
+    second: Atlas de ladrillos pixel art_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 884
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eca9f90cc395d40800000000000000
+      internalID: 5573552811856809623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9214eed098990684cba101d06fe149dc
+      internalID: 479080038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1df93072eb7dec4c82b3fe79f9c8f6d
+      internalID: -742278731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d878ae12d83dde44b80df4860a3ae962
+      internalID: 685664243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f90f3d3e781b76449479f0817377481
+      internalID: 1136322470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca3ef9ce5bbbd428f4ef3030eba14b
+      internalID: 1295796809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_6
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4ec27250fe06d4ca0f091845d55161
+      internalID: 2086070831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_7
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1d8653a3450274aa9d9c771a9d9669
+      internalID: 1382132393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_8
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94461f62a6a37d4584d023207f79fab
+      internalID: -869568920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_9
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 882
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60780f81d5d0da54ea36a6d7f34a7a33
+      internalID: 337742266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fe7f31a0167c4468688df3631792d2
+      internalID: 1633254750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098a8fe765279e947aec57be62e6febb
+      internalID: -1490041997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d8c4a0816d77b458efe30403152fcb
+      internalID: -1899075564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c70b7a927e6c94daa679529f5272e5
+      internalID: 1637767781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_14
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c2b16c0e60db943b08670ed7312d0b
+      internalID: -335523227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f7bc6b1217c484eb249766026667a6
+      internalID: -1510998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_16
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d32e701660b4c4fb040d06e4e0984d
+      internalID: -300592409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_17
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb857d738769784fbb71272a3d283f9
+      internalID: -1834128221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_18
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887ee8607f5189e429cf4096179f3c75
+      internalID: -73157252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_19
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 738
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f80e683fe90e649b960eaa5f1df606
+      internalID: 299836676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbccec36b3710c54ca792984de5375ec
+      internalID: 65214195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8791587160625f542a8b20861d414934
+      internalID: 166777349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_22
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a78705804b91104aaf91ba9da61ba66
+      internalID: -940664458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_23
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e18304aaf3b60c4391a5760da990329
+      internalID: 764361056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_24
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4726217d259cea4e9dcfe6b529455ce
+      internalID: 1767589517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_25
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5917906bded7c8941a3e15735f08493e
+      internalID: -1907723780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_26
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1055531a52c0ef043bd1184d237c1030
+      internalID: 1163428173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_27
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3604bc6412eb546adb87b7d976e0f6
+      internalID: -1528925224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_28
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e298dfb3ec4847749a29e43f2e458417
+      internalID: 1932518335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_29
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 594
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b93e3661ca9c54a8ca8a0fed3c4921
+      internalID: -261936025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a20e0520bc1e745b5443bce971f3e9
+      internalID: -1332942475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a300cb73810444ab089fce24ecbe9d
+      internalID: 998438123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_32
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3a3b430082aa748a5c2056149a2f08
+      internalID: 2070559425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_33
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c25e4cc1a65584aa4898bb92286dbd
+      internalID: 1318933273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_34
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d020c4ca4540ea4fa47393ed6d7a06d
+      internalID: -2143750284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_35
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c40947214e3634c8cc5907f7249c47
+      internalID: 1728676082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_36
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fce127e49d3f540982e474730d2798
+      internalID: -1031896627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_37
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda50e9f96528e49a0253771b8971dc
+      internalID: 1658358904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_38
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206a9b9a63ab1c4690f08e78eafd39d
+      internalID: 956607983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_39
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 450
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32062b8938d870e4094a2f6a02771126
+      internalID: 1332857396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_40
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad78ea8053361134680fd97ce072fd80
+      internalID: -1248606889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_41
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976a140fd835da441a79c0f02feab4d8
+      internalID: 405663719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_42
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede577deeb82d1c4cb45a837202d3420
+      internalID: 1860258774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_43
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd7b29f39d470a488065f0cbbd9d765
+      internalID: 1351789175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_44
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8496aa1145c93a249a2c45165ec2cdbc
+      internalID: -568720316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_45
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ba4e155c23f134b9d3c9cdea6eb0d5
+      internalID: 691581980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_46
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fb7abdddcba91459804bb733c04d7f
+      internalID: 824825088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_47
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7393fec4c63f464c95e9d79a96302c4
+      internalID: -2060009157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_48
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b7ab890f1fb624d9a2701f5ffff2f1
+      internalID: -1664738028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_49
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 306
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c28634491e3f541be8c004625987b8
+      internalID: -1430278858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_50
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb306d189a62ad048b8dbb6b55304c12
+      internalID: 95832315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_51
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0f2b69864b1984bb45cf845169f681
+      internalID: 879410259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_52
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7478e45ab53e3cd40bb137a6e1b7ddfc
+      internalID: 1721303342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_53
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2d54ff5f1bbe48b8902e33aa5332a
+      internalID: -347617292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_54
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1042fe5a472c14c9ec8f86f5d4a065
+      internalID: -1328803604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_55
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c44b205ade45f4ab8611460667f06c
+      internalID: -1704673178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_56
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae649cdc77c22d4a9f525b6403dc9fc
+      internalID: -1057081015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_57
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b8a03d6b5f8094b845419dc7ae76d0
+      internalID: 1769704257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_58
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18550843f5a6cb54ab3f845e778c6728
+      internalID: 1228081191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_59
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 162
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6e083ed074a334490f4100c41799cc
+      internalID: 799537228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_60
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e59210775119a4282fc90d9683bbf7
+      internalID: -2046935657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_61
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe9ad18417d6dd4a8e6c40559585d1c
+      internalID: -1957287756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_62
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cbe43f743bbc34286c6a78bd036c26
+      internalID: -52755342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_63
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2a84bb9c60f4744a0c7b4b29af95fa
+      internalID: 964930804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_64
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7cd88d6385884f92be6b75f3ada8d
+      internalID: -407736518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_65
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69ae29a99d65544f9d271e6c614fafa
+      internalID: 483492207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_66
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800c68ab2b80c144d9b7eca8af63169c
+      internalID: 1855209529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_67
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a5f26cdc50b14c838423acc73d8e8
+      internalID: -1493692877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_68
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057377505be2cc543ad1fd51c5330b4e
+      internalID: -727275514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas de ladrillos pixel art_69
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 18
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037d9c5d7a184340be4ea3054ebb03f
+      internalID: -773529737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf34399042d77314f8bb82086e684070
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":131.0,"y":122.0},"gridSpriteOffset":{"x":21.0,"y":20.0},"gridSpritePadding":{"x":20.0,"y":22.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Atlas de ladrillos pixel art_0: 5573552811856809623
+      Atlas de ladrillos pixel art_1: 479080038
+      Atlas de ladrillos pixel art_10: 1633254750
+      Atlas de ladrillos pixel art_11: -1490041997
+      Atlas de ladrillos pixel art_12: -1899075564
+      Atlas de ladrillos pixel art_13: 1637767781
+      Atlas de ladrillos pixel art_14: -335523227
+      Atlas de ladrillos pixel art_15: -1510998
+      Atlas de ladrillos pixel art_16: -300592409
+      Atlas de ladrillos pixel art_17: -1834128221
+      Atlas de ladrillos pixel art_18: -73157252
+      Atlas de ladrillos pixel art_19: 299836676
+      Atlas de ladrillos pixel art_2: -742278731
+      Atlas de ladrillos pixel art_20: 65214195
+      Atlas de ladrillos pixel art_21: 166777349
+      Atlas de ladrillos pixel art_22: -940664458
+      Atlas de ladrillos pixel art_23: 764361056
+      Atlas de ladrillos pixel art_24: 1767589517
+      Atlas de ladrillos pixel art_25: -1907723780
+      Atlas de ladrillos pixel art_26: 1163428173
+      Atlas de ladrillos pixel art_27: -1528925224
+      Atlas de ladrillos pixel art_28: 1932518335
+      Atlas de ladrillos pixel art_29: -261936025
+      Atlas de ladrillos pixel art_3: 685664243
+      Atlas de ladrillos pixel art_30: -1332942475
+      Atlas de ladrillos pixel art_31: 998438123
+      Atlas de ladrillos pixel art_32: 2070559425
+      Atlas de ladrillos pixel art_33: 1318933273
+      Atlas de ladrillos pixel art_34: -2143750284
+      Atlas de ladrillos pixel art_35: 1728676082
+      Atlas de ladrillos pixel art_36: -1031896627
+      Atlas de ladrillos pixel art_37: 1658358904
+      Atlas de ladrillos pixel art_38: 956607983
+      Atlas de ladrillos pixel art_39: 1332857396
+      Atlas de ladrillos pixel art_4: 1136322470
+      Atlas de ladrillos pixel art_40: -1248606889
+      Atlas de ladrillos pixel art_41: 405663719
+      Atlas de ladrillos pixel art_42: 1860258774
+      Atlas de ladrillos pixel art_43: 1351789175
+      Atlas de ladrillos pixel art_44: -568720316
+      Atlas de ladrillos pixel art_45: 691581980
+      Atlas de ladrillos pixel art_46: 824825088
+      Atlas de ladrillos pixel art_47: -2060009157
+      Atlas de ladrillos pixel art_48: -1664738028
+      Atlas de ladrillos pixel art_49: -1430278858
+      Atlas de ladrillos pixel art_5: 1295796809
+      Atlas de ladrillos pixel art_50: 95832315
+      Atlas de ladrillos pixel art_51: 879410259
+      Atlas de ladrillos pixel art_52: 1721303342
+      Atlas de ladrillos pixel art_53: -347617292
+      Atlas de ladrillos pixel art_54: -1328803604
+      Atlas de ladrillos pixel art_55: -1704673178
+      Atlas de ladrillos pixel art_56: -1057081015
+      Atlas de ladrillos pixel art_57: 1769704257
+      Atlas de ladrillos pixel art_58: 1228081191
+      Atlas de ladrillos pixel art_59: 799537228
+      Atlas de ladrillos pixel art_6: 2086070831
+      Atlas de ladrillos pixel art_60: -2046935657
+      Atlas de ladrillos pixel art_61: -1957287756
+      Atlas de ladrillos pixel art_62: -52755342
+      Atlas de ladrillos pixel art_63: 964930804
+      Atlas de ladrillos pixel art_64: -407736518
+      Atlas de ladrillos pixel art_65: 483492207
+      Atlas de ladrillos pixel art_66: 1855209529
+      Atlas de ladrillos pixel art_67: -1493692877
+      Atlas de ladrillos pixel art_68: -727275514
+      Atlas de ladrillos pixel art_69: -773529737
+      Atlas de ladrillos pixel art_7: 1382132393
+      Atlas de ladrillos pixel art_8: -869568920
+      Atlas de ladrillos pixel art_9: 337742266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

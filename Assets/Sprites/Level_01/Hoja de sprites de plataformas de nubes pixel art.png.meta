@@ -1,0 +1,1109 @@
+fileFormatVersion: 2
+guid: 59b79d2710e7165488b4be7fead4e433
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6832088265296709737
+    second: Hoja de sprites de plataformas de nubes pixel art_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 872
+        width: 441
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797ffd0bbeb8f21a0800000000000000
+      internalID: -6832088265296709737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 871
+        width: 467
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b04826fc0a040b46922ba3779527d82
+      internalID: 1080677616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_7
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 868
+        width: 522
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccda809057eba04ab022f0710246416
+      internalID: -474459881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 710
+        width: 438
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eb9a2a518f2c343b9008c15b5e57b3
+      internalID: -1713824254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_16
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 718
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca783a6cf732f4cb602a92f291a6cb
+      internalID: 1608249289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_17
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 718
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63640c77d0b5046aecff587a327782
+      internalID: 843620309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 565
+        width: 130
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7972ca3861d4de47a0305b175a6f18b
+      internalID: -146689723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 575
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1195bd0a126443b26dd61d4e5a177
+      internalID: -1456773829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_22
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 575
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea24b25a41c5a0646befee42c65be7ec
+      internalID: 101502224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_23
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 575
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ee944c073721946818bb7582f17845
+      internalID: -364143217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_24
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 575
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1981bebff0a91d74b804ec8170a5085b
+      internalID: 1856412714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_25
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 575
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929d380bf804b1b44adacdc23cb0e598
+      internalID: -261443139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_26
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 575
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a69396db5138949943927628e87313
+      internalID: 2088393199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_30
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 425
+        width: 117
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ae68467d21f540ba7ec889f56c660
+      internalID: -968152837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_31
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 425
+        width: 187
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3be744f5f8d7b46bc2ab0319387409
+      internalID: 1586094201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_33
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 432
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6238137cfbba0041a5240db2432101c
+      internalID: 1040713864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_34
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 432
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757f03454220ef46a1c7608d475d6e7
+      internalID: 242680196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_35
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 432
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c53521f90ff7b4193153a60091289b
+      internalID: -1437117493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 289
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793f84592db593647b41c8fd97564ae2
+      internalID: 1360807699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 289
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37cdefaf8c98784dbbc7a94cfc2e85f
+      internalID: 812603880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_38
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 289
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d3b372197a5d24884ba5f577f1921f
+      internalID: -1028640510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_42
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 289
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda4fef084e088544a73666903ed9564
+      internalID: 618112245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_43
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 289
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e8c610600d444794b8bdf77bc9925
+      internalID: -122184919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_44
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 289
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2ed2ffd33f8474292af14fc19f229f
+      internalID: -1938091998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211715ed2417f344189abd88470a19dd
+      internalID: 901242241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb912bfd9eaa30846a6b45c9dde6edf6
+      internalID: 1432953862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_47
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716fa7341bce36442bee7fa8825fda1f
+      internalID: 238533448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76951022d03bc9f418e12e6a9b82161a
+      internalID: 1200680842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_49
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25df9b84553643849a6b3a8571b0990f
+      internalID: 1961949061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_50
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115af3a08e6aeeb4a87e1c539f3fa664
+      internalID: 1686923910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_51
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2f59ef52c33db4cbb16ace8429eeca
+      internalID: -2000854105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_52
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe2ea7f6078874bb01e6dc4a7492e5
+      internalID: -2087646403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_53
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 146
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da574741747f2d49a4f07968df92834
+      internalID: -428545824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d325c28d89eabe4f8c8628d13f8b2e9
+      internalID: 1277339106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1690b598efe85ce4799d6b95b9ccb607
+      internalID: -2137284229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_56
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f239395361e6a94ab5d1ede558bd855
+      internalID: 256553654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1d729471f29a469cfe9fc0ecf1a12
+      internalID: 456192188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_58
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9698ada03f05ff34da3349ab0049109d
+      internalID: -383188505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_59
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b2e1178859afd4289c20022cd136d7
+      internalID: 1626040960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_60
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b387ac1f94bdbf459a9cae9872e9691
+      internalID: -597820383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_61
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4f3111763cb8d4dbea063d7000b825
+      internalID: -428417195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites de plataformas de nubes pixel art_62
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 3
+        width: 153
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686eb00e9d98e2b4b8d3d5758dd685b3
+      internalID: 1692782200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 14e718c3b6155364381e1f8218929c34
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":153.0,"y":143.0},"gridSpriteOffset":{"x":21.0,"y":20.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Hoja de sprites de plataformas de nubes pixel art_0: -6832088265296709737
+      Hoja de sprites de plataformas de nubes pixel art_1: 203954971
+      Hoja de sprites de plataformas de nubes pixel art_10: -1092584499
+      Hoja de sprites de plataformas de nubes pixel art_11: 931057099
+      Hoja de sprites de plataformas de nubes pixel art_12: -1760043695
+      Hoja de sprites de plataformas de nubes pixel art_13: -363907963
+      Hoja de sprites de plataformas de nubes pixel art_14: 1723172801
+      Hoja de sprites de plataformas de nubes pixel art_15: 1116854878
+      Hoja de sprites de plataformas de nubes pixel art_16: 1608249289
+      Hoja de sprites de plataformas de nubes pixel art_17: 843620309
+      Hoja de sprites de plataformas de nubes pixel art_18: 278587083
+      Hoja de sprites de plataformas de nubes pixel art_19: 719466163
+      Hoja de sprites de plataformas de nubes pixel art_2: -2118306579
+      Hoja de sprites de plataformas de nubes pixel art_20: -146689723
+      Hoja de sprites de plataformas de nubes pixel art_21: -1456773829
+      Hoja de sprites de plataformas de nubes pixel art_22: 101502224
+      Hoja de sprites de plataformas de nubes pixel art_23: -364143217
+      Hoja de sprites de plataformas de nubes pixel art_24: 1856412714
+      Hoja de sprites de plataformas de nubes pixel art_25: -261443139
+      Hoja de sprites de plataformas de nubes pixel art_26: 2088393199
+      Hoja de sprites de plataformas de nubes pixel art_27: 1219316280
+      Hoja de sprites de plataformas de nubes pixel art_28: -1174829140
+      Hoja de sprites de plataformas de nubes pixel art_29: -1604808127
+      Hoja de sprites de plataformas de nubes pixel art_3: -615832922
+      Hoja de sprites de plataformas de nubes pixel art_30: -968152837
+      Hoja de sprites de plataformas de nubes pixel art_31: 1586094201
+      Hoja de sprites de plataformas de nubes pixel art_32: 725715082
+      Hoja de sprites de plataformas de nubes pixel art_33: 1040713864
+      Hoja de sprites de plataformas de nubes pixel art_34: 242680196
+      Hoja de sprites de plataformas de nubes pixel art_35: -1437117493
+      Hoja de sprites de plataformas de nubes pixel art_36: 1360807699
+      Hoja de sprites de plataformas de nubes pixel art_37: 812603880
+      Hoja de sprites de plataformas de nubes pixel art_38: -1028640510
+      Hoja de sprites de plataformas de nubes pixel art_39: -1002090442
+      Hoja de sprites de plataformas de nubes pixel art_4: 1080677616
+      Hoja de sprites de plataformas de nubes pixel art_40: 1130657270
+      Hoja de sprites de plataformas de nubes pixel art_41: 2133641494
+      Hoja de sprites de plataformas de nubes pixel art_42: 618112245
+      Hoja de sprites de plataformas de nubes pixel art_43: -122184919
+      Hoja de sprites de plataformas de nubes pixel art_44: -1938091998
+      Hoja de sprites de plataformas de nubes pixel art_45: 901242241
+      Hoja de sprites de plataformas de nubes pixel art_46: 1432953862
+      Hoja de sprites de plataformas de nubes pixel art_47: 238533448
+      Hoja de sprites de plataformas de nubes pixel art_48: 1200680842
+      Hoja de sprites de plataformas de nubes pixel art_49: 1961949061
+      Hoja de sprites de plataformas de nubes pixel art_5: -1320872213
+      Hoja de sprites de plataformas de nubes pixel art_50: 1686923910
+      Hoja de sprites de plataformas de nubes pixel art_51: -2000854105
+      Hoja de sprites de plataformas de nubes pixel art_52: -2087646403
+      Hoja de sprites de plataformas de nubes pixel art_53: -428545824
+      Hoja de sprites de plataformas de nubes pixel art_54: 1277339106
+      Hoja de sprites de plataformas de nubes pixel art_55: -2137284229
+      Hoja de sprites de plataformas de nubes pixel art_56: 256553654
+      Hoja de sprites de plataformas de nubes pixel art_57: 456192188
+      Hoja de sprites de plataformas de nubes pixel art_58: -383188505
+      Hoja de sprites de plataformas de nubes pixel art_59: 1626040960
+      Hoja de sprites de plataformas de nubes pixel art_6: -1479460395
+      Hoja de sprites de plataformas de nubes pixel art_60: -597820383
+      Hoja de sprites de plataformas de nubes pixel art_61: -428417195
+      Hoja de sprites de plataformas de nubes pixel art_62: 1692782200
+      Hoja de sprites de plataformas de nubes pixel art_7: -474459881
+      Hoja de sprites de plataformas de nubes pixel art_8: 802173169
+      Hoja de sprites de plataformas de nubes pixel art_9: -1713824254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
