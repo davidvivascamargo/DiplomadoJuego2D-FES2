@@ -3,50 +3,49 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(MummyMovement))]
+[RequireComponent(typeof(Collider2D))]
 public class MummyDamage : MonoBehaviour
 {
     [Header("Player Detection")]
     [SerializeField] private Transform playerTransform;
-    [SerializeField] private float detectionRange = 5f;
+    [SerializeField, Min(0.1f)] private float detectionRange = 5f;
 
     [Header("Explosion")]
     [SerializeField] private GameObject explosionPrefab;
-    [SerializeField] private float explosionDelay = 1.5f;
+    [SerializeField, Min(0f)] private float explosionDelay = 1.5f;
 
     private MummyMovement mummyMovement;
+    private Collider2D mummyCollider;
+    private Collider2D playerCollider;
+
     private Coroutine explosionCoroutine;
     private bool hasExploded;
 
     private void Awake()
     {
         mummyMovement = GetComponent<MummyMovement>();
+        mummyCollider = GetComponent<Collider2D>();
     }
 
     private void Start()
     {
-        if (playerTransform == null)
-        {
-            GameObject player =
-                GameObject.FindGameObjectWithTag("Player");
-
-            if (player != null)
-            {
-                playerTransform = player.transform;
-            }
-        }
+        FindPlayer();
     }
 
     private void Update()
     {
-        if (playerTransform == null || hasExploded)
+        if (hasExploded)
             return;
 
-        float distance = Vector2.Distance(
-            transform.position,
-            playerTransform.position
-        );
+        if (playerTransform == null)
+        {
+            FindPlayer();
+            return;
+        }
 
-        if (distance <= detectionRange)
+        bool playerDetected = IsPlayerInRange();
+
+        if (playerDetected)
         {
             if (explosionCoroutine == null)
             {
@@ -54,13 +53,65 @@ public class MummyDamage : MonoBehaviour
                     StartCoroutine(PrepareExplosion());
             }
         }
-        else if (explosionCoroutine != null)
+        else
         {
-            StopCoroutine(explosionCoroutine);
-            explosionCoroutine = null;
-
-            mummyMovement.ResumeMovement();
+            CancelExplosion();
         }
+    }
+
+    private void FindPlayer()
+    {
+        GameObject player =
+            GameObject.FindGameObjectWithTag("Player");
+
+        if (player == null)
+            return;
+
+        playerTransform = player.transform;
+
+        playerCollider =
+            player.GetComponent<Collider2D>();
+
+        if (playerCollider == null)
+        {
+            playerCollider =
+                player.GetComponentInChildren<Collider2D>();
+        }
+    }
+
+    private bool IsPlayerInRange()
+    {
+        if (playerTransform == null)
+            return false;
+
+        if (playerCollider == null)
+        {
+            playerCollider =
+                playerTransform.GetComponent<Collider2D>();
+
+            if (playerCollider == null)
+            {
+                playerCollider =
+                    playerTransform.GetComponentInChildren<Collider2D>();
+            }
+        }
+
+        if (mummyCollider != null &&
+            playerCollider != null &&
+            mummyCollider.enabled &&
+            playerCollider.enabled)
+        {
+            ColliderDistance2D distance =
+                mummyCollider.Distance(playerCollider);
+
+            return distance.isOverlapped ||
+                   distance.distance <= detectionRange;
+        }
+
+        return Vector2.Distance(
+            transform.position,
+            playerTransform.position
+        ) <= detectionRange;
     }
 
     private IEnumerator PrepareExplosion()
@@ -70,6 +121,7 @@ public class MummyDamage : MonoBehaviour
         yield return new WaitForSeconds(explosionDelay);
 
         hasExploded = true;
+        explosionCoroutine = null;
 
         if (explosionPrefab != null)
         {
@@ -81,5 +133,25 @@ public class MummyDamage : MonoBehaviour
         }
 
         Destroy(gameObject);
+    }
+
+    private void CancelExplosion()
+    {
+        if (explosionCoroutine == null)
+            return;
+
+        StopCoroutine(explosionCoroutine);
+        explosionCoroutine = null;
+
+        mummyMovement.ResumeMovement();
+    }
+
+    private void OnDisable()
+    {
+        if (explosionCoroutine != null)
+        {
+            StopCoroutine(explosionCoroutine);
+            explosionCoroutine = null;
+        }
     }
 }

@@ -9,14 +9,14 @@ public class Fireball : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private Rigidbody2D rb;
 
+    [Header("Damage")]
+    [SerializeField, Min(1)] private int damage = 1;
+
     private void Start()
     {
         Destroy(gameObject, 2f);
     }
 
-    /// <summary>
-    /// Sets the horizontal direction of the fireball.
-    /// </summary>
     public void SetDirection(float direction)
     {
         if (rb != null)
@@ -32,9 +32,6 @@ public class Fireball : MonoBehaviour
         transform.localScale = scale;
     }
 
-    /// <summary>
-    /// Handles collisions with enemies and other objects.
-    /// </summary>
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
         if (hitInfo.CompareTag("Player"))
@@ -42,11 +39,24 @@ public class Fireball : MonoBehaviour
             return;
         }
 
-        EnemyHealth enemyHealth = hitInfo.GetComponentInParent<EnemyHealth>();
+        EnemyHealth enemyHealth =
+            hitInfo.GetComponentInParent<EnemyHealth>();
 
         if (enemyHealth != null)
         {
-            enemyHealth.TakeDamage(1);
+            enemyHealth.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+        }
+
+        WraithHealth wraithHealth =
+            hitInfo.GetComponentInParent<WraithHealth>();
+
+        if (wraithHealth != null)
+        {
+            wraithHealth.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
         }
 
         Destroy(gameObject);

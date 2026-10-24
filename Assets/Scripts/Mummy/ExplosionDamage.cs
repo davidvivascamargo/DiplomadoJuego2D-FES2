@@ -10,7 +10,10 @@ public class ExplosionDamage : MonoBehaviour
     [SerializeField, Min(0.1f)] private float explosionLifetime = 1f;
 
     private CircleCollider2D explosionCollider;
+
     private readonly HashSet<GameObject> damagedPlayers = new();
+
+    private readonly Collider2D[] results = new Collider2D[32];
 
     private void Awake()
     {
@@ -18,14 +21,13 @@ public class ExplosionDamage : MonoBehaviour
 
         explosionCollider.isTrigger = true;
         explosionCollider.radius = explosionRadius;
+        explosionCollider.enabled = true;
     }
 
     private void Start()
     {
-        // Check players already inside the explosion radius.
         CheckExplosionDamage();
 
-        // Remove the explosion after its lifetime.
         Destroy(gameObject, explosionLifetime);
     }
 
@@ -44,8 +46,6 @@ public class ExplosionDamage : MonoBehaviour
         ContactFilter2D filter = new ContactFilter2D();
         filter.useTriggers = true;
 
-        Collider2D[] results = new Collider2D[20];
-
         int count = explosionCollider.Overlap(
             filter,
             results
@@ -59,27 +59,49 @@ public class ExplosionDamage : MonoBehaviour
 
     private void ApplyDamage(Collider2D other)
     {
-        if (!other.CompareTag("Player"))
-        {
+        if (other == null)
             return;
-        }
 
-        GameObject player = other.attachedRigidbody != null
-            ? other.attachedRigidbody.gameObject
-            : other.gameObject;
+        GameObject player = GetPlayer(other);
+
+        if (player == null)
+            return;
 
         if (damagedPlayers.Contains(player))
-        {
             return;
-        }
 
         if (GameManager.Instance == null)
-        {
             return;
-        }
 
         damagedPlayers.Add(player);
 
         GameManager.Instance.ReduceHealth();
+    }
+
+    private GameObject GetPlayer(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+            return other.gameObject;
+
+        if (other.attachedRigidbody != null)
+        {
+            GameObject root =
+                other.attachedRigidbody.gameObject;
+
+            if (root.CompareTag("Player"))
+                return root;
+        }
+
+        Transform current = other.transform.parent;
+
+        while (current != null)
+        {
+            if (current.CompareTag("Player"))
+                return current.gameObject;
+
+            current = current.parent;
+        }
+
+        return null;
     }
 }

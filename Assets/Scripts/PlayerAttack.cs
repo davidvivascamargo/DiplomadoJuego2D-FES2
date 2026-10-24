@@ -8,17 +8,37 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject fireballPrefab;
 
+    private PlayerEnergy playerEnergy;
+
+    private void Awake()
+    {
+        playerEnergy = GetComponent<PlayerEnergy>();
+    }
+
     private void OnFire(InputValue value)
     {
-        if (value.isPressed)
+        if (!value.isPressed)
         {
-            animator.SetTrigger("Shoot");
+            return;
         }
+
+        if (playerEnergy == null || !playerEnergy.CanFire)
+        {
+            return;
+        }
+
+        animator.SetTrigger("Shoot");
     }
 
     public void CastFireBall()
     {
         if (fireballPrefab == null || firePoint == null)
+        {
+            return;
+        }
+
+        if (playerEnergy == null ||
+            !playerEnergy.TryConsumeFireballEnergy())
         {
             return;
         }
