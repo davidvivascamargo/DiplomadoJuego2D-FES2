@@ -5713,6 +5713,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244726456}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &251149134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 251149135}
+  m_Layer: 0
+  m_Name: Wraith_Point_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &251149135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251149134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2, y: -17.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &253627589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5731,9 +5762,11 @@ GameObject:
   - component: {fileID: 253627594}
   - component: {fileID: 253627597}
   - component: {fileID: 253627599}
+  - component: {fileID: 253627607}
   - component: {fileID: 253627600}
   - component: {fileID: 253627603}
   - component: {fileID: 253627605}
+  - component: {fileID: 253627606}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -5916,7 +5949,6 @@ MonoBehaviour:
   isGrounded: 0
   rayLength: 0.05
   groundLayer:
-    serializedVersion: 2
     m_Bits: 128
   checkWallDistance: 3.1
   isWallDetected: 0
@@ -6058,6 +6090,63 @@ MonoBehaviour:
   swordVisual: {fileID: 0}
   playerAnimator: {fileID: 0}
   attackTrigger: SwordAttack
+--- !u!114 &253627606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967f6b152dfd46944b70c97435c1a963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerKnockback
+  horizontalForce: 7
+  verticalForce: 0
+  knockbackDuration: 0.2
+  enableKnockback: 1
+  resetVerticalVelocity: 0
+  animator: {fileID: 253627597}
+  knockbackParameter: IsKnockedBack
+--- !u!114 &253627607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253627589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec3d0f06341e994eb62d49f375ac5d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  m_transform: {fileID: 0}
+  playerSpriteRenderer: {fileID: 0}
+  speed: 5
+  skidDuration: 0.25
+  skidDeceleration: 15
+  minSkidSpeed: 0.5
+  skidWidthMultiplier: 0.65
+  skidHeightMultiplier: 0.4
+  standingColliderSize: {x: 0, y: 0}
+  standingColliderOffset: {x: 0, y: 0}
+  skidColliderSize: {x: 0, y: 0}
+  skidColliderOffset: {x: 0, y: 0}
+  jumpForce: 10
+  extraJumps: 0
+  counterextraJumps: 0
+  canDoubleJump: 0
+  lFoot: {fileID: 1731045382}
+  rFoot: {fileID: 1631638649}
+  isGrounded: 0
+  rayLength: 0.3
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  checkWallDistance: 0
+  isWallDetected: 0
+  enableColliderDebug: 1
 --- !u!1 &265285787
 GameObject:
   m_ObjectHideFlags: 0
@@ -22444,6 +22533,209 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &772126463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772126464}
+  m_Layer: 0
+  m_Name: Wraith_Point_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772126464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772126463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.7, y: -16.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &791298538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 791298541}
+  - component: {fileID: 791298540}
+  - component: {fileID: 791298539}
+  - component: {fileID: 791298543}
+  - component: {fileID: 791298542}
+  m_Layer: 0
+  m_Name: Hollow Wraith
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &791298539
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791298538}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dbd907614dd971c40aefb62eae49d1c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &791298540
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791298538}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -4572052129315257149, guid: b2e2882fdc5b0b34e9f24e1eb99c7cc5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.82, y: 1.82}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!4 &791298541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791298538}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.6, y: -12.2, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791298542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791298538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b162d9e156948f8419cd92fc58ed5070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WraithAttack
+  attackRange: 5
+  preparationTime: 0.7
+  dashSpeed: 8
+  dashDuration: 0.35
+  recoveryTime: 2
+  damageRadius: 0.8
+  damageOffset: {x: 0, y: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  enableKnockback: 1
+  animator: {fileID: 791298539}
+  attackTrigger: Attack
+--- !u!114 &791298543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791298538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f63589fad179a438265b8018dfd16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WraithMovement
+  startPoint: {fileID: 772126464}
+  endPoint: {fileID: 251149135}
+  patrolSpeed: 10
+  chaseSpeed: 2.5
+  arrivalDistance: 0.15
+  player: {fileID: 253627591}
+  detectionRange: 15
+  loseTargetRange: 20
+  loseTargetDelay: 3
+  floatingAmplitude: 0.3
+  floatingFrequency: 2
+  chaseHeight: 1
+  spriteRenderer: {fileID: 791298540}
+  flipSprite: 1
+  facesRightByDefault: 1
+  animator: {fileID: 791298539}
+  flyingParameter: IsFlying
+  flyingThreshold: 0.01
 --- !u!1 &834883553
 GameObject:
   m_ObjectHideFlags: 0
@@ -82703,3 +82995,6 @@ SceneRoots:
   - {fileID: 985866422}
   - {fileID: 955949275}
   - {fileID: 2611545054976262274}
+  - {fileID: 791298541}
+  - {fileID: 251149135}
+  - {fileID: 772126464}

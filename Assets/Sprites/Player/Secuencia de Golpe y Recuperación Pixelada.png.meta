@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: abac18291187a1d43a29329b9ca92136
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7336197846280713352
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_0"
+  - first:
+      213: 7978875897336921698
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_1"
+  - first:
+      213: -8478085661217595649
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_2"
+  - first:
+      213: 639190300076896658
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_3"
+  - first:
+      213: -5859094185601198795
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_4"
+  - first:
+      213: 4167152382165977221
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_5"
+  - first:
+      213: 6801762810875458629
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_6"
+  - first:
+      213: 5617195824621565392
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_7"
+  - first:
+      213: 4206064854235043565
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_8"
+  - first:
+      213: 1497700476332873194
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_9"
+  - first:
+      213: 7290661851206433797
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_10"
+  - first:
+      213: 1859738435051855242
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_11"
+  - first:
+      213: 5969937540106653442
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_12"
+  - first:
+      213: -1974368521951461174
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_13"
+  - first:
+      213: 8884248255299112362
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_14"
+  - first:
+      213: -3524383710308162836
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_15"
+  - first:
+      213: -2474737388873887246
+    second: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_0"
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 776
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bc37a7de6903a90800000000000000
+      internalID: -7336197846280713352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_1"
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 778
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e71bfca59aabe60800000000000000
+      internalID: 7978875897336921698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_2"
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 770
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffedacb820ac75a80800000000000000
+      internalID: -8478085661217595649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_3"
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 764
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29175fbf03cded800800000000000000
+      internalID: 639190300076896658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_4"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 288
+        width: 652
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5351fa981e050bea0800000000000000
+      internalID: -5859094185601198795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_5"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 389
+        width: 836
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5880de75303b4d930800000000000000
+      internalID: 4167152382165977221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_6"
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 762
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544b1bc3d37b46e50800000000000000
+      internalID: 6801762810875458629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_7"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 341
+        width: 223
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5306067d944fd40800000000000000
+      internalID: 5617195824621565392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_8"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 357
+        width: 364
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de65fe243b1fe5a30800000000000000
+      internalID: 4206064854235043565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_9"
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 727
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae511c7e5a6e8c410800000000000000
+      internalID: 1497700476332873194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 472
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cb6aa7352ad2560800000000000000
+      internalID: 7290661851206433797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_11"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 309
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d186cd04e1fc910800000000000000
+      internalID: 1859738435051855242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_12"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 47
+        width: 332
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f8359009a79d250800000000000000
+      internalID: 5969937540106653442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_13"
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 25
+        width: 376
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0ce593a42a994e0800000000000000
+      internalID: -1974368521951461174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_14"
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 28
+        width: 314
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadcc79a7b03b4b70800000000000000
+      internalID: 8884248255299112362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_15"
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 38
+        width: 335
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a8ee30bfd61fc0800000000000000
+      internalID: -3524383710308162836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Secuencia de Golpe y Recuperaci\xF3n Pixelada_16"
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 23
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f15bcfd477f7add0800000000000000
+      internalID: -2474737388873887246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_0": -7336197846280713352
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_1": 7978875897336921698
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_10": 7290661851206433797
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_11": 1859738435051855242
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_12": 5969937540106653442
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_13": -1974368521951461174
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_14": 8884248255299112362
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_15": -3524383710308162836
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_16": -2474737388873887246
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_2": -8478085661217595649
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_3": 639190300076896658
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_4": -5859094185601198795
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_5": 4167152382165977221
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_6": 6801762810875458629
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_7": 5617195824621565392
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_8": 4206064854235043565
+      "Secuencia de Golpe y Recuperaci\xF3n Pixelada_9": 1497700476332873194
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

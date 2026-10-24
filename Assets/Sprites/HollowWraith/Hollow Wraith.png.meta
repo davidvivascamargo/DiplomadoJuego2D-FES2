@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: b2e2882fdc5b0b34e9f24e1eb99c7cc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4572052129315257149
+    second: Hollow Wraith_0
+  - first:
+      213: -1892492692926458938
+    second: Hollow Wraith_1
+  - first:
+      213: -8288692463022292284
+    second: Hollow Wraith_2
+  - first:
+      213: -32189114075873583
+    second: Hollow Wraith_3
+  - first:
+      213: 8147047552555039798
+    second: Hollow Wraith_4
+  - first:
+      213: -4339147175008059649
+    second: Hollow Wraith_5
+  - first:
+      213: 3506909651453717365
+    second: Hollow Wraith_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hollow Wraith_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 693
+        width: 182
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5593226, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c48899efcecc80c0800000000000000
+      internalID: -4572052129315257149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 687
+        width: 182
+        height: 188
+      alignment: 9
+      pivot: {x: 0.57044566, y: 0.49282187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c398123ce38cb5e0800000000000000
+      internalID: -1892492692926458938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 686
+        width: 182
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5852765, y: 0.47857827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c24919ce16a8fc80800000000000000
+      internalID: -8288692463022292284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 686
+        width: 182
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5148309, y: 0.50357074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de7fd9db24ad8ff0800000000000000
+      internalID: -32189114075873583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 693
+        width: 182
+        height: 182
+      alignment: 9
+      pivot: {x: 0.47033927, y: 0.4814621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c324a8590201170800000000000000
+      internalID: 8147047552555039798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_5
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 693
+        width: 172
+        height: 182
+      alignment: 9
+      pivot: {x: 0.53138626, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe318552a048c3c0800000000000000
+      internalID: -4339147175008059649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_6
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 693
+        width: 182
+        height: 182
+      alignment: 9
+      pivot: {x: 0.56673825, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ba9426fbb0ba030800000000000000
+      internalID: 3506909651453717365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_7
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 693
+        width: 160
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f622aa870a3ba46ad76a76d90c2029
+      internalID: -1723967848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_8
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 692
+        width: 150
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6dcad66a00b5844b7a96c9ec6ad770
+      internalID: -584771266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 539
+        width: 190
+        height: 147
+      alignment: 9
+      pivot: {x: 0.6456135, y: 0.44491515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5457284d275bc91478bf26377be67ff3
+      internalID: -1125195737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 538
+        width: 179
+        height: 142
+      alignment: 9
+      pivot: {x: 0.654562, y: 0.44297555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95da8f5de190e384ab026898e3bae0cc
+      internalID: -2039820129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 538
+        width: 165
+        height: 142
+      alignment: 9
+      pivot: {x: 0.6267798, y: 0.3669425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a4de9fb6408ba469534caa40b0dfda
+      internalID: -1834878365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 538
+        width: 175
+        height: 143
+      alignment: 9
+      pivot: {x: 0.6426712, y: 0.40090495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecf3274982a5d54baa8033f733dc84b
+      internalID: 905293223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 537
+        width: 178
+        height: 143
+      alignment: 9
+      pivot: {x: 0.6440577, y: 0.41978016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1658ea106e25d354db66f60b6ee68df4
+      internalID: 1012587884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_14
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 538
+        width: 185
+        height: 142
+      alignment: 9
+      pivot: {x: 0.6714349, y: 0.4144631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde48bb85f4280b4f85fce53e34a4d80
+      internalID: -783124036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_15
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 538
+        width: 179
+        height: 143
+      alignment: 9
+      pivot: {x: 0.6734114, y: 0.40090495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4188546645aa06a41968c894b80100b6
+      internalID: 452247430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_16
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 536
+        width: 154
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5963999, y: 0.4250234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dd04e862f17ae48867ced58ff68d1d
+      internalID: -2133017409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_17
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 535
+        width: 154
+        height: 144
+      alignment: 9
+      pivot: {x: 0.60078174, y: 0.42033726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1629e121a54a41048b1f61c4496867f0
+      internalID: -1247775165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 380
+        width: 212
+        height: 131
+      alignment: 9
+      pivot: {x: 0.6686986, y: 0.43818724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4384ce79471b2f34a9a846a858a22688
+      internalID: 836583943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 380
+        width: 220
+        height: 131
+      alignment: 9
+      pivot: {x: 0.6502952, y: 0.41758275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5da33a51ad3ebb4fa09bd7af308ed5e
+      internalID: -928481807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 379
+        width: 242
+        height: 132
+      alignment: 9
+      pivot: {x: 0.69518864, y: 0.39775872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57fa004080e70944b6cd0b4f77affe6
+      internalID: 1262886232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 379
+        width: 257
+        height: 132
+      alignment: 9
+      pivot: {x: 0.69692457, y: 0.40798303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b525823621ed3d4fba09ef5d2b1405b
+      internalID: 547238262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_24
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 378
+        width: 279
+        height: 134
+      alignment: 9
+      pivot: {x: 0.7466993, y: 0.3992847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b3fb99272b886419f69797f019b03f
+      internalID: -1720800107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_25
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 377
+        width: 287
+        height: 134
+      alignment: 9
+      pivot: {x: 0.65517986, y: 0.4294994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0fcce968732c94b8620301e052ac04
+      internalID: 2069907185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_26
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 376
+        width: 214
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351bc944307ca2841aafa9eab36d6375
+      internalID: -1685294214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 175
+        width: 157
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4355293, y: 0.5562331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c453131c011273348bfafee6e2db597a
+      internalID: -443775814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_36
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 694
+        width: 157
+        height: 182
+      alignment: 9
+      pivot: {x: 0.5300868, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a784374dc6c234696c42ef0c68e44c
+      internalID: 1031344457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_37
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 536
+        width: 154
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5438185, y: 0.457826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f20ff73409e26a46aab4ce1d74285b8
+      internalID: -745337095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 177
+        width: 157
+        height: 192
+      alignment: 9
+      pivot: {x: 0.43123135, y: 0.53514576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77f09ccbfee55e48be0623ee9b3e899
+      internalID: 1567971460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_23
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 176
+        width: 157
+        height: 192
+      alignment: 9
+      pivot: {x: 0.49140415, y: 0.51757306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f220837a160a68641bec63db20c1de98
+      internalID: 5527469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_28
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 175
+        width: 157
+        height: 192
+      alignment: 9
+      pivot: {x: 0.50859624, y: 0.51757306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827c5086bb3157b4ab5c8e09d94e1245
+      internalID: 1781353300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_29
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 179
+        width: 157
+        height: 192
+      alignment: 9
+      pivot: {x: 0.46991393, y: 0.52108747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6223e1ca69787eb49bacb73cda878722
+      internalID: 1883869184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_30
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 181
+        width: 157
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4871064, y: 0.5246021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a78480c2aeb644da5917f0aa94f5b1
+      internalID: 2142155373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_31
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 182
+        width: 168
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5000007, y: 0.52108747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df0d9c58a2c8834ab351557a12d6031
+      internalID: -1792441376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_32
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 185
+        width: 160
+        height: 187
+      alignment: 9
+      pivot: {x: 0.51687014, y: 0.5216513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec3e9d22aa6bb44d95f864fdf76d478
+      internalID: -427785758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_33
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 186
+        width: 136
+        height: 182
+      alignment: 9
+      pivot: {x: 0.549618, y: 0.4925849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e027cb2bb56e14e469d65d2cda325094
+      internalID: 241120958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_34
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 187
+        width: 128
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781be2ff45eeb134e821781253ff368a
+      internalID: 458777052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hollow Wraith_35
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 186
+        width: 136
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8ed2e31b75cf6409b6b017891e2d10
+      internalID: 1508680005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 832d668337718c241bbe97db0cdd9b09
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":170.0,"y":182.0},"gridSpriteOffset":{"x":214.0,"y":18.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Hollow Wraith_0: -4572052129315257149
+      Hollow Wraith_1: -1892492692926458938
+      Hollow Wraith_10: -2039820129
+      Hollow Wraith_11: -1834878365
+      Hollow Wraith_12: 905293223
+      Hollow Wraith_13: 1012587884
+      Hollow Wraith_14: -783124036
+      Hollow Wraith_15: 452247430
+      Hollow Wraith_16: -2133017409
+      Hollow Wraith_17: -1247775165
+      Hollow Wraith_18: 836583943
+      Hollow Wraith_19: -928481807
+      Hollow Wraith_2: -8288692463022292284
+      Hollow Wraith_20: 1567971460
+      Hollow Wraith_21: 1262886232
+      Hollow Wraith_22: 547238262
+      Hollow Wraith_23: 5527469
+      Hollow Wraith_24: -1720800107
+      Hollow Wraith_25: 2069907185
+      Hollow Wraith_26: -1685294214
+      Hollow Wraith_27: -443775814
+      Hollow Wraith_28: 1781353300
+      Hollow Wraith_29: 1883869184
+      Hollow Wraith_3: -32189114075873583
+      Hollow Wraith_30: 2142155373
+      Hollow Wraith_31: -1792441376
+      Hollow Wraith_32: -427785758
+      Hollow Wraith_33: 241120958
+      Hollow Wraith_34: 458777052
+      Hollow Wraith_35: 1508680005
+      Hollow Wraith_36: 1031344457
+      Hollow Wraith_37: -745337095
+      Hollow Wraith_4: 8147047552555039798
+      Hollow Wraith_5: -4339147175008059649
+      Hollow Wraith_6: 3506909651453717365
+      Hollow Wraith_7: -1723967848
+      Hollow Wraith_8: -584771266
+      Hollow Wraith_9: -1125195737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

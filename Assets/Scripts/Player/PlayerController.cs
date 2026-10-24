@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private Animator m_animator;
     private CapsuleCollider2D capsuleCollider;
 
+    private PlayerKnockback playerKnockback;
+
     [SerializeField] private SpriteRenderer playerSpriteRenderer;
 
     // Animator IDs
@@ -99,6 +101,8 @@ public class PlayerController : MonoBehaviour
 
         capsuleCollider = GetComponent<CapsuleCollider2D>();
 
+        playerKnockback = GetComponent<PlayerKnockback>();
+
         // Obtener el SpriteRenderer del personaje.
         if (playerSpriteRenderer == null)
         {
@@ -152,6 +156,20 @@ public class PlayerController : MonoBehaviour
                 m_rigidbody2D.linearVelocity.y
             );
 
+            m_gatherInput.IsJumping = false;
+            skidRequested = false;
+
+            if (isSkidding)
+            {
+                StopSkid();
+            }
+
+            return;
+        }
+
+        if (playerKnockback != null &&
+            playerKnockback.IsKnockedBack)
+        {
             m_gatherInput.IsJumping = false;
             skidRequested = false;
 
