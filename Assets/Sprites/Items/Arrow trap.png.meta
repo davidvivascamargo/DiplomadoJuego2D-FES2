@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: ec8f671f71a12e94c9fe96925078c0a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 355512425966506517
+    second: Arrow trap_0
+  - first:
+      213: -1939789065633500497
+    second: Arrow trap_1
+  - first:
+      213: 8399733872452375941
+    second: Arrow trap_2
+  - first:
+      213: 8628432527861344488
+    second: Arrow trap_3
+  - first:
+      213: 7264044535480822853
+    second: Arrow trap_4
+  - first:
+      213: -2480423223920251839
+    second: Arrow trap_5
+  - first:
+      213: -5571872623451199476
+    second: Arrow trap_6
+  - first:
+      213: 5187710316018968142
+    second: Arrow trap_7
+  - first:
+      213: 6231018946885633050
+    second: Arrow trap_8
+  - first:
+      213: 4446534509933892028
+    second: Arrow trap_9
+  - first:
+      213: -5771894386463507003
+    second: Arrow trap_10
+  - first:
+      213: -3799103520306799246
+    second: Arrow trap_11
+  - first:
+      213: 6371295796919638608
+    second: Arrow trap_12
+  - first:
+      213: -5145515079940955733
+    second: Arrow trap_13
+  - first:
+      213: -2010734676539072039
+    second: Arrow trap_14
+  - first:
+      213: -4782232939501616598
+    second: Arrow trap_15
+  - first:
+      213: 769630925360314157
+    second: Arrow trap_16
+  - first:
+      213: 223423143192325390
+    second: Arrow trap_17
+  - first:
+      213: 8720961006272905188
+    second: Arrow trap_18
+  - first:
+      213: -4592911197804737941
+    second: Arrow trap_19
+  - first:
+      213: 5839609854626899899
+    second: Arrow trap_20
+  - first:
+      213: -4660102988581984425
+    second: Arrow trap_21
+  - first:
+      213: 4050067989144603536
+    second: Arrow trap_22
+  - first:
+      213: 4563025794152104151
+    second: Arrow trap_23
+  - first:
+      213: 1832616726252797281
+    second: Arrow trap_24
+  - first:
+      213: -9010275309257504559
+    second: Arrow trap_25
+  - first:
+      213: -4745117161995309660
+    second: Arrow trap_26
+  - first:
+      213: -6186474827319983788
+    second: Arrow trap_27
+  - first:
+      213: -4736315293745141348
+    second: Arrow trap_28
+  - first:
+      213: 561269472372155921
+    second: Arrow trap_29
+  - first:
+      213: -7135798508061303762
+    second: Arrow trap_30
+  - first:
+      213: -2575432239298097910
+    second: Arrow trap_31
+  - first:
+      213: 1690812863481737355
+    second: Arrow trap_32
+  - first:
+      213: -1585891689445821027
+    second: Arrow trap_33
+  - first:
+      213: 1911544620868336728
+    second: Arrow trap_34
+  - first:
+      213: 7650803585087512517
+    second: Arrow trap_35
+  - first:
+      213: -4696779152621089820
+    second: Arrow trap_36
+  - first:
+      213: 1008481412206330639
+    second: Arrow trap_37
+  - first:
+      213: -4894601957482293435
+    second: Arrow trap_38
+  - first:
+      213: 7843062240195189641
+    second: Arrow trap_39
+  - first:
+      213: 4322423974193084002
+    second: Arrow trap_40
+  - first:
+      213: 1541245764018160161
+    second: Arrow trap_41
+  - first:
+      213: -9192592803789955026
+    second: Arrow trap_42
+  - first:
+      213: -8711269185793083531
+    second: Arrow trap_43
+  - first:
+      213: 8808396219949093916
+    second: Arrow trap_44
+  - first:
+      213: 2279479711656822174
+    second: Arrow trap_45
+  - first:
+      213: -1745478385967928585
+    second: Arrow trap_46
+  - first:
+      213: -4229677660251769021
+    second: Arrow trap_47
+  - first:
+      213: 5683632629441436310
+    second: Arrow trap_48
+  - first:
+      213: -8652873388910219174
+    second: Arrow trap_49
+  - first:
+      213: 2536358964051521288
+    second: Arrow trap_50
+  - first:
+      213: -140457502137353977
+    second: Arrow trap_51
+  - first:
+      213: 916121337580689851
+    second: Arrow trap_52
+  - first:
+      213: -4007156004560572263
+    second: Arrow trap_53
+  - first:
+      213: 7253414793929641973
+    second: Arrow trap_54
+  - first:
+      213: -1184282473594620366
+    second: Arrow trap_55
+  - first:
+      213: -7641102905872302993
+    second: Arrow trap_56
+  - first:
+      213: 346755290334952567
+    second: Arrow trap_57
+  - first:
+      213: -1165212570682491039
+    second: Arrow trap_58
+  - first:
+      213: -3249078337696872005
+    second: Arrow trap_59
+  - first:
+      213: -4808371641353799340
+    second: Arrow trap_60
+  - first:
+      213: -3123421685278474085
+    second: Arrow trap_61
+  - first:
+      213: -8441371245160631766
+    second: Arrow trap_62
+  - first:
+      213: 3701888520160663635
+    second: Arrow trap_63
+  - first:
+      213: -6738066658111692894
+    second: Arrow trap_64
+  - first:
+      213: -2412800429432706109
+    second: Arrow trap_65
+  - first:
+      213: 7500084462439644994
+    second: Arrow trap_66
+  - first:
+      213: -4306353955680836987
+    second: Arrow trap_67
+  - first:
+      213: -5373109810364470540
+    second: Arrow trap_68
+  - first:
+      213: 3760784107741507436
+    second: Arrow trap_69
+  - first:
+      213: 4233476980872882095
+    second: Arrow trap_70
+  - first:
+      213: 4742552864682685130
+    second: Arrow trap_71
+  - first:
+      213: 5114503567384912295
+    second: Arrow trap_72
+  - first:
+      213: 2002675141319578579
+    second: Arrow trap_73
+  - first:
+      213: -8562051110406949186
+    second: Arrow trap_74
+  - first:
+      213: -8574505054243957296
+    second: Arrow trap_75
+  - first:
+      213: 8557217319335172608
+    second: Arrow trap_76
+  - first:
+      213: 985867894144849938
+    second: Arrow trap_77
+  - first:
+      213: -9036948827528020680
+    second: Arrow trap_78
+  - first:
+      213: -4853669609182867216
+    second: Arrow trap_79
+  - first:
+      213: -3478180566266970671
+    second: Arrow trap_80
+  - first:
+      213: 2650093474132596123
+    second: Arrow trap_81
+  - first:
+      213: -6626514675387942
+    second: Arrow trap_82
+  - first:
+      213: -5372593329970365319
+    second: Arrow trap_83
+  - first:
+      213: 2365910517446508246
+    second: Arrow trap_84
+  - first:
+      213: 5188457325525855812
+    second: Arrow trap_85
+  - first:
+      213: 6413189924264102018
+    second: Arrow trap_86
+  - first:
+      213: 4949484063125523444
+    second: Arrow trap_87
+  - first:
+      213: -4942393224918234080
+    second: Arrow trap_88
+  - first:
+      213: -4006815838495711499
+    second: Arrow trap_89
+  - first:
+      213: -3250841256584371344
+    second: Arrow trap_90
+  - first:
+      213: -1649331986509126756
+    second: Arrow trap_91
+  - first:
+      213: -6335812106130546648
+    second: Arrow trap_92
+  - first:
+      213: -4161965692941019528
+    second: Arrow trap_93
+  - first:
+      213: -607829539131953262
+    second: Arrow trap_94
+  - first:
+      213: 315817870042504941
+    second: Arrow trap_95
+  - first:
+      213: 710518195874360665
+    second: Arrow trap_96
+  - first:
+      213: 915207310999588068
+    second: Arrow trap_97
+  - first:
+      213: 2988199492964070575
+    second: Arrow trap_98
+  - first:
+      213: -1630359816502154007
+    second: Arrow trap_99
+  - first:
+      213: -3493437327041455650
+    second: Arrow trap_100
+  - first:
+      213: 7685327819298858199
+    second: Arrow trap_101
+  - first:
+      213: -2519514194853367586
+    second: Arrow trap_102
+  - first:
+      213: -6076471058646791910
+    second: Arrow trap_103
+  - first:
+      213: 8443344646054850738
+    second: Arrow trap_104
+  - first:
+      213: -4716545717624186963
+    second: Arrow trap_105
+  - first:
+      213: -1191625816662919527
+    second: Arrow trap_106
+  - first:
+      213: -9020291407208385762
+    second: Arrow trap_107
+  - first:
+      213: 6359199244991242108
+    second: Arrow trap_108
+  - first:
+      213: 3466266619609526479
+    second: Arrow trap_109
+  - first:
+      213: 2491074276679443312
+    second: Arrow trap_110
+  - first:
+      213: 5658564714435037774
+    second: Arrow trap_111
+  - first:
+      213: 4448084454698162996
+    second: Arrow trap_112
+  - first:
+      213: -9044368585693267240
+    second: Arrow trap_113
+  - first:
+      213: 7761454032080770489
+    second: Arrow trap_114
+  - first:
+      213: 7665360802605516127
+    second: Arrow trap_115
+  - first:
+      213: -48911254246666608
+    second: Arrow trap_116
+  - first:
+      213: 2037295748681862501
+    second: Arrow trap_117
+  - first:
+      213: -8545833936107325330
+    second: Arrow trap_118
+  - first:
+      213: -6950540338677617153
+    second: Arrow trap_119
+  - first:
+      213: -3420108433775938650
+    second: Arrow trap_120
+  - first:
+      213: 6054376363976062690
+    second: Arrow trap_121
+  - first:
+      213: -8945886810259079494
+    second: Arrow trap_122
+  - first:
+      213: -2333590870485290911
+    second: Arrow trap_123
+  - first:
+      213: 1516243274188624741
+    second: Arrow trap_124
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arrow trap_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 432
+        width: 113
+        height: 284
+      alignment: 9
+      pivot: {x: 0.4484924, y: 0.47950596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51298f6faa80fe400800000000000000
+      internalID: 355512425966506517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 433
+        width: 108
+        height: 283
+      alignment: 9
+      pivot: {x: 0.58622795, y: 0.4876601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa27abb4f1c7415e0800000000000000
+      internalID: -1939789065633500497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 439
+        width: 116
+        height: 277
+      alignment: 9
+      pivot: {x: 0.4799305, y: 0.46217847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585175b0479d19470800000000000000
+      internalID: 8399733872452375941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 445
+        width: 154
+        height: 271
+      alignment: 9
+      pivot: {x: 0.34882227, y: 0.46134108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8e99f2ba95eb770800000000000000
+      internalID: 8628432527861344488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_4
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 438
+        width: 230
+        height: 278
+      alignment: 9
+      pivot: {x: 0.27224678, y: 0.47906363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ca3f9b4021fc460800000000000000
+      internalID: 7264044535480822853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_5
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 432
+        width: 224
+        height: 284
+      alignment: 9
+      pivot: {x: 0.22976902, y: 0.47950596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14caa9d3834c39dd0800000000000000
+      internalID: -2480423223920251839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_6
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 438
+        width: 355
+        height: 278
+      alignment: 9
+      pivot: {x: 0.15241802, y: 0.46231452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08a779be5bbca2b0800000000000000
+      internalID: -5571872623451199476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_7
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 439
+        width: 97
+        height: 278
+      alignment: 9
+      pivot: {x: 0.3439929, y: 0.4706891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46a0f7fb037ef740800000000000000
+      internalID: 5187710316018968142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 273
+        height: 121
+      alignment: 9
+      pivot: {x: 0.8240644, y: 0.59620476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14c8d508b6097650800000000000000
+      internalID: 6231018946885633050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 270
+        width: 297
+        height: 122
+      alignment: 9
+      pivot: {x: 0.8292331, y: 0.62404096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1102af39345bd30800000000000000
+      internalID: 4446534509933892028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 270
+        width: 299
+        height: 123
+      alignment: 9
+      pivot: {x: 0.77252585, y: 0.61356854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d5d2f0a7fd64bc0800000000000000
+      internalID: -3799103520306799246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_12
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 271
+        width: 277
+        height: 123
+      alignment: 9
+      pivot: {x: 0.7857657, y: 0.5946405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a955e45c36b6850800000000000000
+      internalID: 6371295796919638608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_13
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 270
+        width: 286
+        height: 123
+      alignment: 9
+      pivot: {x: 0.78084326, y: 0.5662487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba124b10c457798b0800000000000000
+      internalID: -5145515079940955733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_14
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 270
+        width: 303
+        height: 125
+      alignment: 9
+      pivot: {x: 0.76508635, y: 0.61175144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1245b077f6814e0800000000000000
+      internalID: -2010734676539072039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_15
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 270
+        width: 300
+        height: 121
+      alignment: 9
+      pivot: {x: 0.7910197, y: 0.6058256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2285d79a7812adb0800000000000000
+      internalID: -4782232939501616598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27b14abf374eaa00800000000000000
+      internalID: 769630925360314157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d649c3a22c91300800000000000000
+      internalID: 223423143192325390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_18
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4effdee54d3170970800000000000000
+      internalID: 8720961006272905188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a4fe19993b240c0800000000000000
+      internalID: -4592911197804737941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_20
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb728e329367a0150800000000000000
+      internalID: 5839609854626899899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_21
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757a5dca50df35fb0800000000000000
+      internalID: -4660102988581984425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_22
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b0521c06bb43830800000000000000
+      internalID: 4050067989144603536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow trap_23
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 11
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d08169a8cf135f30800000000000000
+      internalID: 4563025794152104151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e2479de24cad6e147a2b7440fd3aec14
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":187.0},"gridSpriteOffset":{"x":0.0,"y":8.0},"gridSpritePadding":{"x":70.0,"y":72.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Arrow trap_0: 355512425966506517
+      Arrow trap_1: -1939789065633500497
+      Arrow trap_10: -5771894386463507003
+      Arrow trap_11: -3799103520306799246
+      Arrow trap_12: 6371295796919638608
+      Arrow trap_13: -5145515079940955733
+      Arrow trap_14: -2010734676539072039
+      Arrow trap_15: -4782232939501616598
+      Arrow trap_16: 769630925360314157
+      Arrow trap_17: 223423143192325390
+      Arrow trap_18: 8720961006272905188
+      Arrow trap_19: -4592911197804737941
+      Arrow trap_2: 8399733872452375941
+      Arrow trap_20: 5839609854626899899
+      Arrow trap_21: -4660102988581984425
+      Arrow trap_22: 4050067989144603536
+      Arrow trap_23: 4563025794152104151
+      Arrow trap_3: 8628432527861344488
+      Arrow trap_4: 7264044535480822853
+      Arrow trap_5: -2480423223920251839
+      Arrow trap_6: -5571872623451199476
+      Arrow trap_7: 5187710316018968142
+      Arrow trap_8: 6231018946885633050
+      Arrow trap_9: 4446534509933892028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
