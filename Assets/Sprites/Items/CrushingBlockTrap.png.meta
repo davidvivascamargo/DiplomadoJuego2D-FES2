@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: 73438a2677656154499b28155c60cbe2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 215084718789342021
+    second: CrushingBlockTrap_0
+  - first:
+      213: 4074650522017970419
+    second: CrushingBlockTrap_1
+  - first:
+      213: 1006689229626880404
+    second: CrushingBlockTrap_2
+  - first:
+      213: -3609997236201216429
+    second: CrushingBlockTrap_3
+  - first:
+      213: -6647527999055671377
+    second: CrushingBlockTrap_4
+  - first:
+      213: -442785884333076137
+    second: CrushingBlockTrap_5
+  - first:
+      213: -2362586833039277375
+    second: CrushingBlockTrap_6
+  - first:
+      213: -4794240864225566220
+    second: CrushingBlockTrap_7
+  - first:
+      213: 7207847385365573781
+    second: CrushingBlockTrap_8
+  - first:
+      213: 4409749500149843408
+    second: CrushingBlockTrap_9
+  - first:
+      213: 5768935898390727173
+    second: CrushingBlockTrap_10
+  - first:
+      213: -1969807411181455861
+    second: CrushingBlockTrap_11
+  - first:
+      213: -5112547058293762515
+    second: CrushingBlockTrap_12
+  - first:
+      213: -5339907217512019095
+    second: CrushingBlockTrap_13
+  - first:
+      213: -1377048797010312029
+    second: CrushingBlockTrap_14
+  - first:
+      213: 5049081964983045363
+    second: CrushingBlockTrap_15
+  - first:
+      213: -4437365730902369303
+    second: CrushingBlockTrap_16
+  - first:
+      213: -8472377451373565360
+    second: CrushingBlockTrap_17
+  - first:
+      213: 4705512651181132855
+    second: CrushingBlockTrap_18
+  - first:
+      213: 882079871467422620
+    second: CrushingBlockTrap_19
+  - first:
+      213: 654971669554935986
+    second: CrushingBlockTrap_20
+  - first:
+      213: -8912962144544148575
+    second: CrushingBlockTrap_21
+  - first:
+      213: -587841689423490522
+    second: CrushingBlockTrap_22
+  - first:
+      213: 4014830436480353342
+    second: CrushingBlockTrap_23
+  - first:
+      213: 7521601488736451579
+    second: CrushingBlockTrap_24
+  - first:
+      213: 6765128493340193211
+    second: CrushingBlockTrap_25
+  - first:
+      213: 7092283985462117742
+    second: CrushingBlockTrap_26
+  - first:
+      213: -484453427768997613
+    second: CrushingBlockTrap_27
+  - first:
+      213: -4748924575117313796
+    second: CrushingBlockTrap_28
+  - first:
+      213: 3207887976699867614
+    second: CrushingBlockTrap_29
+  - first:
+      213: 2501624863109468408
+    second: CrushingBlockTrap_30
+  - first:
+      213: 7421264278713428752
+    second: CrushingBlockTrap_31
+  - first:
+      213: 2472512954578314709
+    second: CrushingBlockTrap_32
+  - first:
+      213: 1099243236651001780
+    second: CrushingBlockTrap_33
+  - first:
+      213: 4425355012235715405
+    second: CrushingBlockTrap_34
+  - first:
+      213: 6013530874968265638
+    second: CrushingBlockTrap_35
+  - first:
+      213: -1223971178978601808
+    second: CrushingBlockTrap_36
+  - first:
+      213: -274858737153955971
+    second: CrushingBlockTrap_37
+  - first:
+      213: 6710978890085022320
+    second: CrushingBlockTrap_38
+  - first:
+      213: 3235632583982799641
+    second: CrushingBlockTrap_39
+  - first:
+      213: 6044210512810318582
+    second: CrushingBlockTrap_40
+  - first:
+      213: -5519569682962093223
+    second: CrushingBlockTrap_41
+  - first:
+      213: 5994257952363922092
+    second: CrushingBlockTrap_42
+  - first:
+      213: 5133022413557087214
+    second: CrushingBlockTrap_43
+  - first:
+      213: -7071881877791542136
+    second: CrushingBlockTrap_44
+  - first:
+      213: 9150292563280235010
+    second: CrushingBlockTrap_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrushingBlockTrap_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 717
+        width: 218
+        height: 230
+      alignment: 9
+      pivot: {x: 0.49561197, y: 0.241592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543bd0489622cf200800000000000000
+      internalID: 215084718789342021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 715
+        width: 219
+        height: 232
+      alignment: 9
+      pivot: {x: 0.47687507, y: 0.247195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8bdb4bf011c8830800000000000000
+      internalID: 4074650522017970419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 715
+        width: 227
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49491876, y: 0.24597012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4913f1b458a78fd00800000000000000
+      internalID: 1006689229626880404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 664
+        width: 225
+        height: 281
+      alignment: 9
+      pivot: {x: 0.49149686, y: 0.3896256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356a518e3a6b6edc0800000000000000
+      internalID: -3609997236201216429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_4
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 662
+        width: 215
+        height: 283
+      alignment: 9
+      pivot: {x: 0.4866523, y: 0.3879533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafc2d5418c3fb3a0800000000000000
+      internalID: -6647527999055671377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 376
+        width: 155
+        height: 286
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.39297026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75115cc8598ead9f0800000000000000
+      internalID: -442785884333076137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 376
+        width: 161
+        height: 286
+      alignment: 9
+      pivot: {x: 0.49108773, y: 0.28761292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2cda9fac7663fd0800000000000000
+      internalID: -2362586833039277375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_7
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 347
+        width: 246
+        height: 315
+      alignment: 9
+      pivot: {x: 0.45917046, y: 0.21454497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f16c20c55f677db0800000000000000
+      internalID: -4794240864225566220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 351
+        width: 242
+        height: 311
+      alignment: 9
+      pivot: {x: 0.4843871, y: 0.19488016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59071f7120b670460800000000000000
+      internalID: 7207847385365573781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_9
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 349
+        width: 294
+        height: 313
+      alignment: 9
+      pivot: {x: 0.4511947, y: 0.1256204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d543e87ec3923d30800000000000000
+      internalID: 4409749500149843408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 38
+        width: 218
+        height: 338
+      alignment: 9
+      pivot: {x: 0.4926134, y: 0.12006308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a049b62a06f0050800000000000000
+      internalID: 5768935898390727173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 33
+        width: 182
+        height: 343
+      alignment: 9
+      pivot: {x: 0.48230466, y: 0.13851188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06f8949896d9a4e0800000000000000
+      internalID: -1969807411181455861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 34
+        width: 178
+        height: 199
+      alignment: 9
+      pivot: {x: 0.4886917, y: 0.29770523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d269ee4b9859c09b0800000000000000
+      internalID: -5112547058293762515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 42
+        width: 184
+        height: 268
+      alignment: 9
+      pivot: {x: 0.48249683, y: 0.43240494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bc6ae7da6d4e5b0800000000000000
+      internalID: -5339907217512019095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_14
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 90
+        width: 190
+        height: 217
+      alignment: 9
+      pivot: {x: 0.50211823, y: 0.31263036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a442df3a6db3ece0800000000000000
+      internalID: -1377048797010312029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_15
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 662
+        width: 224
+        height: 283
+      alignment: 9
+      pivot: {x: 0.4829178, y: 0.3812638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7696f929b5b0e4ab64db0d99565507
+      internalID: 5049081964983045363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_16
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 34
+        width: 181
+        height: 248
+      alignment: 9
+      pivot: {x: 0.48443097, y: 0.40260494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d53ba3d0f8c3a4d8f3d3416b92dfe3
+      internalID: -4437365730902369303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrushingBlockTrap_17
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 90
+        width: 192
+        height: 217
+      alignment: 9
+      pivot: {x: 0.504193, y: 0.28851345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408d965aa94b8b94c81cad67a7eef7a0
+      internalID: -8472377451373565360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c54dbad764094704d8cd4b0b9c51b74e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":259.0,"y":286.0},"gridSpriteOffset":{"x":0.0,"y":76.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CrushingBlockTrap_0: 215084718789342021
+      CrushingBlockTrap_1: 4074650522017970419
+      CrushingBlockTrap_10: 5768935898390727173
+      CrushingBlockTrap_11: -1969807411181455861
+      CrushingBlockTrap_12: -5112547058293762515
+      CrushingBlockTrap_13: -5339907217512019095
+      CrushingBlockTrap_14: -1377048797010312029
+      CrushingBlockTrap_15: 5049081964983045363
+      CrushingBlockTrap_16: -4437365730902369303
+      CrushingBlockTrap_17: -8472377451373565360
+      CrushingBlockTrap_2: 1006689229626880404
+      CrushingBlockTrap_3: -3609997236201216429
+      CrushingBlockTrap_4: -6647527999055671377
+      CrushingBlockTrap_5: -442785884333076137
+      CrushingBlockTrap_6: -2362586833039277375
+      CrushingBlockTrap_7: -4794240864225566220
+      CrushingBlockTrap_8: 7207847385365573781
+      CrushingBlockTrap_9: 4409749500149843408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
