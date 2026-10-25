@@ -32,7 +32,16 @@ public class ArrowProjectile : MonoBehaviour
 
     public void Initialize(Vector2 shootDirection)
     {
+        if (shootDirection.sqrMagnitude < 0.001f)
+            shootDirection = Vector2.right;
+
         direction = shootDirection.normalized;
+
+        // Rotate the projectile to face its movement direction.
+        float angle = Mathf.Atan2(direction.y, direction.x)
+                      * Mathf.Rad2Deg;
+
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
     private void FixedUpdate()
@@ -57,9 +66,7 @@ public class ArrowProjectile : MonoBehaviour
             if (GameManager.Instance != null)
             {
                 for (int i = 0; i < damage; i++)
-                {
                     GameManager.Instance.ReduceHealth();
-                }
             }
 
             Destroy(gameObject);

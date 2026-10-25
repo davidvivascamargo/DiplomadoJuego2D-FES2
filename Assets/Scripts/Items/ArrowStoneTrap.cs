@@ -8,8 +8,8 @@ public class ArrowStoneTrap : MonoBehaviour
     [SerializeField] private Transform firePoint;
 
     [Header("Shooting Settings")]
-    [SerializeField] private float fireInterval = 4f;
-    [SerializeField] private bool shootRight = true;
+    [SerializeField, Min(0.1f)]
+    private float fireInterval = 4f;
 
     [Header("Animation")]
     [SerializeField] private Animator animator;
@@ -24,7 +24,7 @@ public class ArrowStoneTrap : MonoBehaviour
 
     private void Start()
     {
-        nextFireTime = Time.time + Mathf.Max(0.1f, fireInterval);
+        nextFireTime = Time.time + fireInterval;
     }
 
     private void Update()
@@ -32,7 +32,7 @@ public class ArrowStoneTrap : MonoBehaviour
         if (Time.time < nextFireTime)
             return;
 
-        nextFireTime = Time.time + Mathf.Max(0.1f, fireInterval);
+        nextFireTime = Time.time + fireInterval;
 
         ActivateTrap();
     }
@@ -42,13 +42,11 @@ public class ArrowStoneTrap : MonoBehaviour
         if (arrowPrefab == null || firePoint == null)
         {
             Debug.LogError(
-                "ArrowStoneTrap: Arrow Prefab or FirePoint is missing.",
+                "[ArrowStoneTrap] Arrow Prefab or FirePoint is missing.",
                 this
             );
             return;
         }
-
-        Debug.Log("ArrowStoneTrap: Activating trap.");
 
         if (animator != null)
         {
@@ -61,16 +59,21 @@ public class ArrowStoneTrap : MonoBehaviour
         }
     }
 
-    // Called by an Animation Event in ArrowTrap_Shoot
+    // Called by an Animation Event in ArrowTrap_Shoot.
     public void ShootArrow()
     {
         if (arrowPrefab == null || firePoint == null)
             return;
 
-        Vector2 direction = shootRight
+        // Get the direction from FirePoint's orientation.
+        Vector2 direction = firePoint.right;
+
+        // Restrict movement to left or right.
+        direction = direction.x >= 0f
             ? Vector2.right
             : Vector2.left;
 
+        // Create the projectile at FirePoint.
         GameObject arrow = Instantiate(
             arrowPrefab,
             firePoint.position,
@@ -83,7 +86,7 @@ public class ArrowStoneTrap : MonoBehaviour
         if (projectile == null)
         {
             Debug.LogError(
-                "ArrowStoneTrap: Arrow prefab is missing ArrowProjectile.",
+                "[ArrowStoneTrap] ArrowProjectile component is missing.",
                 arrow
             );
 
@@ -91,17 +94,13 @@ public class ArrowStoneTrap : MonoBehaviour
             return;
         }
 
+        // Initialize movement and orientation.
         projectile.Initialize(direction);
 
-        SpriteRenderer sprite =
-            arrow.GetComponent<SpriteRenderer>();
-
-        if (sprite != null)
-            sprite.flipX = !shootRight;
-
         Debug.Log(
-            "ArrowStoneTrap: Arrow created at " +
-            firePoint.position,
+            $"[ArrowStoneTrap] Arrow fired " +
+            $"towards {(direction.x > 0 ? "RIGHT" : "LEFT")} " +
+            $"from {firePoint.position}",
             arrow
         );
     }
@@ -111,13 +110,17 @@ public class ArrowStoneTrap : MonoBehaviour
         if (firePoint == null)
             return;
 
-        Gizmos.color = Color.red;
-
-        Vector3 direction = shootRight
+        Vector3 direction = firePoint.right.x >= 0f
             ? Vector3.right
             : Vector3.left;
 
+        Gizmos.color = Color.red;
+
         Gizmos.DrawSphere(firePoint.position, 0.1f);
-        Gizmos.DrawRay(firePoint.position, direction * 3f);
+
+        Gizmos.DrawRay(
+            firePoint.position,
+            direction * 3f
+        );
     }
 }
