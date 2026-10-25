@@ -73,5 +73,18 @@ public class GameManager : MonoBehaviour
 
     return false; // Devuelve false porque la vida ya estaba en 3 (llena)
 }
+
+public void KillPlayer()
+{
+    if (_playerHealth <= 0)
+        return;
+
+    _playerHealth = 0;
+
+    SceneManager.LoadScene(
+        SceneManager.GetActiveScene().buildIndex
+    );
+}
+
 }
 
