@@ -1,4 +1,4 @@
-
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -57,6 +57,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int extraJumps;
     [SerializeField] private int counterextraJumps;
     [SerializeField] private bool canDoubleJump;
+
+    [Header("Double Jump Power-Up")]
+    [SerializeField] private float doubleJumpDuration = 10f;
+
+private Coroutine doubleJumpCoroutine;
 
     [Header("Ground Settings")]
     [SerializeField] private Transform lFoot;
@@ -511,6 +516,58 @@ public class PlayerController : MonoBehaviour
             jumpForce
         );
     }
+
+    
+public void ActivateDoubleJump(float duration, int totalJumps)
+{
+    if (doubleJumpCoroutine != null)
+        StopCoroutine(doubleJumpCoroutine);
+
+    doubleJumpCoroutine = StartCoroutine(
+        DoubleJumpTimer(duration, totalJumps)
+    );
+}
+
+private IEnumerator DoubleJumpTimer(float duration, int totalJumps)
+{
+    // The first jump is the normal jump.
+    // All remaining jumps are additional jumps.
+    extraJumps = Mathf.Max(0, totalJumps - 1);
+    counterextraJumps = extraJumps;
+
+    Debug.Log(
+        $"[Player] Power-up activated: {totalJumps} jumps."
+    );
+
+    yield return new WaitForSeconds(duration);
+
+    extraJumps = 0;
+    counterextraJumps = 0;
+    canDoubleJump = false;
+
+    doubleJumpCoroutine = null;
+
+    Debug.Log("[Player] Jump power-up expired.");
+}
+
+    private IEnumerator DoubleJumpTimer()
+    {
+        extraJumps = 1;
+        counterextraJumps = 1;
+
+        Debug.Log("[Player] Double jump activated.");
+
+        yield return new WaitForSeconds(doubleJumpDuration);
+
+        extraJumps = 0;
+        counterextraJumps = 0;
+        canDoubleJump = false;
+
+        doubleJumpCoroutine = null;
+
+        Debug.Log("[Player] Double jump expired.");
+    }
+
 
     // ----------------------------------------
     // Capsule Collider Debug

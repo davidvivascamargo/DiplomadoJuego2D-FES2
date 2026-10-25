@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 685390e3f300738429e41b5fe85d1902
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5894058402566587426
+    second: double_jump_potion_0
+  - first:
+      213: 7952751348728332844
+    second: double_jump_potion_1
+  - first:
+      213: -6307148822911787830
+    second: double_jump_potion_2
+  - first:
+      213: 1902818221880282469
+    second: double_jump_potion_3
+  - first:
+      213: 2960991110462274814
+    second: double_jump_potion_4
+  - first:
+      213: 6314968839192728704
+    second: double_jump_potion_5
+  - first:
+      213: -313038535706793299
+    second: double_jump_potion_6
+  - first:
+      213: -7474956136764034025
+    second: double_jump_potion_7
+  - first:
+      213: 4502523004874327929
+    second: double_jump_potion_8
+  - first:
+      213: 2759373173988209687
+    second: double_jump_potion_9
+  - first:
+      213: -4548129109685584565
+    second: double_jump_potion_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: double_jump_potion_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 52
+        width: 179
+        height: 298
+      alignment: 9
+      pivot: {x: 0.6626351, y: 0.39561877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbbc956c19143ea0800000000000000
+      internalID: -5894058402566587426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 52
+        width: 176
+        height: 298
+      alignment: 9
+      pivot: {x: 0.672205, y: 0.39294234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2206f75739dd5e60800000000000000
+      internalID: 7952751348728332844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 52
+        width: 180
+        height: 298
+      alignment: 9
+      pivot: {x: 0.641666, y: 0.41035548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d805b571b286a10800000000000000
+      internalID: 1902818221880282469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 52
+        width: 177
+        height: 298
+      alignment: 9
+      pivot: {x: 0.655461, y: 0.39026585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc713a1abd871920800000000000000
+      internalID: 2960991110462274814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_5
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 52
+        width: 176
+        height: 298
+      alignment: 9
+      pivot: {x: 0.6518128, y: 0.39695698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0845ebb73b643a750800000000000000
+      internalID: 6314968839192728704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 52
+        width: 171
+        height: 298
+      alignment: 9
+      pivot: {x: 0.642259, y: 0.40230986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714bd846ffe934890800000000000000
+      internalID: -7474956136764034025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_8
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 52
+        width: 173
+        height: 298
+      alignment: 9
+      pivot: {x: 0.6475301, y: 0.3996334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9770f8a41dc2c7e30800000000000000
+      internalID: 4502523004874327929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double_jump_potion_9
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 52
+        width: 172
+        height: 298
+      alignment: 9
+      pivot: {x: 0.64838785, y: 0.40632457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7143f4e28434b4620800000000000000
+      internalID: 2759373173988209687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53f94e1f7c601fd4d8240d7cca59b1a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":149.0,"y":298.0},"gridSpriteOffset":{"x":24.0,"y":674.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      double_jump_potion_0: -5894058402566587426
+      double_jump_potion_1: 7952751348728332844
+      double_jump_potion_2: -6307148822911787830
+      double_jump_potion_3: 1902818221880282469
+      double_jump_potion_4: 2960991110462274814
+      double_jump_potion_5: 6314968839192728704
+      double_jump_potion_6: -313038535706793299
+      double_jump_potion_7: -7474956136764034025
+      double_jump_potion_8: 4502523004874327929
+      double_jump_potion_9: 2759373173988209687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
