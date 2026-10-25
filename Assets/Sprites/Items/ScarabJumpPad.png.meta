@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 2433ac8372d75dc4b961198e8e77f940
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4339549814481867603
+    second: ScarabJumpPad_0
+  - first:
+      213: -2258713248339670587
+    second: ScarabJumpPad_1
+  - first:
+      213: -8935835625650964737
+    second: ScarabJumpPad_2
+  - first:
+      213: -4917607748705741766
+    second: ScarabJumpPad_3
+  - first:
+      213: 5295868785780795547
+    second: ScarabJumpPad_4
+  - first:
+      213: 7382033265750366713
+    second: ScarabJumpPad_5
+  - first:
+      213: 5088858990626794469
+    second: ScarabJumpPad_6
+  - first:
+      213: 6119770493833442386
+    second: ScarabJumpPad_7
+  - first:
+      213: 2226147443022379600
+    second: ScarabJumpPad_8
+  - first:
+      213: 3040163893793117895
+    second: ScarabJumpPad_9
+  - first:
+      213: 6681265556184051639
+    second: ScarabJumpPad_10
+  - first:
+      213: 6714645513351709625
+    second: ScarabJumpPad_11
+  - first:
+      213: -4439837325448706387
+    second: ScarabJumpPad_12
+  - first:
+      213: 3890504486177124261
+    second: ScarabJumpPad_13
+  - first:
+      213: 767928307267522169
+    second: ScarabJumpPad_14
+  - first:
+      213: -1694088758249198840
+    second: ScarabJumpPad_15
+  - first:
+      213: 9159936804444452449
+    second: ScarabJumpPad_16
+  - first:
+      213: 7069157813473484827
+    second: ScarabJumpPad_17
+  - first:
+      213: 4371803072894062598
+    second: ScarabJumpPad_18
+  - first:
+      213: -8415747386604525504
+    second: ScarabJumpPad_19
+  - first:
+      213: -8803173040306172492
+    second: ScarabJumpPad_20
+  - first:
+      213: -652843329252291609
+    second: ScarabJumpPad_21
+  - first:
+      213: -7947669832751073891
+    second: ScarabJumpPad_22
+  - first:
+      213: 8542062390248284978
+    second: ScarabJumpPad_23
+  - first:
+      213: 5954439896890841423
+    second: ScarabJumpPad_24
+  - first:
+      213: 1537265645470942031
+    second: ScarabJumpPad_25
+  - first:
+      213: 8477019177031723293
+    second: ScarabJumpPad_26
+  - first:
+      213: -5434104931722800168
+    second: ScarabJumpPad_27
+  - first:
+      213: 4982001545720391768
+    second: ScarabJumpPad_28
+  - first:
+      213: 629545345655038683
+    second: ScarabJumpPad_29
+  - first:
+      213: 8050248908019767887
+    second: ScarabJumpPad_30
+  - first:
+      213: 6701672561433974959
+    second: ScarabJumpPad_31
+  - first:
+      213: 577316870662817442
+    second: ScarabJumpPad_32
+  - first:
+      213: 7630830249197664917
+    second: ScarabJumpPad_33
+  - first:
+      213: 2433448681297425634
+    second: ScarabJumpPad_34
+  - first:
+      213: -2974426865432476664
+    second: ScarabJumpPad_35
+  - first:
+      213: 4009240515991044251
+    second: ScarabJumpPad_36
+  - first:
+      213: -7663596609064869294
+    second: ScarabJumpPad_37
+  - first:
+      213: 7868100715575891706
+    second: ScarabJumpPad_38
+  - first:
+      213: -4241996525365492071
+    second: ScarabJumpPad_39
+  - first:
+      213: 6380407240983036261
+    second: ScarabJumpPad_40
+  - first:
+      213: 1475172689874574348
+    second: ScarabJumpPad_41
+  - first:
+      213: -283831230520602302
+    second: ScarabJumpPad_42
+  - first:
+      213: -8115371418260575974
+    second: ScarabJumpPad_43
+  - first:
+      213: -1104356668214442283
+    second: ScarabJumpPad_44
+  - first:
+      213: 2987190684324744392
+    second: ScarabJumpPad_45
+  - first:
+      213: 3864291579136426114
+    second: ScarabJumpPad_46
+  - first:
+      213: -2929519652745790232
+    second: ScarabJumpPad_47
+  - first:
+      213: 6718716621706942984
+    second: ScarabJumpPad_48
+  - first:
+      213: 3405883973656405645
+    second: ScarabJumpPad_49
+  - first:
+      213: -8484915868450184545
+    second: ScarabJumpPad_50
+  - first:
+      213: 1373981182960157022
+    second: ScarabJumpPad_51
+  - first:
+      213: -5057265828444393315
+    second: ScarabJumpPad_52
+  - first:
+      213: 5158783197090150284
+    second: ScarabJumpPad_53
+  - first:
+      213: 2315001640868034886
+    second: ScarabJumpPad_54
+  - first:
+      213: 7885678121698732303
+    second: ScarabJumpPad_55
+  - first:
+      213: -7413600343586411699
+    second: ScarabJumpPad_56
+  - first:
+      213: -3599701051469172743
+    second: ScarabJumpPad_57
+  - first:
+      213: 4172070103203306363
+    second: ScarabJumpPad_58
+  - first:
+      213: 4361464127386348857
+    second: ScarabJumpPad_59
+  - first:
+      213: 2814841494346254331
+    second: ScarabJumpPad_60
+  - first:
+      213: -9097704126916938273
+    second: ScarabJumpPad_61
+  - first:
+      213: -743973996566812008
+    second: ScarabJumpPad_62
+  - first:
+      213: 6129226386889305421
+    second: ScarabJumpPad_63
+  - first:
+      213: 2419449911352597188
+    second: ScarabJumpPad_64
+  - first:
+      213: -1623639835013162161
+    second: ScarabJumpPad_65
+  - first:
+      213: -2445004677804989872
+    second: ScarabJumpPad_66
+  - first:
+      213: -2031518710679674807
+    second: ScarabJumpPad_67
+  - first:
+      213: -50499311126468970
+    second: ScarabJumpPad_68
+  - first:
+      213: 4843156703202454897
+    second: ScarabJumpPad_69
+  - first:
+      213: -1291466919696993283
+    second: ScarabJumpPad_70
+  - first:
+      213: -6598833695335662456
+    second: ScarabJumpPad_71
+  - first:
+      213: -228847111425177817
+    second: ScarabJumpPad_72
+  - first:
+      213: 4637986487113677339
+    second: ScarabJumpPad_73
+  - first:
+      213: 9154594176075945436
+    second: ScarabJumpPad_74
+  - first:
+      213: -5380868107488751513
+    second: ScarabJumpPad_75
+  - first:
+      213: 5338682521007073761
+    second: ScarabJumpPad_76
+  - first:
+      213: -6651217672164617242
+    second: ScarabJumpPad_77
+  - first:
+      213: 2222661521870893836
+    second: ScarabJumpPad_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScarabJumpPad_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206
+        width: 214
+        height: 381
+      alignment: 9
+      pivot: {x: 0.53196365, y: 0.10930945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353dd49709d293c30800000000000000
+      internalID: 4339549814481867603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 207
+        width: 207
+        height: 380
+      alignment: 9
+      pivot: {x: 0.5086962, y: 0.11743003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9ce3f844077a0e0800000000000000
+      internalID: -2258713248339670587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 207
+        width: 204
+        height: 380
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12194147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff63bc1b7d88df380800000000000000
+      internalID: -8935835625650964737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_3
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 207
+        width: 204
+        height: 380
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14499797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a349fa1aec521cbb0800000000000000
+      internalID: -4917607748705741766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_4
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 207
+        width: 223
+        height: 380
+      alignment: 9
+      pivot: {x: 0.49778685, y: 0.14623491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982b891a94be7940800000000000000
+      internalID: 5295868785780795547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_5
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 207
+        width: 207
+        height: 380
+      alignment: 9
+      pivot: {x: 0.48331058, y: 0.18705393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9da2db420427660800000000000000
+      internalID: 7382033265750366713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_6
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 206
+        width: 221
+        height: 381
+      alignment: 9
+      pivot: {x: 0.49106732, y: 0.12520689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebec504a424f9640800000000000000
+      internalID: 5088858990626794469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScarabJumpPad_7
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 206
+        width: 216
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5045697, y: 0.11778527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254fbd717dacde450800000000000000
+      internalID: 6119770493833442386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9ae0a52e32e8d6c4fb6e978eaf5313a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":214.0,"y":399.0},"gridSpriteOffset":{"x":17.0,"y":300.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ScarabJumpPad_0: 4339549814481867603
+      ScarabJumpPad_1: -2258713248339670587
+      ScarabJumpPad_2: -8935835625650964737
+      ScarabJumpPad_3: -4917607748705741766
+      ScarabJumpPad_4: 5295868785780795547
+      ScarabJumpPad_5: 7382033265750366713
+      ScarabJumpPad_6: 5088858990626794469
+      ScarabJumpPad_7: 6119770493833442386
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
