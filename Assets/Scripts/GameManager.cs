@@ -164,4 +164,31 @@ public class GameManager : MonoBehaviour
                 renderer.enabled = true;
         }
     }
+
+
+    public bool RestoreFullHealth()
+    {
+        const int maxHealth = 10;
+
+        if (_playerHealth >= maxHealth)
+            return false;
+
+        _playerHealth = maxHealth;
+
+        HUD hud = FindFirstObjectByType<HUD>();
+
+        if (hud != null)
+        {
+            hud.RestoreAllHearts();
+        }
+        else
+        {
+            Debug.LogWarning("[GameManager] HUD not found!");
+        }
+
+        Debug.Log("[GameManager] Player fully healed.");
+
+        return true;
+    }
+
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PotionSpawner : MonoBehaviour
 {
-    [Header("Potion Settings")]
+    [Header("Item Settings")]
     [SerializeField] private GameObject potionPrefab;
 
     [Header("Spawn Settings")]
@@ -13,17 +13,24 @@ public class PotionSpawner : MonoBehaviour
 
     [SerializeField] private Transform spawnPoint;
 
+    [SerializeField] private bool spawnOnStart = true;
+
     [Header("Detection Settings")]
     [SerializeField, Min(0.1f)]
     private float detectionRadius = 0.5f;
 
     [SerializeField] private LayerMask potionLayer;
 
-    private Coroutine spawnCoroutine;
+    private GameObject spawnedItem;
 
     private void Start()
     {
-        spawnCoroutine = StartCoroutine(SpawnRoutine());
+        if (spawnOnStart)
+        {
+            TrySpawnPotion();
+        }
+
+        StartCoroutine(SpawnRoutine());
     }
 
     private IEnumerator SpawnRoutine()
@@ -40,29 +47,38 @@ public class PotionSpawner : MonoBehaviour
     {
         if (potionPrefab == null)
         {
-            Debug.LogWarning("[PotionSpawner] Potion prefab is missing.");
+            Debug.LogWarning("[PotionSpawner] Item prefab is missing.");
             return;
         }
+
+        // Do not create another item while the previous one exists.
+        if (spawnedItem != null)
+            return;
 
         Vector3 position = spawnPoint != null
             ? spawnPoint.position
             : transform.position;
 
-        Collider2D existingPotion = Physics2D.OverlapCircle(
+        // Detect an existing item in the spawn area.
+        Collider2D existingItem = Physics2D.OverlapCircle(
             position,
             detectionRadius,
             potionLayer
         );
 
-        if (existingPotion != null)
+        if (existingItem != null)
         {
-            Debug.Log("[PotionSpawner] Potion already exists.");
+            Debug.Log("[PotionSpawner] Item already exists.");
             return;
         }
 
-        Instantiate(potionPrefab, position, Quaternion.identity);
+        spawnedItem = Instantiate(
+            potionPrefab,
+            position,
+            Quaternion.identity
+        );
 
-        Debug.Log("[PotionSpawner] Potion spawned.");
+        Debug.Log("[PotionSpawner] Item spawned.");
     }
 
     private void OnDrawGizmosSelected()

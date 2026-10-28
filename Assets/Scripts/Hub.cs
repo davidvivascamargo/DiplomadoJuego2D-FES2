@@ -39,6 +39,17 @@ public class HUD : MonoBehaviour
         healthBar[index].SetActive(true);
     }
 
+    public void RestoreAllHearts()
+    {
+        foreach (GameObject heart in healthBar)
+        {
+            if (heart != null)
+            {
+                heart.SetActive(true);
+            }
+        }
 
+        Debug.Log("[HUD] All hearts restored.");
+    }
 }
 
