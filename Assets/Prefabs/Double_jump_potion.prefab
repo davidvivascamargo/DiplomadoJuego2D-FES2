@@ -166,5 +166,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc92adb5143342143a2b04b15c89a962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoubleJumpPowerUp
-  effectDuration: 20
+  effectDuration: 30
   totalJumps: 2

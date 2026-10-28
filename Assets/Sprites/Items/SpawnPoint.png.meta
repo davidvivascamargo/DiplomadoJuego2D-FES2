@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: ed2507fd5f0e7754e9c972c670a451d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 711184207562388478
+    second: SpawnPoint_0
+  - first:
+      213: -3301304224887185172
+    second: SpawnPoint_1
+  - first:
+      213: -2289322883256583593
+    second: SpawnPoint_2
+  - first:
+      213: 5349739840727671267
+    second: SpawnPoint_3
+  - first:
+      213: 2165200001203216340
+    second: SpawnPoint_4
+  - first:
+      213: 3638019063104872723
+    second: SpawnPoint_5
+  - first:
+      213: 495486011823124793
+    second: SpawnPoint_6
+  - first:
+      213: 714051618384546548
+    second: SpawnPoint_7
+  - first:
+      213: 5632932829085825722
+    second: SpawnPoint_8
+  - first:
+      213: 7275810932820736817
+    second: SpawnPoint_9
+  - first:
+      213: -4008035547460420570
+    second: SpawnPoint_10
+  - first:
+      213: 200178167104733399
+    second: SpawnPoint_11
+  - first:
+      213: -4412230986319216003
+    second: SpawnPoint_12
+  - first:
+      213: 6228706258727216530
+    second: SpawnPoint_13
+  - first:
+      213: -1663451628099937736
+    second: SpawnPoint_14
+  - first:
+      213: -4632508099234623622
+    second: SpawnPoint_15
+  - first:
+      213: -1310791450550834929
+    second: SpawnPoint_16
+  - first:
+      213: 351004501360700913
+    second: SpawnPoint_17
+  - first:
+      213: 8661656055484472017
+    second: SpawnPoint_18
+  - first:
+      213: 2351460610305943824
+    second: SpawnPoint_19
+  - first:
+      213: 9193755934140542151
+    second: SpawnPoint_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpawnPoint_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 74
+        width: 472
+        height: 650
+      alignment: 9
+      pivot: {x: 0.3064482, y: 0.7810969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3bf9dc442aed900800000000000000
+      internalID: 711184207562388478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnPoint_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 74
+        width: 519
+        height: 650
+      alignment: 9
+      pivot: {x: 0.29463857, y: 0.7850009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce06a1c6c496f22d0800000000000000
+      internalID: -3301304224887185172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnPoint_2
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 74
+        width: 496
+        height: 650
+      alignment: 9
+      pivot: {x: 0.31069726, y: 0.7830489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a715f87f0ba30e0800000000000000
+      internalID: -2289322883256583593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnPoint_3
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 74
+        width: 543
+        height: 650
+      alignment: 9
+      pivot: {x: 0.2733379, y: 0.7830489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1e35f7a081e3a40800000000000000
+      internalID: 5349739840727671267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 145beec0658db6e418bad0e40f059fe8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":472.0,"y":650.0},"gridSpriteOffset":{"x":12.0,"y":0.0},"gridSpritePadding":{"x":31.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SpawnPoint_0: 711184207562388478
+      SpawnPoint_1: -3301304224887185172
+      SpawnPoint_2: -2289322883256583593
+      SpawnPoint_3: 5349739840727671267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
