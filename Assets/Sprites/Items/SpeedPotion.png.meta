@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: e28bd7f92e7f1fc47b985a98230a1bf2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9123314365467124657
+    second: SpeedPotion_0
+  - first:
+      213: 2675544840848321507
+    second: SpeedPotion_1
+  - first:
+      213: 7471779801316902172
+    second: SpeedPotion_2
+  - first:
+      213: 3953437532577615212
+    second: SpeedPotion_3
+  - first:
+      213: -3578368977746539361
+    second: SpeedPotion_4
+  - first:
+      213: 6232617721178530256
+    second: SpeedPotion_5
+  - first:
+      213: 9082875864671848081
+    second: SpeedPotion_6
+  - first:
+      213: -2013771188567797490
+    second: SpeedPotion_7
+  - first:
+      213: -6202999903871467420
+    second: SpeedPotion_8
+  - first:
+      213: -1983293402134298140
+    second: SpeedPotion_9
+  - first:
+      213: 1909709117476461159
+    second: SpeedPotion_10
+  - first:
+      213: -5830371643088857085
+    second: SpeedPotion_11
+  - first:
+      213: 550394558455267630
+    second: SpeedPotion_12
+  - first:
+      213: 6462623626410123525
+    second: SpeedPotion_13
+  - first:
+      213: 198391119720583041
+    second: SpeedPotion_14
+  - first:
+      213: -6484662452674972832
+    second: SpeedPotion_15
+  - first:
+      213: 3719792279190510747
+    second: SpeedPotion_16
+  - first:
+      213: -1379318807579851897
+    second: SpeedPotion_17
+  - first:
+      213: 3532748936805787523
+    second: SpeedPotion_18
+  - first:
+      213: 918174259828367682
+    second: SpeedPotion_19
+  - first:
+      213: -5720252841504952666
+    second: SpeedPotion_20
+  - first:
+      213: -94513820694048254
+    second: SpeedPotion_21
+  - first:
+      213: -7421501534910939214
+    second: SpeedPotion_22
+  - first:
+      213: 791680660348217360
+    second: SpeedPotion_23
+  - first:
+      213: -8235220608173261464
+    second: SpeedPotion_24
+  - first:
+      213: -8392205284449909921
+    second: SpeedPotion_25
+  - first:
+      213: -4729506438247664742
+    second: SpeedPotion_26
+  - first:
+      213: 2729455462705441375
+    second: SpeedPotion_27
+  - first:
+      213: 342303699194508831
+    second: SpeedPotion_28
+  - first:
+      213: -2149891293749435348
+    second: SpeedPotion_29
+  - first:
+      213: -578062634286633034
+    second: SpeedPotion_30
+  - first:
+      213: -3358226973789922510
+    second: SpeedPotion_31
+  - first:
+      213: -6471920484357826546
+    second: SpeedPotion_32
+  - first:
+      213: 3354287913558434317
+    second: SpeedPotion_33
+  - first:
+      213: -8182296218145918900
+    second: SpeedPotion_34
+  - first:
+      213: -108537350112367797
+    second: SpeedPotion_35
+  - first:
+      213: -2303972499726447562
+    second: SpeedPotion_36
+  - first:
+      213: 8639757289093688484
+    second: SpeedPotion_37
+  - first:
+      213: -7629539808243436315
+    second: SpeedPotion_38
+  - first:
+      213: 6654280848973906726
+    second: SpeedPotion_39
+  - first:
+      213: -4072083626389826878
+    second: SpeedPotion_40
+  - first:
+      213: 1730723693821102498
+    second: SpeedPotion_41
+  - first:
+      213: -8321835037850943810
+    second: SpeedPotion_42
+  - first:
+      213: -7507061395171438345
+    second: SpeedPotion_43
+  - first:
+      213: -5928528940371245782
+    second: SpeedPotion_44
+  - first:
+      213: -5508646152295038751
+    second: SpeedPotion_45
+  - first:
+      213: -4030627023603245972
+    second: SpeedPotion_46
+  - first:
+      213: 3505416567321147592
+    second: SpeedPotion_47
+  - first:
+      213: -2430613199543299132
+    second: SpeedPotion_48
+  - first:
+      213: -4042346644378512446
+    second: SpeedPotion_49
+  - first:
+      213: -4405681426466251398
+    second: SpeedPotion_50
+  - first:
+      213: -6239248665779427469
+    second: SpeedPotion_51
+  - first:
+      213: -2104775792631323359
+    second: SpeedPotion_52
+  - first:
+      213: -9175952840012357086
+    second: SpeedPotion_53
+  - first:
+      213: -7917085953367460116
+    second: SpeedPotion_54
+  - first:
+      213: -8025712575268500538
+    second: SpeedPotion_55
+  - first:
+      213: 1147628424532444246
+    second: SpeedPotion_56
+  - first:
+      213: -1012902388637836312
+    second: SpeedPotion_57
+  - first:
+      213: 7620119426875370118
+    second: SpeedPotion_58
+  - first:
+      213: 2936214763657913268
+    second: SpeedPotion_59
+  - first:
+      213: -3603487453037051899
+    second: SpeedPotion_60
+  - first:
+      213: -3766760217824658032
+    second: SpeedPotion_61
+  - first:
+      213: 3593616815629190563
+    second: SpeedPotion_62
+  - first:
+      213: 6903628375694075585
+    second: SpeedPotion_63
+  - first:
+      213: -969130503134377416
+    second: SpeedPotion_64
+  - first:
+      213: 8892353273349314803
+    second: SpeedPotion_65
+  - first:
+      213: 1723619239360485002
+    second: SpeedPotion_66
+  - first:
+      213: 8971480329589803565
+    second: SpeedPotion_67
+  - first:
+      213: -2651605669946809809
+    second: SpeedPotion_68
+  - first:
+      213: -1906731044509191857
+    second: SpeedPotion_69
+  - first:
+      213: 6724225200625361004
+    second: SpeedPotion_70
+  - first:
+      213: 5734856783367004425
+    second: SpeedPotion_71
+  - first:
+      213: -3328410153558817789
+    second: SpeedPotion_72
+  - first:
+      213: 1774952673690785749
+    second: SpeedPotion_73
+  - first:
+      213: -2086672633702409141
+    second: SpeedPotion_74
+  - first:
+      213: -766846491700051654
+    second: SpeedPotion_75
+  - first:
+      213: -6848179630217959036
+    second: SpeedPotion_76
+  - first:
+      213: 5071008843891641336
+    second: SpeedPotion_77
+  - first:
+      213: -1601407883191963023
+    second: SpeedPotion_78
+  - first:
+      213: -4760485663331777426
+    second: SpeedPotion_79
+  - first:
+      213: 6713544816226128657
+    second: SpeedPotion_80
+  - first:
+      213: 1032004715962159803
+    second: SpeedPotion_81
+  - first:
+      213: 1549551004832194009
+    second: SpeedPotion_82
+  - first:
+      213: -8453333246513868281
+    second: SpeedPotion_83
+  - first:
+      213: -1709466247108217199
+    second: SpeedPotion_84
+  - first:
+      213: -5525424191408721304
+    second: SpeedPotion_85
+  - first:
+      213: 2969105012629885166
+    second: SpeedPotion_86
+  - first:
+      213: 7373572306211736184
+    second: SpeedPotion_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpeedPotion_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 345
+        width: 192
+        height: 511
+      alignment: 9
+      pivot: {x: 0.5316218, y: 0.4310881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3e2e7f3168c9e70800000000000000
+      internalID: 9123314365467124657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedPotion_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 345
+        width: 192
+        height: 511
+      alignment: 9
+      pivot: {x: 0.51264876, y: 0.4310881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eba46b6bd1712520800000000000000
+      internalID: 2675544840848321507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedPotion_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 345
+        width: 187
+        height: 511
+      alignment: 9
+      pivot: {x: 0.48051998, y: 0.4334644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15ce61642811b760800000000000000
+      internalID: 7471779801316902172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedPotion_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 345
+        width: 187
+        height: 511
+      alignment: 9
+      pivot: {x: 0.47402644, y: 0.4358407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d4cfa5d7e6dd630800000000000000
+      internalID: 3953437532577615212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedPotion_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 345
+        width: 178
+        height: 511
+      alignment: 9
+      pivot: {x: 0.500001, y: 0.4382169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cc32eaf54175ec0800000000000000
+      internalID: -3578368977746539361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedPotion_5
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 345
+        width: 183
+        height: 511
+      alignment: 9
+      pivot: {x: 0.50663584, y: 0.4334644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1a6ababc4be7650800000000000000
+      internalID: 6232617721178530256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedPotion_6
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 345
+        width: 184
+        height: 511
+      alignment: 9
+      pivot: {x: 0.4934009, y: 0.4429695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1960cbcc97bdc0e70800000000000000
+      internalID: 9082875864671848081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2081f1a04e690ea45b85185db339a6a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":511.0},"gridSpriteOffset":{"x":11.0,"y":168.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SpeedPotion_0: 9123314365467124657
+      SpeedPotion_1: 2675544840848321507
+      SpeedPotion_2: 7471779801316902172
+      SpeedPotion_3: 3953437532577615212
+      SpeedPotion_4: -3578368977746539361
+      SpeedPotion_5: 6232617721178530256
+      SpeedPotion_6: 9082875864671848081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,6 +26,11 @@ public class PlayerController : MonoBehaviour
 
     [Header("Move Settings")]
     [SerializeField] private float speed;
+
+    [Header("Speed Power-Up")]
+    private float speedMultiplier = 1f;
+    private Coroutine speedBoostCoroutine;
+
     private int direction = 1;
 
     [Header("Skid Settings")]
@@ -307,7 +312,8 @@ private Coroutine doubleJumpCoroutine;
 
             Flip();
 
-            SetHorizontalVelocity(speed * inputX);
+            //SetHorizontalVelocity(speed * inputX);
+            SetHorizontalVelocity(speed * speedMultiplier * inputX);
             return;
         }
 
@@ -686,5 +692,29 @@ private IEnumerator DoubleJumpTimer(float duration, int totalJumps)
                 rFoot.position + Vector3.down * rayLength
             );
         }
+    }
+
+    public void ActivateSpeedBoost(float duration, float multiplier)
+    {
+        if (speedBoostCoroutine != null)
+            StopCoroutine(speedBoostCoroutine);
+
+        speedBoostCoroutine = StartCoroutine(
+            SpeedBoostTimer(duration, multiplier)
+        );
+    }
+
+    private IEnumerator SpeedBoostTimer(float duration, float multiplier)
+    {
+        speedMultiplier = Mathf.Max(1f, multiplier);
+
+        Debug.Log("[Player] Speed boost activated.");
+
+        yield return new WaitForSeconds(duration);
+
+        speedMultiplier = 1f;
+        speedBoostCoroutine = null;
+
+        Debug.Log("[Player] Speed boost expired.");
     }
 }
