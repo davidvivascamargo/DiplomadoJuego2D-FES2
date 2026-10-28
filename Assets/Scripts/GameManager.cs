@@ -1,20 +1,33 @@
-using UnityEngine.SceneManagement;
+
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    // Puntos
+    // Points
     public int TotalPoints => _totalPoints;
-
     private int _totalPoints;
 
     // HUD
     private HUD _hud;
 
-    // Vida del jugador
-    private int _playerHealth = 3;
+    // Player health
+    [Header("Player Health")]
+    [SerializeField] private int maxHealth = 10;
+    private int _playerHealth;
+
+    // Invulnerability
+    [Header("Player Invulnerability")]
+    [SerializeField] private float blinkInterval = 0.15f;
+
+    private bool isInvulnerable;
+    private Coroutine invulnerabilityCoroutine;
+    private SpriteRenderer[] playerRenderers;
+
+    public bool IsInvulnerable => isInvulnerable;
 
     private void Awake()
     {
@@ -25,6 +38,7 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
+        _playerHealth = maxHealth;
     }
 
     private void Start()
@@ -44,6 +58,9 @@ public class GameManager : MonoBehaviour
 
     public void ReduceHealth()
     {
+        if (isInvulnerable || _playerHealth <= 0)
+            return;
+
         _playerHealth--;
 
         if (_hud != null)
@@ -53,14 +70,15 @@ public class GameManager : MonoBehaviour
 
         if (_playerHealth <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reinicia la escena actual
+            RestartLevel();
         }
     }
 
     public bool RestoreHealth()
-{
-    if (_playerHealth < 3)
     {
+        if (_playerHealth >= maxHealth)
+            return false;
+
         _playerHealth++;
 
         if (_hud != null)
@@ -68,23 +86,82 @@ public class GameManager : MonoBehaviour
             _hud.EnableHealth(_playerHealth - 1);
         }
 
-        return true; // Devuelve true porque sí se pudo curar
+        return true;
     }
 
-    return false; // Devuelve false porque la vida ya estaba en 3 (llena)
+    public void KillPlayer()
+    {
+        if (_playerHealth <= 0)
+            return;
+
+        _playerHealth = 0;
+        RestartLevel();
+    }
+
+    private void RestartLevel()
+    {
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().buildIndex
+        );
+    }
+
+    public void ActivateInvulnerability(
+        float duration,
+        GameObject player)
+    {
+        if (duration <= 0f || player == null)
+            return;
+
+        if (invulnerabilityCoroutine != null)
+        {
+            StopCoroutine(invulnerabilityCoroutine);
+            RestorePlayerVisibility();
+        }
+
+        playerRenderers =
+            player.GetComponentsInChildren<SpriteRenderer>();
+
+        isInvulnerable = true;
+
+        invulnerabilityCoroutine = StartCoroutine(
+            InvulnerabilityCoroutine(duration)
+        );
+    }
+
+    private IEnumerator InvulnerabilityCoroutine(float duration)
+    {
+        float elapsed = 0f;
+        bool visible = true;
+
+        while (elapsed < duration)
+        {
+            visible = !visible;
+
+            foreach (SpriteRenderer renderer in playerRenderers)
+            {
+                if (renderer != null)
+                    renderer.enabled = visible;
+            }
+
+            yield return new WaitForSeconds(blinkInterval);
+            elapsed += blinkInterval;
+        }
+
+        RestorePlayerVisibility();
+
+        isInvulnerable = false;
+        invulnerabilityCoroutine = null;
+    }
+
+    private void RestorePlayerVisibility()
+    {
+        if (playerRenderers == null)
+            return;
+
+        foreach (SpriteRenderer renderer in playerRenderers)
+        {
+            if (renderer != null)
+                renderer.enabled = true;
+        }
+    }
 }
-
-public void KillPlayer()
-{
-    if (_playerHealth <= 0)
-        return;
-
-    _playerHealth = 0;
-
-    SceneManager.LoadScene(
-        SceneManager.GetActiveScene().buildIndex
-    );
-}
-
-}
-
