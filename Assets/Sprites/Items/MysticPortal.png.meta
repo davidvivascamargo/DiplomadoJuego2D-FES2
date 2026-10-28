@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: a6c5b82e3ff34fb40a56c4c08164b6fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 560552830312784597
+    second: MysticPortal_0
+  - first:
+      213: -7915341272645830985
+    second: MysticPortal_1
+  - first:
+      213: -7361929349907443439
+    second: MysticPortal_2
+  - first:
+      213: -1328558400273903520
+    second: MysticPortal_3
+  - first:
+      213: 3359895560501488550
+    second: MysticPortal_4
+  - first:
+      213: 7881074854940103861
+    second: MysticPortal_5
+  - first:
+      213: 1511885092550309173
+    second: MysticPortal_6
+  - first:
+      213: -5417412633840555067
+    second: MysticPortal_7
+  - first:
+      213: 348334542254356445
+    second: MysticPortal_8
+  - first:
+      213: 5128755315850475956
+    second: MysticPortal_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MysticPortal_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 260
+        width: 191
+        height: 261
+      alignment: 9
+      pivot: {x: 0.49599564, y: 0.86697316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d222a844db77c700800000000000000
+      internalID: 560552830312784597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysticPortal_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 260
+        width: 190
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5070253, y: 0.8623651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6f4ffbc0f072290800000000000000
+      internalID: -7915341272645830985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysticPortal_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 260
+        width: 194
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5124537, y: 0.8689052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1119e3de24c25d990800000000000000
+      internalID: -7361929349907443439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysticPortal_3
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 260
+        width: 193
+        height: 261
+      alignment: 9
+      pivot: {x: 0.50833654, y: 0.867209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06010588c23009de0800000000000000
+      internalID: -1328558400273903520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysticPortal_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 262
+        width: 202
+        height: 259
+      alignment: 9
+      pivot: {x: 0.49486488, y: 0.8648356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab6a16f53fb0ae20800000000000000
+      internalID: 3359895560501488550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysticPortal_5
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 259
+        width: 197
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4993432, y: 0.85961366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4d7f823d33f5d60800000000000000
+      internalID: 7881074854940103861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MysticPortal_6
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 258
+        width: 205
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5013547, y: 0.8558303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5357baa3b7b4bf410800000000000000
+      internalID: 1511885092550309173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 76944ea9eabb39a4488d7965004fe0ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":203.0,"y":277.0},"gridSpriteOffset":{"x":51.0,"y":503.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MysticPortal_0: 560552830312784597
+      MysticPortal_1: -7915341272645830985
+      MysticPortal_2: -7361929349907443439
+      MysticPortal_3: -1328558400273903520
+      MysticPortal_4: 3359895560501488550
+      MysticPortal_5: 7881074854940103861
+      MysticPortal_6: 1511885092550309173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
