@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour
     [Header("Drop")]
     [SerializeField] private GameObject dropItemPrefab;
 
+    [SerializeField] private float dropHeight = 1.5f;
+
     private int _currentHealth;
     private bool _isDead;
 
@@ -109,15 +111,15 @@ public class EnemyHealth : MonoBehaviour
     public void FinishDeath()
     {
         if (!_isDead)
-        {
             return;
-        }
 
         if (dropItemPrefab != null)
         {
+            Vector3 dropPosition = transform.position + Vector3.up * dropHeight;
+
             Instantiate(
                 dropItemPrefab,
-                transform.position,
+                dropPosition,
                 Quaternion.identity
             );
         }

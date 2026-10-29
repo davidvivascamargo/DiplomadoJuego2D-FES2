@@ -68305,6 +68305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 3
   dropItemPrefab: {fileID: 4914884101391858576, guid: 93e5c2626d3945840bd0a06051734904, type: 3}
+  dropHeight: 4
 --- !u!1 &1731045381
 GameObject:
   m_ObjectHideFlags: 0
