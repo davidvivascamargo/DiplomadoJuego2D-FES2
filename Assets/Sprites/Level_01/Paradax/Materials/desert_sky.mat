@@ -9,13 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: desert_sky
   m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: 38449c54071d31047aecfdfc1c2e6b32, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -24,20 +24,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a9864670a772c494799c8ed81b248d87, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c0198c41641af74aa6bf21205c4d7c5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 1}
     m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Cutoff: 0.5
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
