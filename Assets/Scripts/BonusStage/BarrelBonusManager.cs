@@ -2,10 +2,8 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Manages the bonus stage countdown timer and UI.
-/// </summary>
 public class BarrelBonusManager : MonoBehaviour
 {
     [Header("Bonus Settings")]
@@ -16,9 +14,16 @@ public class BarrelBonusManager : MonoBehaviour
     [SerializeField] private GameObject bonusPanel;
     [SerializeField] private TMP_Text timerText;
 
+    [Header("Scene Transition")]
+    [SerializeField] private UnityEngine.Object mapScene;
+
+    [SerializeField, Min(0f)]
+    private float returnDelay = 2f;
+
     private Coroutine _bonusCoroutine;
     private float _remainingTime;
     private bool _isRunning;
+    private bool _isFinishing;
 
     public bool IsRunning => _isRunning;
     public float RemainingTime => _remainingTime;
@@ -26,24 +31,18 @@ public class BarrelBonusManager : MonoBehaviour
     private void Start()
     {
         _remainingTime = bonusDuration;
-
         UpdateTimerUI();
 
         if (bonusPanel != null)
-        {
             bonusPanel.SetActive(false);
-        }
 
-        // Start automatically when the level begins.
+        // Starts automatically when the scene loads.
         StartBonus();
     }
 
-    /// <summary>
-    /// Starts the bonus stage countdown.
-    /// </summary>
     public void StartBonus()
     {
-        if (_isRunning)
+        if (_isRunning || _isFinishing)
             return;
 
         if (bonusPanel == null || timerText == null)
@@ -80,12 +79,10 @@ public class BarrelBonusManager : MonoBehaviour
             yield return null;
         }
 
+        _bonusCoroutine = null;
         EndBonus();
     }
 
-    /// <summary>
-    /// Updates the countdown in MM:SS format.
-    /// </summary>
     private void UpdateTimerUI()
     {
         if (timerText == null)
@@ -99,15 +96,13 @@ public class BarrelBonusManager : MonoBehaviour
         timerText.text = $"{minutes:00}:{seconds:00}";
     }
 
-    /// <summary>
-    /// Finishes the bonus stage.
-    /// </summary>
     public void EndBonus()
     {
-        if (!_isRunning)
+        if (!_isRunning || _isFinishing)
             return;
 
         _isRunning = false;
+        _isFinishing = true;
         _remainingTime = 0f;
 
         UpdateTimerUI();
@@ -119,5 +114,40 @@ public class BarrelBonusManager : MonoBehaviour
         }
 
         Debug.Log("[BonusStage] Bonus finished!");
+
+        StartCoroutine(ReturnToMapRoutine());
     }
+   
+    private IEnumerator ReturnToMapRoutine()
+    {
+        yield return new WaitForSeconds(returnDelay);
+
+        if (mapScene == null)
+        {
+            Debug.LogError(
+                "[BonusStage] Map scene is not assigned.",
+                this
+            );
+            yield break;
+        }
+
+        string sceneName = mapScene.name;
+
+        if (!Application.CanStreamedLevelBeLoaded(sceneName))
+        {
+            Debug.LogError(
+                $"[BonusStage] Scene '{sceneName}' is not in the build.",
+                this
+            );
+            yield break;
+        }
+
+        // Save level 2 completion.
+        LevelProgressManager.CompleteLevel(2);
+
+        Debug.Log("[BonusStage] Level 2 completed!");
+
+        SceneManager.LoadScene(sceneName);
+    }
+
 }

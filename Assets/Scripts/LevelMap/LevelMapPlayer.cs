@@ -10,6 +10,8 @@ public class LevelMapPlayer : MonoBehaviour
     [Header("Map Configuration")]
     [SerializeField] private LevelNode currentNode;
 
+    [SerializeField] private LevelNode[] levelNodes;
+
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private InputActionReference moveAction;
@@ -21,11 +23,26 @@ public class LevelMapPlayer : MonoBehaviour
 
     private void Start()
     {
+        int highestUnlocked =
+            LevelProgressManager.GetHighestUnlockedLevel();
+
+        foreach (LevelNode node in levelNodes)
+        {
+            if (node == null)
+                continue;
+
+            if (node.GetLevelNumber() == highestUnlocked)
+            {
+                currentNode = node;
+                break;
+            }
+        }
+
         if (currentNode != null)
         {
             transform.position = currentNode.transform.position;
         }
-    }
+}
 
     private void OnEnable()
     {

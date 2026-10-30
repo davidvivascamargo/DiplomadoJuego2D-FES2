@@ -1,7 +1,8 @@
+
 using UnityEngine;
 
 /// <summary>
-/// Controls the level nodes and their progression state on the world map.
+/// Controls level nodes and restores saved progression.
 /// </summary>
 public class LevelMapController : MonoBehaviour
 {
@@ -13,42 +14,34 @@ public class LevelMapController : MonoBehaviour
         InitializeLevelMap();
     }
 
-    /// <summary>
-    /// Initializes all level nodes as locked and makes the first level available.
-    /// </summary>
     private void InitializeLevelMap()
     {
+        int highestUnlocked =
+            LevelProgressManager.GetHighestUnlockedLevel();
+
         foreach (LevelNode node in levelNodes)
         {
             if (node == null)
-            {
                 continue;
-            }
 
-            node.SetState(LevelNode.NodeState.Locked);
-        }
+            int levelNumber = node.GetLevelNumber();
 
-        LevelNode firstLevel = GetLevelNode(1);
-
-        if (firstLevel != null)
-        {
-            firstLevel.SetState(LevelNode.NodeState.Available);
-        }
-    }
-
-    /// <summary>
-    /// Finds a level node by its configured level number.
-    /// </summary>
-    private LevelNode GetLevelNode(int levelNumber)
-    {
-        foreach (LevelNode node in levelNodes)
-        {
-            if (node != null && node.GetLevelNumber() == levelNumber)
+            if (levelNumber < highestUnlocked)
             {
-                return node;
+                node.SetState(LevelNode.NodeState.Completed);
+            }
+            else if (levelNumber == highestUnlocked)
+            {
+                node.SetState(LevelNode.NodeState.Available);
+            }
+            else
+            {
+                node.SetState(LevelNode.NodeState.Locked);
             }
         }
 
-        return null;
+        Debug.Log(
+            $"[LevelMap] Highest unlocked level: {highestUnlocked}"
+        );
     }
 }

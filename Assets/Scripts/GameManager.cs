@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public int TotalPoints => _totalPoints;
     private int _totalPoints;
 
+    private const string PointsSaveKey = "TotalPoints";
+
     // HUD
     private HUD _hud;
 
@@ -29,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     public bool IsInvulnerable => isInvulnerable;
 
-    private void Awake()
+   private void Awake()
     {
         if (Instance != null && Instance != this)
         {
@@ -39,8 +41,11 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
         _playerHealth = maxHealth;
-    }
 
+        _totalPoints = PlayerPrefs.GetInt(PointsSaveKey, 0);
+
+        Debug.Log($"[GameManager] Loaded points: {_totalPoints}");
+    }
     private void Start()
     {
         _hud = Object.FindFirstObjectByType<HUD>();

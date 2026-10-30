@@ -564,6 +564,7 @@ MonoBehaviour:
   isGrounded: 0
   rayLength: 0
   groundLayer:
+    serializedVersion: 2
     m_Bits: 0
   checkWallDistance: 0
   isWallDetected: 0
@@ -5121,6 +5122,8 @@ MonoBehaviour:
   bonusDuration: 15
   bonusPanel: {fileID: 1340165993}
   timerText: {fileID: 509291231}
+  mapScene: {fileID: 102900000, guid: 18825d9f6a40adc429b9c70c824c1488, type: 3}
+  returnDelay: 2
 --- !u!4 &1647328568
 Transform:
   m_ObjectHideFlags: 0
