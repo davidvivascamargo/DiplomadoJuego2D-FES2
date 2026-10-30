@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 /// <summary>
@@ -39,6 +40,7 @@ public class Fireball : MonoBehaviour
             return;
         }
 
+        // Damage regular enemies.
         EnemyHealth enemyHealth =
             hitInfo.GetComponentInParent<EnemyHealth>();
 
@@ -49,12 +51,30 @@ public class Fireball : MonoBehaviour
             return;
         }
 
+        // Damage flying enemies.
         WraithHealth wraithHealth =
             hitInfo.GetComponentInParent<WraithHealth>();
 
         if (wraithHealth != null)
         {
             wraithHealth.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+        }
+
+        // Damage bonus stage barrels.
+        BonusBarrel bonusBarrel =
+            hitInfo.GetComponentInParent<BonusBarrel>();
+
+        if (bonusBarrel != null)
+        {
+            bonusBarrel.TakeDamage(damage);
+
+            Debug.Log(
+                "[Fireball] Bonus barrel hit!",
+                bonusBarrel
+            );
+
             Destroy(gameObject);
             return;
         }

@@ -1,0 +1,1278 @@
+fileFormatVersion: 2
+guid: 04547ade2ca2b814eaefc75a2b61274a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -99947399749803197
+    second: Hoja de sprites retro_ barriles, monedas y gemas_0
+  - first:
+      213: 7987402944980138433
+    second: Hoja de sprites retro_ barriles, monedas y gemas_1
+  - first:
+      213: -4819303006457806084
+    second: Hoja de sprites retro_ barriles, monedas y gemas_2
+  - first:
+      213: 1904782643246712250
+    second: Hoja de sprites retro_ barriles, monedas y gemas_3
+  - first:
+      213: 5174607531409217169
+    second: Hoja de sprites retro_ barriles, monedas y gemas_4
+  - first:
+      213: 4865093615413607178
+    second: Hoja de sprites retro_ barriles, monedas y gemas_5
+  - first:
+      213: 2734967604783744071
+    second: Hoja de sprites retro_ barriles, monedas y gemas_6
+  - first:
+      213: 2627233780611469959
+    second: Hoja de sprites retro_ barriles, monedas y gemas_7
+  - first:
+      213: -187193687422883420
+    second: Hoja de sprites retro_ barriles, monedas y gemas_8
+  - first:
+      213: -9042184219218089612
+    second: Hoja de sprites retro_ barriles, monedas y gemas_9
+  - first:
+      213: 3885934143560311575
+    second: Hoja de sprites retro_ barriles, monedas y gemas_10
+  - first:
+      213: 1624533748273180082
+    second: Hoja de sprites retro_ barriles, monedas y gemas_11
+  - first:
+      213: -4999062482176643194
+    second: Hoja de sprites retro_ barriles, monedas y gemas_12
+  - first:
+      213: 1934486943217663495
+    second: Hoja de sprites retro_ barriles, monedas y gemas_13
+  - first:
+      213: 925275237220819566
+    second: Hoja de sprites retro_ barriles, monedas y gemas_14
+  - first:
+      213: 7734155707004043497
+    second: Hoja de sprites retro_ barriles, monedas y gemas_15
+  - first:
+      213: -5445054402332531108
+    second: Hoja de sprites retro_ barriles, monedas y gemas_16
+  - first:
+      213: -2872294058057277518
+    second: Hoja de sprites retro_ barriles, monedas y gemas_17
+  - first:
+      213: -2034743897719943103
+    second: Hoja de sprites retro_ barriles, monedas y gemas_18
+  - first:
+      213: 3946492911599643405
+    second: Hoja de sprites retro_ barriles, monedas y gemas_19
+  - first:
+      213: 7317707909069545305
+    second: Hoja de sprites retro_ barriles, monedas y gemas_20
+  - first:
+      213: -9201026219562046273
+    second: Hoja de sprites retro_ barriles, monedas y gemas_21
+  - first:
+      213: -5871262096717081681
+    second: Hoja de sprites retro_ barriles, monedas y gemas_22
+  - first:
+      213: -5979238756480265312
+    second: Hoja de sprites retro_ barriles, monedas y gemas_23
+  - first:
+      213: 5141014484688731210
+    second: Hoja de sprites retro_ barriles, monedas y gemas_24
+  - first:
+      213: -2879420650745633661
+    second: Hoja de sprites retro_ barriles, monedas y gemas_25
+  - first:
+      213: 8901255422325481705
+    second: Hoja de sprites retro_ barriles, monedas y gemas_26
+  - first:
+      213: 3456832067054484406
+    second: Hoja de sprites retro_ barriles, monedas y gemas_27
+  - first:
+      213: -6628384201673594407
+    second: Hoja de sprites retro_ barriles, monedas y gemas_28
+  - first:
+      213: 6480133329024143298
+    second: Hoja de sprites retro_ barriles, monedas y gemas_29
+  - first:
+      213: 7761287001388212010
+    second: Hoja de sprites retro_ barriles, monedas y gemas_30
+  - first:
+      213: -7554787868177611070
+    second: Hoja de sprites retro_ barriles, monedas y gemas_31
+  - first:
+      213: -5108868389515552774
+    second: Hoja de sprites retro_ barriles, monedas y gemas_32
+  - first:
+      213: -591868697642905482
+    second: Hoja de sprites retro_ barriles, monedas y gemas_33
+  - first:
+      213: 1229391479131231600
+    second: Hoja de sprites retro_ barriles, monedas y gemas_34
+  - first:
+      213: -8358738034021272136
+    second: Hoja de sprites retro_ barriles, monedas y gemas_35
+  - first:
+      213: -7042728877740200188
+    second: Hoja de sprites retro_ barriles, monedas y gemas_36
+  - first:
+      213: 906720156120180386
+    second: Hoja de sprites retro_ barriles, monedas y gemas_37
+  - first:
+      213: -5095820404159180540
+    second: Hoja de sprites retro_ barriles, monedas y gemas_38
+  - first:
+      213: 3163946100642219235
+    second: Hoja de sprites retro_ barriles, monedas y gemas_39
+  - first:
+      213: -7804744905876684971
+    second: Hoja de sprites retro_ barriles, monedas y gemas_40
+  - first:
+      213: -5654535934494102362
+    second: Hoja de sprites retro_ barriles, monedas y gemas_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 575
+        width: 208
+        height: 258
+      alignment: 9
+      pivot: {x: 0.6264206, y: 0.69161016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34360b59e5aec9ef0800000000000000
+      internalID: -99947399749803197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 555
+        width: 201
+        height: 270
+      alignment: 9
+      pivot: {x: 0.60989153, y: 0.7298419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9337dc8a4f8de60800000000000000
+      internalID: 7987402944980138433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 575
+        width: 214
+        height: 250
+      alignment: 9
+      pivot: {x: 0.58847076, y: 0.7103635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf24c1b03756e1db0800000000000000
+      internalID: -4819303006457806084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_3
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 576
+        width: 216
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5146083, y: 0.7187781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5cc09d8b52f6a10800000000000000
+      internalID: 1904782643246712250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 383
+        width: 154
+        height: 166
+      alignment: 9
+      pivot: {x: 0.48633978, y: 0.8675022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19615b13226efc740800000000000000
+      internalID: 5174607531409217169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 383
+        width: 157
+        height: 165
+      alignment: 9
+      pivot: {x: 0.4665022, y: 0.88247883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bbfb9edd8448340800000000000000
+      internalID: 4865093615413607178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 380
+        width: 122
+        height: 170
+      alignment: 9
+      pivot: {x: 0.45689216, y: 0.8836045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744065bcb8e84f520800000000000000
+      internalID: 2734967604783744071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 386
+        width: 138
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5228652, y: 0.8700844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782d04b243fc57420800000000000000
+      internalID: 2627233780611469959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 382
+        width: 109
+        height: 164
+      alignment: 9
+      pivot: {x: 0.49999943, y: 0.8912253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9a6f44554f66df0800000000000000
+      internalID: -187193687422883420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 382
+        width: 128
+        height: 168
+      alignment: 9
+      pivot: {x: 0.48356485, y: 0.88191044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479ecd33c55b38280800000000000000
+      internalID: -9042184219218089612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_10
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 384
+        width: 125
+        height: 162
+      alignment: 9
+      pivot: {x: 0.4326826, y: 0.8960552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7136977d38c9de530800000000000000
+      internalID: 3885934143560311575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_11
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 384
+        width: 132
+        height: 169
+      alignment: 9
+      pivot: {x: 0.4681258, y: 0.8734268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bde47f36d08b8610800000000000000
+      internalID: 1624533748273180082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_12
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 384
+        width: 164
+        height: 163
+      alignment: 9
+      pivot: {x: 0.45510417, y: 0.9065312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fe0eb9823cf9ab0800000000000000
+      internalID: -4999062482176643194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_13
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 382
+        width: 149
+        height: 168
+      alignment: 9
+      pivot: {x: 0.50705796, y: 0.8756496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ebe1120ada8da10800000000000000
+      internalID: 1934486943217663495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_14
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 380
+        width: 160
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5131462, y: 0.86938876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62230a0dec37dc00800000000000000
+      internalID: 925275237220819566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 217
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0498163ad355b60800000000000000
+      internalID: 7734155707004043497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 216
+        width: 170
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56ea46ced74f64b0800000000000000
+      internalID: -5445054402332531108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 217
+        width: 181
+        height: 154
+      alignment: 9
+      pivot: {x: 0.52324444, y: 0.4999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfd703b5cf8328d0800000000000000
+      internalID: -2872294058057277518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 190
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140528f943323c3e0800000000000000
+      internalID: -2034743897719943103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_19
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 194
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b6e78c462c4c630800000000000000
+      internalID: 3946492911599643405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_20
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 216
+        width: 179
+        height: 148
+      alignment: 9
+      pivot: {x: 0.47061923, y: 0.4999998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f182a8298bd8560800000000000000
+      internalID: 7317707909069545305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_21
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 192
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbce2f507636f4080800000000000000
+      internalID: -9201026219562046273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_22
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 209
+        width: 144
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa396f5fa36158ea0800000000000000
+      internalID: -5871262096717081681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_23
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 259
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3deb4c70a750da0800000000000000
+      internalID: -5979238756480265312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_24
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 203
+        width: 112
+        height: 161
+      alignment: 9
+      pivot: {x: 0.51878196, y: 0.5326646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c72018f6d885740800000000000000
+      internalID: 5141014484688731210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_25
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 15
+        width: 198
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384e1698c2e3a08d0800000000000000
+      internalID: -2879420650745633661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_26
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 220
+        width: 102
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0eabe45ac978b70800000000000000
+      internalID: 8901255422325481705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_27
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 209
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb36fc237229ff20800000000000000
+      internalID: 3456832067054484406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_28
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 0
+        width: 212
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d92f60ffaf3304a0800000000000000
+      internalID: -6628384201673594407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_29
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 201
+        width: 168
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5375642, y: 0.536691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf47a5fdee0ee950800000000000000
+      internalID: 6480133329024143298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_30
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 265
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fd99d1861a5bb60800000000000000
+      internalID: 7761287001388212010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_31
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 194
+        width: 147
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5286193, y: 0.55942464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6c7dbf570082790800000000000000
+      internalID: -7554787868177611070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_32
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 192
+        width: 151
+        height: 179
+      alignment: 9
+      pivot: {x: 0.4930331, y: 0.5528846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af714b68447a919b0800000000000000
+      internalID: -5108868389515552774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_33
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 262
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670525b2e8249c7f0800000000000000
+      internalID: -591868697642905482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_34
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 203
+        width: 166
+        height: 169
+      alignment: 9
+      pivot: {x: 0.48732603, y: 0.51244736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0755283690daf0110800000000000000
+      internalID: 1229391479131231600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_35
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 96
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b57d976b0ccffb80800000000000000
+      internalID: -8358738034021272136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_36
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fe8e05663334e90800000000000000
+      internalID: -7042728877740200188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_37
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 74
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6ea309d21559c00800000000000000
+      internalID: 906720156120180386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_38
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 69
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40197ea57520849b0800000000000000
+      internalID: -5095820404159180540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_39
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 80
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e40349173898eb20800000000000000
+      internalID: 3163946100642219235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_40
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 67
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f3ea20cd9ffa390800000000000000
+      internalID: -7804744905876684971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_41
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac2ccec68d0781b0800000000000000
+      internalID: -5654535934494102362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_42
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 575
+        width: 255
+        height: 250
+      alignment: 9
+      pivot: {x: 0.4835004, y: 0.7313999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46ddef5a98ac724e888a93179d6f3d9
+      internalID: 1175005847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_43
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 575
+        width: 268
+        height: 250
+      alignment: 9
+      pivot: {x: 0.48822522, y: 0.6977417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da99e946a0a610d428ba5624fd760d71
+      internalID: 1574789758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites retro_ barriles, monedas y gemas_44
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 569
+        width: 299
+        height: 281
+      alignment: 9
+      pivot: {x: 0.3979831, y: 0.62201077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65787fd367e9ec4da21b51c42cd1817
+      internalID: 998081416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 662e95ea221aa434cb87772f32dfa14e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hoja de sprites retro_ barriles, monedas y gemas_0: -99947399749803197
+      Hoja de sprites retro_ barriles, monedas y gemas_1: 7987402944980138433
+      Hoja de sprites retro_ barriles, monedas y gemas_10: 3885934143560311575
+      Hoja de sprites retro_ barriles, monedas y gemas_11: 1624533748273180082
+      Hoja de sprites retro_ barriles, monedas y gemas_12: -4999062482176643194
+      Hoja de sprites retro_ barriles, monedas y gemas_13: 1934486943217663495
+      Hoja de sprites retro_ barriles, monedas y gemas_14: 925275237220819566
+      Hoja de sprites retro_ barriles, monedas y gemas_15: 7734155707004043497
+      Hoja de sprites retro_ barriles, monedas y gemas_16: -5445054402332531108
+      Hoja de sprites retro_ barriles, monedas y gemas_17: -2872294058057277518
+      Hoja de sprites retro_ barriles, monedas y gemas_18: -2034743897719943103
+      Hoja de sprites retro_ barriles, monedas y gemas_19: 3946492911599643405
+      Hoja de sprites retro_ barriles, monedas y gemas_2: -4819303006457806084
+      Hoja de sprites retro_ barriles, monedas y gemas_20: 7317707909069545305
+      Hoja de sprites retro_ barriles, monedas y gemas_21: -9201026219562046273
+      Hoja de sprites retro_ barriles, monedas y gemas_22: -5871262096717081681
+      Hoja de sprites retro_ barriles, monedas y gemas_23: -5979238756480265312
+      Hoja de sprites retro_ barriles, monedas y gemas_24: 5141014484688731210
+      Hoja de sprites retro_ barriles, monedas y gemas_25: -2879420650745633661
+      Hoja de sprites retro_ barriles, monedas y gemas_26: 8901255422325481705
+      Hoja de sprites retro_ barriles, monedas y gemas_27: 3456832067054484406
+      Hoja de sprites retro_ barriles, monedas y gemas_28: -6628384201673594407
+      Hoja de sprites retro_ barriles, monedas y gemas_29: 6480133329024143298
+      Hoja de sprites retro_ barriles, monedas y gemas_3: 1904782643246712250
+      Hoja de sprites retro_ barriles, monedas y gemas_30: 7761287001388212010
+      Hoja de sprites retro_ barriles, monedas y gemas_31: -7554787868177611070
+      Hoja de sprites retro_ barriles, monedas y gemas_32: -5108868389515552774
+      Hoja de sprites retro_ barriles, monedas y gemas_33: -591868697642905482
+      Hoja de sprites retro_ barriles, monedas y gemas_34: 1229391479131231600
+      Hoja de sprites retro_ barriles, monedas y gemas_35: -8358738034021272136
+      Hoja de sprites retro_ barriles, monedas y gemas_36: -7042728877740200188
+      Hoja de sprites retro_ barriles, monedas y gemas_37: 906720156120180386
+      Hoja de sprites retro_ barriles, monedas y gemas_38: -5095820404159180540
+      Hoja de sprites retro_ barriles, monedas y gemas_39: 3163946100642219235
+      Hoja de sprites retro_ barriles, monedas y gemas_4: 5174607531409217169
+      Hoja de sprites retro_ barriles, monedas y gemas_40: -7804744905876684971
+      Hoja de sprites retro_ barriles, monedas y gemas_41: -5654535934494102362
+      Hoja de sprites retro_ barriles, monedas y gemas_42: 1175005847
+      Hoja de sprites retro_ barriles, monedas y gemas_43: 1574789758
+      Hoja de sprites retro_ barriles, monedas y gemas_44: 998081416
+      Hoja de sprites retro_ barriles, monedas y gemas_5: 4865093615413607178
+      Hoja de sprites retro_ barriles, monedas y gemas_6: 2734967604783744071
+      Hoja de sprites retro_ barriles, monedas y gemas_7: 2627233780611469959
+      Hoja de sprites retro_ barriles, monedas y gemas_8: -187193687422883420
+      Hoja de sprites retro_ barriles, monedas y gemas_9: -9042184219218089612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

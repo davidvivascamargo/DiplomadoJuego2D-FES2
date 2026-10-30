@@ -1,34 +1,34 @@
+
 using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
     public int coinValue = 1;
-    private GameManager _gameManager;    
 
-    void Start()
+    private GameManager _gameManager;
+
+    private void Start()
     {
-        // Busca automáticamente el objeto GameManager en la escena al iniciar
         _gameManager = Object.FindFirstObjectByType<GameManager>();
 
         if (_gameManager == null)
         {
-            Debug.LogError("¡No se encontró ningún GameManager en la escena!");
+            Debug.LogError(
+                "[Coin] GameManager not found!"
+            );
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Verifica si el objeto que tocó la moneda tiene la etiqueta "Player"
-        if (collision.CompareTag("Player"))
-        {
-            if (_gameManager != null)
-            {
-                // Se agregó el punto (.) para llamar correctamente al método
-                _gameManager.AddPoints(coinValue); 
-            }
+        if (!collision.CompareTag("Player"))
+            return;
 
-            // Destruye la moneda
-            Destroy(gameObject);
+        if (_gameManager != null)
+        {
+            _gameManager.AddPoints(coinValue);
         }
+
+        Destroy(gameObject);
     }
 }
