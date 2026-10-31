@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: 178.2}
+  m_AnchoredPosition: {x: 329, y: 100}
   m_SizeDelta: {x: 420, y: 73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &94330179
@@ -202,9 +202,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 654134312}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 654134314}
+        m_TargetAssemblyTypeName: MainMenuGameController, Assembly-CSharp
+        m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -542,11 +542,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 871575967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -576.47, y: 396.7}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 103.4, y: -41.30002}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &328103925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,7 +621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: 256.5}
+  m_AnchoredPosition: {x: 329, y: -70}
   m_SizeDelta: {x: 420, y: 73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &469393471
@@ -668,9 +668,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 654134312}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 654134314}
+        m_TargetAssemblyTypeName: MainMenuGameController, Assembly-CSharp
+        m_MethodName: BackToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -728,6 +728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654134313}
   - component: {fileID: 654134312}
+  - component: {fileID: 654134314}
   m_Layer: 0
   m_Name: MainMenuController
   m_TagString: Untagged
@@ -765,6 +766,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654134314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654134311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22fae4b838595ed459bdca9653cc21e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuGameController
+  mainMenuPanel: {fileID: 871575966}
+  gameModePanel: {fileID: 1539059551}
+  mainMenuButtons:
+  - {fileID: 1812261462}
+  - {fileID: 1687790586}
+  - {fileID: 706785650}
+  - {fileID: 246602729}
+  levelMapScene: LevelMap
+  pointsSaveKey: TotalPoints
 --- !u!1 &664365521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,7 +1778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: 256.5}
+  m_AnchoredPosition: {x: 329, y: 20}
   m_SizeDelta: {x: 420, y: 73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343635352
@@ -1803,9 +1825,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 654134312}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 654134314}
+        m_TargetAssemblyTypeName: MainMenuGameController, Assembly-CSharp
+        m_MethodName: OpenGameMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1870,7 +1892,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1539059552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,10 +2294,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 22fae4b838595ed459bdca9653cc21e1, type: 3}
-        m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 654134314}
+        m_TargetAssemblyTypeName: MainMenuGameController, Assembly-CSharp
+        m_MethodName: OpenGameMode
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
