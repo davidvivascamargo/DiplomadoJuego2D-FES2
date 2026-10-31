@@ -6603,7 +6603,7 @@ Transform:
   m_GameObject: {fileID: 253627589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1274.3, y: 49.9, z: 0}
+  m_LocalPosition: {x: 313.05005, y: 148.4, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6688,32 +6688,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b7bdb2d25da17146a00ecb9a5e4953d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  m_transform: {fileID: 0}
-  playerSpriteRenderer: {fileID: 0}
-  speed: 0
-  skidDuration: 0.25
-  skidDeceleration: 15
-  minSkidSpeed: 0.5
-  skidWidthMultiplier: 0.65
-  skidHeightMultiplier: 0.4
-  standingColliderSize: {x: 0, y: 0}
-  standingColliderOffset: {x: 0, y: 0}
-  skidColliderSize: {x: 0, y: 0}
-  skidColliderOffset: {x: 0, y: 0}
-  jumpForce: 0
-  extraJumps: 0
-  counterextraJumps: 0
-  canDoubleJump: 0
-  doubleJumpDuration: 10
-  lFoot: {fileID: 0}
-  rFoot: {fileID: 0}
-  isGrounded: 0
-  rayLength: 0
-  groundLayer:
-    m_Bits: 0
-  checkWallDistance: 0
-  isWallDetected: 0
-  enableColliderDebug: 1
 --- !u!114 &253627595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13642,7 +13616,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1274.3, y: 59.9, z: -10}
+  m_LocalPosition: {x: 313.05005, y: 158.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84322,7 +84296,7 @@ Transform:
   m_GameObject: {fileID: 1986217605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1274.3, y: 59.9, z: -10}
+  m_LocalPosition: {x: 313.05005, y: 158.4, z: -10}
   m_LocalScale: {x: 1, y: 0.050006, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -90738,7 +90712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7192571664721655034, guid: 8148693a17f782843b768aa403299ea3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 109.39
+      value: 124.95
       objectReference: {fileID: 0}
     - target: {fileID: 7192571664721655034, guid: 8148693a17f782843b768aa403299ea3, type: 3}
       propertyPath: m_LocalPosition.z
