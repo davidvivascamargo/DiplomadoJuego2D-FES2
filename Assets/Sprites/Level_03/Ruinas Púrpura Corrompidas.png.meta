@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 1ae207ecc8a818049ae4f0d8c2cf266f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5353271615389601602
+    second: "Ruinas P\xFArpura Corrompidas_0"
+  - first:
+      213: 6540382862104139315
+    second: "Ruinas P\xFArpura Corrompidas_1"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_0"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 550
+        width: 493
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f8a7ddb24aa4a40800000000000000
+      internalID: 5353271615389601602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_1"
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 544
+        width: 256
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33615c68f8b14ca50800000000000000
+      internalID: 6540382862104139315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f1959834b2d148930a10647e33c4a
+      internalID: 74907376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_7"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 468
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84289f4e4e4797499813ceb22fb08ac
+      internalID: -123863528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217f7d2372ff9204fac8ce27401b69e7
+      internalID: -315894902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_9"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 404
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f2f078704cb8c44872b6222779c6ea
+      internalID: 47090791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5737b5497b57845ab3483b36b99e02
+      internalID: 902267813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_11"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 340
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a5de20739cb5540a4e9a565fb9c85c
+      internalID: 537694254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f2f142105b83b4a96d18acac6e9a27
+      internalID: -867251825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_13"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 276
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0510055da666f984e9b844a6ec81657d
+      internalID: -833232526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53945e3efe8016643965c2360d70d3a2
+      internalID: -411585407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_15"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 212
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c3e921643e2274e800dedbae647d8f
+      internalID: 527225996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_16"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3012f803614a48e4782b18c75733f21c
+      internalID: -489270329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_17"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 148
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c7da5980db9d14294a960a30bfa57c
+      internalID: 1010977263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_18"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acd42bd0d3399445965e0130f956a18
+      internalID: 245025147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_19"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 84
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64db04495e062fc45ac281b0be513f6c
+      internalID: 1224360233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_20"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab7049e626463a4589ed1ca0ec50efa
+      internalID: -341301417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ruinas P\xFArpura Corrompidas_21"
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 20
+        width: 759
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9299fd5c109c9648be7273b168cf3f4
+      internalID: -1940479095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9cb6ce8a06e52384fbf78cf5436de273
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":759.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Ruinas P\xFArpura Corrompidas_0": 5353271615389601602
+      "Ruinas P\xFArpura Corrompidas_1": 6540382862104139315
+      "Ruinas P\xFArpura Corrompidas_10": 902267813
+      "Ruinas P\xFArpura Corrompidas_11": 537694254
+      "Ruinas P\xFArpura Corrompidas_12": -867251825
+      "Ruinas P\xFArpura Corrompidas_13": -833232526
+      "Ruinas P\xFArpura Corrompidas_14": -411585407
+      "Ruinas P\xFArpura Corrompidas_15": 527225996
+      "Ruinas P\xFArpura Corrompidas_16": -489270329
+      "Ruinas P\xFArpura Corrompidas_17": 1010977263
+      "Ruinas P\xFArpura Corrompidas_18": 245025147
+      "Ruinas P\xFArpura Corrompidas_19": 1224360233
+      "Ruinas P\xFArpura Corrompidas_2": -834964174
+      "Ruinas P\xFArpura Corrompidas_20": -341301417
+      "Ruinas P\xFArpura Corrompidas_21": -1940479095
+      "Ruinas P\xFArpura Corrompidas_3": -1215385404
+      "Ruinas P\xFArpura Corrompidas_4": 1652495491
+      "Ruinas P\xFArpura Corrompidas_5": -1209986860
+      "Ruinas P\xFArpura Corrompidas_6": 74907376
+      "Ruinas P\xFArpura Corrompidas_7": -123863528
+      "Ruinas P\xFArpura Corrompidas_8": -315894902
+      "Ruinas P\xFArpura Corrompidas_9": 47090791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 223518f0579db264d9cc209cffd86c7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4392081050591366107
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_0"
+  - first:
+      213: -496817452451125667
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_1"
+  - first:
+      213: -1635031325159928748
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_2"
+  - first:
+      213: 918808245054816985
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_3"
+  - first:
+      213: -4981553314387168699
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_4"
+  - first:
+      213: -4380740349264114551
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_5"
+  - first:
+      213: -3288160301825043727
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_6"
+  - first:
+      213: -5341733469384107894
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_7"
+  - first:
+      213: 1005451496360821728
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_8"
+  - first:
+      213: -6168580354898706639
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_9"
+  - first:
+      213: 6985802738691131608
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_10"
+  - first:
+      213: 4140025818050835673
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_11"
+  - first:
+      213: -3095731346739343621
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_12"
+  - first:
+      213: 7157090451919401164
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_13"
+  - first:
+      213: 4627569839365859015
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_14"
+  - first:
+      213: 9165960202175781515
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_15"
+  - first:
+      213: 309862623790784078
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_16"
+  - first:
+      213: 2156741548408460710
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_17"
+  - first:
+      213: 4441044186606321213
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_18"
+  - first:
+      213: -5088671012046460559
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_19"
+  - first:
+      213: -1377330543639014347
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_20"
+  - first:
+      213: 2616130939819003890
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_21"
+  - first:
+      213: -9175734652148575965
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_22"
+  - first:
+      213: 5573265601776568210
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_23"
+  - first:
+      213: 3892689772098244898
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_24"
+  - first:
+      213: 7102793324521592095
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_25"
+  - first:
+      213: 6129713699536292053
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_26"
+  - first:
+      213: 2382333210129530571
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_27"
+  - first:
+      213: -1311926844111197140
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_28"
+  - first:
+      213: -3313897120495409748
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_29"
+  - first:
+      213: 3338395913003095492
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_30"
+  - first:
+      213: 5524983338031031671
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_31"
+  - first:
+      213: -7547934020661065276
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_32"
+  - first:
+      213: 5567507735308648306
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_33"
+  - first:
+      213: -2195795004191199866
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_34"
+  - first:
+      213: -8219799397107418026
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_35"
+  - first:
+      213: -5423052407942694972
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_36"
+  - first:
+      213: -7270074976604054543
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_37"
+  - first:
+      213: -3974932758510310943
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_38"
+  - first:
+      213: 5699763341175788502
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_39"
+  - first:
+      213: -4488227165872250893
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_40"
+  - first:
+      213: -5636092107583909107
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_41"
+  - first:
+      213: -5388832161093605989
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_42"
+  - first:
+      213: -3307435653460016087
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_43"
+  - first:
+      213: 4954326841646334311
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_44"
+  - first:
+      213: 3919551038155147286
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_45"
+  - first:
+      213: -3469949279575343722
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_46"
+  - first:
+      213: 9095385553811370381
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_47"
+  - first:
+      213: -8969679337072331774
+    second: "Baldosa de Ruinas Corrompidas en P\xFArpura_48"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1239
+        height: 1235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524f6c20e813c03c0800000000000000
+      internalID: -4392081050591366107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_1"
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1225
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56af64c823fa19f0800000000000000
+      internalID: -496817452451125667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_2"
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1213
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cc43b2ca33f49e0800000000000000
+      internalID: -1635031325159928748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 883
+        width: 6
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d241371b3340cc00800000000000000
+      internalID: 918808245054816985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_4"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 877
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542784a67a7fddab0800000000000000
+      internalID: -4981553314387168699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 15
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c44ecccdb7433c0800000000000000
+      internalID: -4380740349264114551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_6"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f25d2d70ab1e52d0800000000000000
+      internalID: -3288160301825043727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_7"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 47
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a889b8816b95ed5b0800000000000000
+      internalID: -5341733469384107894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_8"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 13
+        width: 114
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3c87f0fc414fd00800000000000000
+      internalID: 1005451496360821728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_9"
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 47
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f3fc989dcc46aa0800000000000000
+      internalID: -6168580354898706639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_10"
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 55
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8c2a6149e82f060800000000000000
+      internalID: 6985802738691131608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_11"
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 53
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4bdd5fb83547930800000000000000
+      internalID: 4140025818050835673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_12"
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 65
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe4f85fdb0c905d0800000000000000
+      internalID: -3095731346739343621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_13"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 49
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0fefb98d7135360800000000000000
+      internalID: 7157090451919401164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_14"
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 53
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6a6b0404e683040800000000000000
+      internalID: 4627569839365859015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_15"
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 49
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a1e049d38043f70800000000000000
+      internalID: 9165960202175781515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_16"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 17
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e58342a6adc4400800000000000000
+      internalID: 309862623790784078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_17"
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 47
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a55639e2094eed10800000000000000
+      internalID: 2156741548408460710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_18"
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 49
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ebb767822c1ad30800000000000000
+      internalID: 4441044186606321213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_19"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 11
+        width: 108
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179a42ceca86169b0800000000000000
+      internalID: -5088671012046460559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_20"
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534d9100b2db2ece0800000000000000
+      internalID: -1377330543639014347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_21"
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 47
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff02d99a3d5e4420800000000000000
+      internalID: 2616130939819003890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_22"
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 27
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3211171f2fd39a080800000000000000
+      internalID: -9175734652148575965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_23"
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 48
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297cbc05987385d40800000000000000
+      internalID: 5573265601776568210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_24"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 30
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22156be29bc950630800000000000000
+      internalID: 3892689772098244898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_25"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 27
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15102d75e0329260800000000000000
+      internalID: 7102793324521592095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_26"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 18
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c4b3122e111550800000000000000
+      internalID: 6129713699536292053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_27"
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 17
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcef266be6fbf0120800000000000000
+      internalID: 2382333210129530571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_28"
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ce3757c791bcde0800000000000000
+      internalID: -1311926844111197140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_29"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 29
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca56eae602ca202d0800000000000000
+      internalID: -3313897120495409748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_30"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 21
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c55a22356d545e20800000000000000
+      internalID: 3338395913003095492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_31"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 31
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775aa45c21facac40800000000000000
+      internalID: 5524983338031031671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_32"
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 29
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c94966bff9504790800000000000000
+      internalID: -7547934020661065276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_33"
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 29
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fbf4f89c2c34d40800000000000000
+      internalID: 5567507735308648306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_34"
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 13
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d2b97d318f681e0800000000000000
+      internalID: -2195795004191199866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_35"
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 23
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c317aaff76ded80800000000000000
+      internalID: -8219799397107418026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_36"
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 6
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7bf3a41927db4b0800000000000000
+      internalID: -5423052407942694972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_37"
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 20
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb1f09c3518b1b90800000000000000
+      internalID: -7270074976604054543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_38"
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 30
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9edea57b336d8c0800000000000000
+      internalID: -3974932758510310943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_39"
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 29
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d393966f80a91f40800000000000000
+      internalID: 5699763341175788502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_40"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 31
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff1dea1c2d96b1c0800000000000000
+      internalID: -4488227165872250893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_41"
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 29
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d031416e61498c1b0800000000000000
+      internalID: -5636092107583909107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_42"
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95a0d363b50735b0800000000000000
+      internalID: -5388832161093605989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_43"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924cd06fbc0a912d0800000000000000
+      internalID: -3307435653460016087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_44"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7614389630e41c440800000000000000
+      internalID: 4954326841646334311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_45"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 8
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618404c07ea056630800000000000000
+      internalID: 3919551038155147286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_46"
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 7
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df94ac38348dfc0800000000000000
+      internalID: -3469949279575343722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_47"
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 10
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d817526c8fc493e70800000000000000
+      internalID: 9095385553811370381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Baldosa de Ruinas Corrompidas en P\xFArpura_48"
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 15
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20474a49a2c458380800000000000000
+      internalID: -8969679337072331774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_0": -4392081050591366107
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_1": -496817452451125667
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_10": 6985802738691131608
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_11": 4140025818050835673
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_12": -3095731346739343621
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_13": 7157090451919401164
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_14": 4627569839365859015
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_15": 9165960202175781515
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_16": 309862623790784078
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_17": 2156741548408460710
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_18": 4441044186606321213
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_19": -5088671012046460559
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_2": -1635031325159928748
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_20": -1377330543639014347
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_21": 2616130939819003890
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_22": -9175734652148575965
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_23": 5573265601776568210
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_24": 3892689772098244898
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_25": 7102793324521592095
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_26": 6129713699536292053
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_27": 2382333210129530571
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_28": -1311926844111197140
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_29": -3313897120495409748
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_3": 918808245054816985
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_30": 3338395913003095492
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_31": 5524983338031031671
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_32": -7547934020661065276
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_33": 5567507735308648306
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_34": -2195795004191199866
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_35": -8219799397107418026
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_36": -5423052407942694972
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_37": -7270074976604054543
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_38": -3974932758510310943
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_39": 5699763341175788502
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_4": -4981553314387168699
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_40": -4488227165872250893
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_41": -5636092107583909107
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_42": -5388832161093605989
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_43": -3307435653460016087
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_44": 4954326841646334311
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_45": 3919551038155147286
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_46": -3469949279575343722
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_47": 9095385553811370381
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_48": -8969679337072331774
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_5": -4380740349264114551
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_6": -3288160301825043727
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_7": -5341733469384107894
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_8": 1005451496360821728
+      "Baldosa de Ruinas Corrompidas en P\xFArpura_9": -6168580354898706639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

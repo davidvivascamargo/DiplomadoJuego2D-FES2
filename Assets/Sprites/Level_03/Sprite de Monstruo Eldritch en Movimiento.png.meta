@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: b0695073afbd9b14796defb69b5cce1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6447509488740551172
+    second: Sprite de Monstruo Eldritch en Movimiento_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 399
+        width: 475
+        height: 394
+      alignment: 9
+      pivot: {x: 0.42195842, y: 0.66759014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a475a38b72a7950800000000000000
+      internalID: 6447509488740551172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 399
+        width: 460
+        height: 394
+      alignment: 9
+      pivot: {x: 0.41185847, y: 0.6558294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13257406c47a274fb6b7dacc911a4e4
+      internalID: -2143411611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_2
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 399
+        width: 477
+        height: 394
+      alignment: 9
+      pivot: {x: 0.3882857, y: 0.6617097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbbd8d97d9688642b4d23c95df6d994
+      internalID: -1477670118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 4
+        width: 490
+        height: 394
+      alignment: 9
+      pivot: {x: 0.4293045, y: 0.6984497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1814aa55dcb0641488bb3c5d58c4156e
+      internalID: -827015379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 4
+        width: 497
+        height: 394
+      alignment: 9
+      pivot: {x: 0.38250622, y: 0.6984497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5949424cb7e5084d9ae4370b2662c7e
+      internalID: -360078526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_5
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 5
+        width: 467
+        height: 394
+      alignment: 9
+      pivot: {x: 0.38979378, y: 0.69342566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b999ea7c5c74874f84df01af5deaca9
+      internalID: 1734177952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_6
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 399
+        width: 480
+        height: 394
+      alignment: 9
+      pivot: {x: 0.3817436, y: 0.67347044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf578ae44fcc74ebf850c301aa349a
+      internalID: 1058886213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite de Monstruo Eldritch en Movimiento_7
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 4
+        width: 461
+        height: 394
+      alignment: 9
+      pivot: {x: 0.39480028, y: 0.67835355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359006de5e55cb84eb052c74a55761e8
+      internalID: 781655518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e428edc03b105104c9159ea780ca91ab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":490.0,"y":394.0},"gridSpriteOffset":{"x":24.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sprite de Monstruo Eldritch en Movimiento_0: 6447509488740551172
+      Sprite de Monstruo Eldritch en Movimiento_1: -2143411611
+      Sprite de Monstruo Eldritch en Movimiento_2: -1477670118
+      Sprite de Monstruo Eldritch en Movimiento_3: -827015379
+      Sprite de Monstruo Eldritch en Movimiento_4: -360078526
+      Sprite de Monstruo Eldritch en Movimiento_5: 1734177952
+      Sprite de Monstruo Eldritch en Movimiento_6: 1058886213
+      Sprite de Monstruo Eldritch en Movimiento_7: 781655518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
