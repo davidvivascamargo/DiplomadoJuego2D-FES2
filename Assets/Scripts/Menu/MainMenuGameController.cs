@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Controls main menu navigation, game modes,
-/// controls panel and saved game progression.
+/// controls panel, credits panel and saved game progression.
 /// </summary>
 public class MainMenuGameController : MonoBehaviour
 {
@@ -12,6 +12,7 @@ public class MainMenuGameController : MonoBehaviour
     [SerializeField] private GameObject mainMenuPanel;
     [SerializeField] private GameObject gameModePanel;
     [SerializeField] private GameObject controlsPanel;
+    [SerializeField] private GameObject creditsPanel;
 
     [Header("Main Menu Buttons")]
     [SerializeField] private GameObject[] mainMenuButtons;
@@ -39,6 +40,9 @@ public class MainMenuGameController : MonoBehaviour
         if (controlsPanel != null)
             controlsPanel.SetActive(false);
 
+        if (creditsPanel != null)
+            creditsPanel.SetActive(false);
+
         if (gameModePanel != null)
             gameModePanel.SetActive(true);
     }
@@ -50,6 +54,9 @@ public class MainMenuGameController : MonoBehaviour
     {
         if (gameModePanel != null)
             gameModePanel.SetActive(false);
+
+        if (creditsPanel != null)
+            creditsPanel.SetActive(false);
 
         if (mainMenuPanel != null)
             mainMenuPanel.SetActive(false);
@@ -65,12 +72,39 @@ public class MainMenuGameController : MonoBehaviour
     /// </summary>
     public void CloseControls()
     {
+        ShowMainMenu();
+
+        Debug.Log("[MainMenu] Returned from controls.");
+    }
+
+    /// <summary>
+    /// Opens the credits information panel.
+    /// </summary>
+    public void OpenCredits()
+    {
+        if (gameModePanel != null)
+            gameModePanel.SetActive(false);
+
         if (controlsPanel != null)
             controlsPanel.SetActive(false);
 
+        if (mainMenuPanel != null)
+            mainMenuPanel.SetActive(false);
+
+        if (creditsPanel != null)
+            creditsPanel.SetActive(true);
+
+        Debug.Log("[MainMenu] Credits panel opened.");
+    }
+
+    /// <summary>
+    /// Closes the credits panel and returns to main menu.
+    /// </summary>
+    public void CloseCredits()
+    {
         ShowMainMenu();
 
-        Debug.Log("[MainMenu] Returned to main menu.");
+        Debug.Log("[MainMenu] Returned from credits.");
     }
 
     /// <summary>
@@ -129,6 +163,9 @@ public class MainMenuGameController : MonoBehaviour
         if (controlsPanel != null)
             controlsPanel.SetActive(false);
 
+        if (creditsPanel != null)
+            creditsPanel.SetActive(false);
+
         SetMainMenuButtons(true);
     }
 
@@ -154,9 +191,7 @@ public class MainMenuGameController : MonoBehaviour
     {
         if (string.IsNullOrWhiteSpace(levelMapScene))
         {
-            Debug.LogError(
-                "[MainMenu] Map scene is empty."
-            );
+            Debug.LogError("[MainMenu] Map scene is empty.");
             return false;
         }
 
