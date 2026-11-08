@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Controls main menu navigation, game modes,
-/// controls panel, credits panel and saved game progression.
+/// controls panel, credits panel, game exit
+/// and saved game progression.
 /// </summary>
 public class MainMenuGameController : MonoBehaviour
 {
@@ -147,6 +148,16 @@ public class MainMenuGameController : MonoBehaviour
         );
 
         LoadLevelMap();
+    }
+
+    /// <summary>
+    /// Exits the game on Android and standalone builds.
+    /// </summary>
+    public void QuitGame()
+    {
+        Debug.Log("[MainMenu] Exiting game...");
+
+        Application.Quit();
     }
 
     /// <summary>
