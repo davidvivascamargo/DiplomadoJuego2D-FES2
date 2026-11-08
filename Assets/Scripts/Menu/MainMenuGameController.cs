@@ -153,11 +153,15 @@ public class MainMenuGameController : MonoBehaviour
     /// <summary>
     /// Exits the game on Android and standalone builds.
     /// </summary>
-    public void QuitGame()
+        public void QuitGame()
     {
         Debug.Log("[MainMenu] Exiting game...");
 
+    #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+    #else
         Application.Quit();
+    #endif
     }
 
     /// <summary>
@@ -226,4 +230,6 @@ public class MainMenuGameController : MonoBehaviour
 
         SceneManager.LoadScene(levelMapScene);
     }
+
+    
 }
