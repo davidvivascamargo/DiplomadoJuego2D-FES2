@@ -3,33 +3,36 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Controls the exit point of a level.
-/// Requires a key and opens a confirmation dialogue.
+/// Controls level exit, key validation and progression.
 /// </summary>
 [RequireComponent(typeof(BoxCollider2D))]
 public class LevelExitTrigger : MonoBehaviour
 {
+    [Header("Level Progress")]
+    [SerializeField, Min(1)] private int levelNumber = 1;
+
     [Header("Dialogue")]
     [SerializeField] private DialogueManager dialogueManager;
 
-    [SerializeField] private string dialogueTitle = "FIN DEL DESIERTO";
+    [SerializeField] private string dialogueTitle = "FIN DEL NIVEL";
 
     [TextArea(2, 4)]
     [SerializeField] private string confirmationMessage =
-        "La llave te permite abandonar este lugar. ¿Deseas regresar al mapa?";
+        "Has completado el nivel. ¿Deseas regresar al mapa?";
 
     [TextArea(2, 4)]
     [SerializeField] private string lockedMessage =
-        "Necesitas la llave del desierto para continuar.";
+        "Necesitas la llave para continuar.";
 
     [Header("Requirements")]
     [SerializeField] private ItemData requiredItem;
 
     [Header("Scene")]
-    [SerializeField] private string destinationScene;
+    [SerializeField] private string destinationScene = "WorldMap";
 
     private bool _playerInside;
     private bool _dialogueShownDuringVisit;
+    private bool _isExiting;
 
     private void Reset()
     {
@@ -39,23 +42,35 @@ public class LevelExitTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player"))
-        {
             return;
-        }
 
         _playerInside = true;
 
-        if (_dialogueShownDuringVisit || dialogueManager == null)
-        {
+        TryShowExitDialogue(other);
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player"))
             return;
-        }
+
+        if (!_dialogueShownDuringVisit)
+            TryShowExitDialogue(other);
+    }
+
+    private void TryShowExitDialogue(Collider2D player)
+    {
+        if (_isExiting || !_playerInside)
+            return;
+
+        if (_dialogueShownDuringVisit || dialogueManager == null)
+            return;
 
         if (dialogueManager.IsDialogueOpen)
-        {
             return;
-        }
 
-        PlayerInventory inventory = other.GetComponent<PlayerInventory>();
+        PlayerInventory inventory =
+            player.GetComponentInParent<PlayerInventory>();
 
         bool hasRequiredItem =
             requiredItem == null ||
@@ -69,7 +84,6 @@ public class LevelExitTrigger : MonoBehaviour
                 dialogueTitle,
                 lockedMessage
             );
-
             return;
         }
 
@@ -83,23 +97,21 @@ public class LevelExitTrigger : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         if (!other.CompareTag("Player"))
-        {
             return;
-        }
 
         _playerInside = false;
         _dialogueShownDuringVisit = false;
     }
 
-    /// <summary>
-    /// Loads the destination selected in the Inspector.
-    /// </summary>
     private void LoadDestinationScene()
     {
+        if (_isExiting || !_playerInside)
+            return;
+
         if (string.IsNullOrWhiteSpace(destinationScene))
         {
-            Debug.LogWarning(
-                "[LevelExitTrigger] Destination scene is not assigned.",
+            Debug.LogError(
+                "[LevelExitTrigger] Destination scene is empty.",
                 this
             );
             return;
@@ -107,12 +119,20 @@ public class LevelExitTrigger : MonoBehaviour
 
         if (!Application.CanStreamedLevelBeLoaded(destinationScene))
         {
-            Debug.LogWarning(
-                $"[LevelExitTrigger] Scene '{destinationScene}' is not in the build scene list.",
+            Debug.LogError(
+                $"[LevelExitTrigger] Scene '{destinationScene}' is unavailable.",
                 this
             );
             return;
         }
+
+        _isExiting = true;
+
+        LevelProgressManager.CompleteLevel(levelNumber);
+
+        Debug.Log(
+            $"[LevelExitTrigger] Level {levelNumber} completed."
+        );
 
         SceneManager.LoadScene(destinationScene);
     }
